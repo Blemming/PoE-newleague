@@ -231,9 +231,29 @@
 1. Turn in quest wp to Solaris Concourse
 1. Solaris Concourse -> Harbour Bridge -> The Sky shrine
 1. The Sky shrine, kill bosses (keep moving avoid skills) -> Blood aqueducts
-
+1. Can farm blood aqueducts and do delve
+1. Go back to bath house (a8) to do Trial and get crafting
+1. Go to high gardens (a8) -> Pools of terror, kill Yugul, tp town turn in quests
 
 ## --=== Act 9 ===-- 4:42:02
 ### Tips:
+    - Focus movement speed and life on items
+    - Check prophecies
+    - Don't forget to craft in hideout for res cap
+    - Can farm blood aqueducts and do delve
+    - Ziz farms blood aqueducts for 2 hours and gets a Tabula with humility cards
+    - go to a1 get bunch of skill gems and 2 wands with 3 sockets to lvl skill gems, to later vaal a lvl 20 gem to get a lvl 21
 
 ### Quests
+
+1. To up to the Descent -> keep going down -> The vastiri desert
+1. The vastiri desert get wp and craft -> Do side quest defeat the mummies -> Get storm blade 
+1. tp to town turn in quests -> wp back to vastiri desert -> The oasis, kill SHakari tp town
+1. Wp back to the vastiri desert -> The foothills (normally north)
+1. The foothills get wp, go in to boiling lake -> Go through kill the basiliks get craft
+1. TP to town, wp to the foothills -> get the Calendar of fortune quest item -> The tunnels
+1. The tunnels do the **trial** get crafting  -> get wp -> The quarry
+1. The quarry, get crafting and wp in middle go north => the refinery, kill general , get quest item Trarthan Powder
+1. Tp to town turn in quests wp back to The quarry go left to -> Shrine of the winds, kill bosses
+1. Tp to town, turn in quests, -> wp to the quarry -> belly of the beast
+1. belly of the beast
