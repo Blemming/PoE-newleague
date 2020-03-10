@@ -235,14 +235,14 @@
 1. Go back to bath house (a8) to do Trial and get crafting
 1. Go to high gardens (a8) -> Pools of terror, kill Yugul, tp town turn in quests
 
-## --=== Act 9 ===-- 4:42:02
+## --=== Act 9 ===-- 
 ### Tips:
     - Focus movement speed and life on items
     - Check prophecies
     - Don't forget to craft in hideout for res cap
     - Can farm blood aqueducts and do delve
     - Ziz farms blood aqueducts for 2 hours and gets a Tabula with humility cards
-    - go to a1 get bunch of skill gems and 2 wands with 3 sockets to lvl skill gems, to later vaal a lvl 20 gem to get a lvl 21
+    - SSF go to a1 get bunch of skill gems and 2 wands with 3 sockets to lvl skill gems, to later vaal a lvl 20/20 gem to get a lvl 21
 
 ### Quests
 
@@ -256,4 +256,31 @@
 1. The quarry, get crafting and wp in middle go north => the refinery, kill general , get quest item Trarthan Powder
 1. Tp to town turn in quests wp back to The quarry go left to -> Shrine of the winds, kill bosses
 1. Tp to town, turn in quests, -> wp to the quarry -> belly of the beast
-1. belly of the beast
+1. belly of the beast -> The Rotting core -> The black core
+1. Shavronne's Sorrow, kill Shavronne -> back to rotting core
+1. Doedre's Despair, kill Doedre -> back to rotting core
+1. Maligaro's Misery, kill Maligaro -> back to rotting core, talk to sin
+1. The black heart, kill Boss tp to town, take WP to Oriath Docks
+
+
+## --=== Act 10 ===-- 
+
+### Quests
+1. Go to the Cathedral rooftop -> Cathedral Apex, save Bannon
+1. Go back to cathedral rooftop -> Ravaged square
+1. Ravaged square get wp, make tp on bridge before wp, wp to town vendor -> take tp back to ravaged square
+1. Ravaged square -> The control blocks ( if hc you can skip Vilenta is Rippy)
+1. The control blocks, take wp -> find holes in gates to skip with movement skill
+1. Go in arena kill Vilenta tp to town
+1. Turn in quests wp to Ravaged square -> The ossuary
+1. The ossuary -> Get Elixir of Allure, do the **Trial** tp to town
+1. Turn in quests wp to Ravaged Square -> the torched courts
+1. The torched courts -> The desecrated courts take wp, get craft -> The sancrum of innocence
+1. Kill Avarius, pick up staff of purity, tp to town, vendor turn in quests
+1. if lvl 68, do ascendency, if SC and want to rush to maps go ahead, if HC Strongly recommended to farm blood aqueducts get ~lvl 70 then do ascendency
+1. Wp to the Ravaged Square, talk to innocence -> The Canals
+1. Go through The Canals -> The feeding through, get crafting -> Altar of Hunger
+1. Altar of Hunger, Kill Kitava talk to sin, take portal to Oriath
+1. In Oriath, talk to lani, get movement speed crafting top left of city
+
+### You are now ready to start maps
