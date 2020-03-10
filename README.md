@@ -175,9 +175,65 @@
 1. Click switch and the beacon, then run opposite direction, Weylam will be instantly there
 1. talk to weylam go to Brine King reef -> kill Brine King (if lazy or low on cold resist make portal to avoid lightning stage)
 
-## --=== Act 7 ===-- 3:
+## --=== Act 7 ===-- 
 ### Tips:
-	-
+	- Get granite flask
+	- Beast worth doing
+	- Keep enduring flasks ( worth 3-4 chaos beginning league)
+	- LvL 50 start doing vaal areas again
 
 ### Quests
-1.
+1. Broken bridge -> get locket for flask - Crossroads (don't forget beasts)
+1. WP to town, do menagerie if beast gave something good
+1. Wp Crossroads -> fellshrine ruins -> The crypt
+1. The crypt do **trial** (get crafting) -> lvl 2 in Sarcafucus
+1. Get maligaro's map, tp to town, turn in quests
+1. Wp to Crossroads -> Chamber of Sins, get crafting and put in the maligaro map
+1. Kill maligaro then tp out
+1. Get obsidian key and continue to Chamber of sins lvl 2
+1. Chamber of sins lvl 2 do the **trial** -> The den
+1. In the Den get wp -> Ashen fields
+1. Ashen fields get wp -> Fortress Encampent
+1. Kill Greust -> Northern forest -> wp to town turn in quests
+1. Wp Prisoners gate -> Valley of the soul drinker kill aberath (around 1.6k life) tp to town, turn in quest
+1. Wp to northern forest -> The dread thicket
+1. In the Dread thicket get all 7 firefly's -> den despair (if hc wait til later)
+1. Go back to dread thicket get fireflys and craft, tp to town
+1. Turn in quests, wp to Nothern Forest
+1. Northern forest -> The causeway get craftin and wp, do alva to get her in hideout ->  Vaal city
+1. If arrive and big hole follow ledge to left then up to WP talk to yeena
+1. Wp to town turn in quests wp to Plaza (Dont forget to set soul of Ralakesh in the pantheon for less bleeding damage)
+1. Ascend (Don't forget crafting)
+1. Vendor wp to Vaal city -> Temple of decay
+1. Temple of decay -> lvl 2 get craft
+1. Temple of decay lvl 2 -> Arakaali's web, Kill Arakaali
+
+
+## --=== Act 8 ===-- 
+### Tips:
+
+### Quests
+1. Sarn Ramparts get wp -> Sarn encampment
+1. Vendor -> The toxic conduits
+1. The toxic conduits -> Deodre's Cesspool -> The cauldron, kill Deodre (stay melee range use granite flask)
+1.  Sewer Outlet -> get wp and craft -> The Quay
+1.  The quay get the Ankh -> Resurection Site talk to clarissa and kill Tolman
+1. Back to the Quay and continue -> Grain gate
+1. Grain gate get wp -> The imperial fields
+1. Imperial fields follow path get wp -> Solaris temple
+1. Solaris temple lvl 1 get wp -> lvl 2
+1. Solaris temple lvl 2 -> Go in portal, kill Dawn get crafting
+1. Tp to town turn in quests wp Solaris lvl 1
+1. Solaris lvl 1 -> Solaris concourse get wp -> The Harbour Bridge
+1. The Harbour bridge -> Lunaris concourse get wp -> Lunaris temple
+1. Lunaris temple lvl1 get wp ->  lvl 2
+1. Lunaris temple lvl 2  -> Go in portal kill Dusk get crafting, tp to town
+1. Turn in quest wp to Solaris Concourse
+1. Solaris Concourse -> Harbour Bridge -> The Sky shrine
+1. The Sky shrine, kill bosses (keep moving avoid skills) -> Blood aqueducts
+
+
+## --=== Act 9 ===-- 4:42:02
+### Tips:
+
+### Quests
