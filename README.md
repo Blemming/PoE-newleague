@@ -24,7 +24,7 @@
 	- Frostblink > dash extra damage
 
 ### Quests
-1. Dont kill anything except hillock until mudflats
+1. Don't kill anything except hillock until mudflats
 1. Go to mudflats kill stuff
 1. WP submerged passage then go to hilrake
 1. Back to town
