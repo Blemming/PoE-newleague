@@ -1,0 +1,29 @@
+{
+  "name": "PoE-leveling",
+  "version": "1.0.0",
+  "description": "Quick and dirty leveling guide website for poe",
+  "author": "Blemming",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@nuxtjs/markdownit": "^1.2.9",
+    "markdown-it-attrs": "^3.0.2",
+    "markdown-it-div": "^1.1.0",
+    "markdown-it-task-lists": "^2.1.1",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.0.0",
+    "@nuxtjs/eslint-config": "^2.0.0",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-plugin-nuxt": ">=0.4.2"
+  }
+}
