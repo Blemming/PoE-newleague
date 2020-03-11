@@ -5,6 +5,7 @@
   "author": "Blemming",
   "private": true,
   "scripts": {
+	"data":"node ./tools/mdparser.js",
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",

@@ -1,79 +1,84 @@
 # === PoE Delirium ===
 ### Tips
-	- Dont need to talk to NPCs to get quests
-	- 1 Man tag: Hit boss with everyone not in instance, port in, easy 1 man boss
+	- Logging out and back in is a great way to go back to town for free (might not be worth it in first hour of league)
+	- You don't need to talk to NPCs to get quests
+	- One Man tag: Hit boss with everyone not in instance, port in, easy 1 man boss
 	- Flesh and stone blinds mobs
-	- Leaving Izaro lieutenants alive = more keys at end
 	- Skitter bots slow mobs and shock(15%damage)
-	- Lvl 56 + do all vaal side areas for 6links -> change colors in crafting bench
+	- Leaving Izaro lieutenants alive gives you more keys at the end
+	- At levl 50 and over, do all vaal side areas for 6-links, you can change colors in crafting bench
 	- Don't obsess over every drop, prioritize sockets and links
-	- 7 vaal gems + sacrifice fragment = Vaal orb = Vaal skill
-		Molten shell very good vaal for HC
-	- Essences are good for easy lvling crafting
+	- 7 vaal gems + sacrifice fragment = Vaal orb, with Vaal Orbs you can vaal your skills
+	- Molten shell is a very good skill to vaal for Hardcore
+	- Essences are good for easy leveling crafting
 
 
 ## --=== Act 1 ===--
 ### Tips
-	- 3 link wands at vendor and + 1 skill type you are using
-	- Movement speed boots at vendor
-	- Pick up all small blues to vendor
-	- Wait lvl 10-12 for league mechanics
-	- Dont use chest plate
-	- Tricolor tri-link 👍
-	- Worth killing blue mobs early	
-	- Frostblink > dash extra damage
+	- Look for 3-link wands at vendor and +1 skill gem type you are using
+	- Look for movement speed boots at vendor by using the search function, searching 'movement'
+	- Pick up all small blues to vendor for alteration shards
+	- Wait until level ~10-12 for league mechanics
+	- Don't use chest armor, chest armor slow your movement speed
+	- Tri-color tri-link gives you a chromatic orb when sold to vendor
+	- It is worth killing blue mobs groups early, but not rare mobs as they give little value compared to the time it takes to kill
+	- Frostblink is better than dash in many cases because it does damage
+	- Freeing Navali give syou access to prophecies
 
 ### Quests
-1. Don't kill anything except hillock until mudflats
-1. Go to mudflats kill stuff
-1. WP submerged passage then go to hilrake
-1. Back to town
-1. Submerged passage look for long staircase for passive quest
-1. Leave portal at staircase
-1. Ledge, take wp then go in portal
-1. Go right of staircase for Flooded depths
-1. Kill boss log out
-1. Go through the ledge
-1. The climb no need wp, worth killing the faun for prophecies
-1. The lower prison wp do trial and kill brutus log out
-1. Prisoner's gate -> Ship GY -> Leave portal at Ship GY cave
-1. Cavern of wrath wp to town -> skill gem take TP
-1. Ship gy cave get all flame and log out
-1. Wp Ship GY kill Fairgraves log out
-1. Take wp cavern of wrath and kill merveil
+1. On the beach (*The Twilight Strand*) kill first mob -> to [Hillock].boss
+1. *The Coast* don't kill anything -> to *Mud flats* (don't forget the Waypoint)
+1. *Mud flats* get the [3 Glyphs].quest then -> *The Submerged Passage*
+1. *The Submerged Passage* get Waypoint, take Waypoint back to *The Coast* -> *The Tital Island*
+1. *The Tidal Island* kill [Hailrake].boss get [Medicine Chest].quest, town portal to go back to town
+1. Turn in quests then Waypoint to *The Submerged Passage*
+1. In *The Submerged Passage* look for long staircase or bridge
+1. Leave town portal at staircase or bridge -> *The Ledge*
+1. *The Ledge*, Waypoint to town, use town portal you left at the staircase or bridge
+1. Go right of staircase for *The Flooded depths*
+1. Find and kill [The Deep Dweller].boss then log out
+1. Waypoint to *The Ledge*  -> *The Climb* 
+1. *The Climb* you don't really need the Waypoint, killing [The Faun].boss to free Navali -> *The Lower Prison*
+1. *The Lower Prison* take Waypoint, do **trial** on first level -> *The Lower Prison* -> *The Upper Prison*  kill [Brutus].boss, log out
+1. Waypoint to *Prisoner's Gate* -> *The Ship Graveyard* -> *The Ship Graveyard Cave* and leave a town portal in front
+1. Find *The Cavern of Wrath* Waypoint to town turn in quest to get skill gem, then take your town portal (just entering the *The Cavern of Wrath* completes the quest)
+1. Go in *The Ship Graveyard Cave* get the [AllFlame].quest and log out
+1. Waypoint to *The Ship Graveyard* then find and kill [Fairgraves].boss, log out
+1. Waypoint *The Cavern of Wrath* -> kill [Merveil].boss -> Act 2
 
 ## --=== Act 2 ===--
 ### Tips:
-	- Still no chest 
-	- Use search function 'movement' for boots
-	- Can do league mechanics now
-	- Worth going back to a1 to check vendors at beginning
-	- If you check vendors in a1, wp to a2 for when you log out
-	- Vendor armorer thing for ID scrolls
+	- Still better not to use chest armor
+	- Look for movement speed boots at vendor by using the search function, searching 'movement'
+	- Doing Einhar's quest gives you a chance to beast craft a unique (high chance of tabula because of low level)
+	- You can start doing the league mechanic now
+	- It is worth going back to Act 1 sometimes, to check vendors at beginning of Act 2
+	- If you check vendors in Act 1, Waypoint back to Act 2 town, so when you log out you are saved in Act 2 not 1
+	- You can vendor Armourer's Scrap for Scrolls of Identification
 
 ### Quests	
-1. Go through Southern forest
-1. Old fields portal outside the den
-1. Crossroads take wp town take tp
-1. Kill beast and log out
-1. Wp Xroads go north to chamber of sins
-1. Get wp chamber of sins, wp points to next level
-1. Chamber of sins lvl trial most likely north
-1. Next level north east ?, kill Fidelitas baleful gem log out
-1. Get herald reward if no herald good get skitter bots check 1. vendors
-1. Wp xroads down to fellshrine ruins
-1. Crypt loops around get trial log out
-1. Riverways do einhar get red beast 
-1. Western forest get wp (Allira same side of road than WP and spiders opposite side) 
-1. Do weaver's chamber kill The weaver log out
-1. Get support gem wp xroads go north to Broken Bridge, follow path , try find red beast
-1. Kill kraitlin log out , go to riverways , follow path north 
-1. Go to wetlands kill oak get wp, wp Western forest help allira
-1. Follow path kill dude log out
-1. Go A1 get passive, check vendor wp back to wetlands
-1. Vaal ruins -> nothern forest -> the caverns wp town vendor
-1. Wp back to caverns kill boss (dont forget crafting) 
-1. Logout vendor wp A3
+1. -> *The Southern forest*
+1. In town, head North West to *The Old fields* find and leave a town portal outside *The Den* then -> *The Crossroads*
+1. *The Crossroads* Waypoint to town and take the town portal you left outside *The Den*
+1. Go in *The Den* and Kill The Great White Beast then log out
+1. Waypoint to *The Crossroads* and head North to *The Chamber of Sins*
+1. In *The Chamber of Sins*, get the Waypoint, the Waypoint points in directopm of the next level
+1. *The Chamber of Sins level 2* do the **trial** it is most likely north
+1. Find the long hallway, kill Fidelitas get the Baleful Gem then log out
+1. Get Herald reward if no herald good for your build get Summon Skitter Bots, check vendors
+1. Waypoint to *The Crossroads* head South to *The Fellshrine Ruins*
+1. Find *The Crypt*,*The Crypt* loops around do the **trial** then log out
+1. In *The Riverways* do Einhar's quest, get red beast then find *The Western Forest*
+1. In *The Western Forest* get the Waypoint (Allira is always the same side oft he road than Waypoint and *The Weaver's Chamber* on opposite side) 
+1. Find and -> *The Weaver's Chamber* and kill The weaver then log out
+1. Get Support Gem reward and use Waypoint to *The Crossroads* go north to *The Broken Bridge*, follow path , try find red beast if you didn't do it earlier
+1. Kill kraitlin log out then back in , go to *The Riverways* , follow path north 
+1. Go to *The Wetlands* kill Oak and get the Waypoint just north, Waypoint to *The Western Forest* and help Allira
+1. Then find the path, follow it to Arteri, kill him and get the Thaumetic Emblem, log out
+1. Waypoint to Act 1 get passive point reward and check vendor, Waypoint back to Act 2 town then *The Wetlands*
+1. -> *The Vaal ruins* -> *The Northern Forest* -> *The caverns* find and Waypoint to town vendor and check vendors
+1. Waypoint back to *The caverns* -> find *The Ancient Pyramid* and kill Vaal Oversoul (dont forget crafting) 
+1. log out vendor then Waypoint to Act 3
 
 ## --=== Act 3 ===--
 ### Tips:
@@ -85,10 +90,10 @@
 ### Quests
 1. Go north help clarissa dont forget to wait for herald
 1. Go to slums -> crematorium, wp to menagerie for unique
-1. Wp crematorium trial kill piety log out get rewards check vendor for 4 links
+1. Wp crematorium **trial** kill piety log out get rewards check vendor for 4 links
 1. Clarissa get keys, run back to slums -> the sewers
 1. Get wp and 3 quest items -> marketplace
-1. Catacombs do trial log out
+1. Catacombs do **trial** log out
 1. Wp marketplace Battle front normally opposite of Catacombs
 1. Battlefront get wp and quest item -> the docks (if 23 go to  solaris temple first)
 1. Get sulphite logout get passive point in town check vendors
@@ -102,7 +107,7 @@
 1. In town turn in quests wp ebony barracks -> Imperial Garden
 1. Get WP -> Library is north get WP and continue find secret door
 1. Get 3 pages logout, WP to library get missing gems
-1. WP imperial garden do trial get crafting, tp to town get wp to 1. ascendency thing
+1. WP imperial garden do **trial** get crafting, tp to town get wp to 1. ascendency thing
 1. WP imperial garden -> Scepter of god -> kill boss
 1. Go to aqueducts
 
@@ -162,7 +167,7 @@
 1. Get Karui key then go left -> Karui Fortification
 1. Go in Karui Fortress kill Tukohama
 1. Go up back to Karui Fortifications -> The ridge
-1. The lower prison get wp do trial
+1. The lower prison get wp do **trial**
 1. Go to Shavronne's Tower -> Go up all stairs -> Kill boss
 1. Go other side -> Prisoner's gate (not worth killing Aberath now) -> Western forest
 1. Get western forest WP -> The riverways
@@ -250,7 +255,7 @@
 1. The vastiri desert get wp and craft -> Do side quest defeat the mummies -> Get storm blade 
 1. tp to town turn in quests -> wp back to vastiri desert -> The oasis, kill SHakari tp town
 1. Wp back to the vastiri desert -> The foothills (normally north)
-1. The foothills get wp, go in to boiling lake -> Go through kill the basiliks get craft
+1. The foothills get wp, go in to boiling lake -> -> kill the basiliks get craft
 1. TP to town, wp to the foothills -> get the Calendar of fortune quest item -> The tunnels
 1. The tunnels do the **trial** get crafting  -> get wp -> The quarry
 1. The quarry, get crafting and wp in middle go north => the refinery, kill general , get quest item Trarthan Powder
@@ -279,7 +284,7 @@
 1. Kill Avarius, pick up staff of purity, tp to town, vendor turn in quests
 1. if lvl 68, do ascendency, if SC and want to rush to maps go ahead, if HC Strongly recommended to farm blood aqueducts get ~lvl 70 then do ascendency
 1. Wp to the Ravaged Square, talk to innocence -> The Canals
-1. Go through The Canals -> The feeding through, get crafting -> Altar of Hunger
+1. -> The Canals -> The feeding through, get crafting -> Altar of Hunger
 1. Altar of Hunger, Kill Kitava talk to sin, take portal to Oriath
 1. In Oriath, talk to lani, get movement speed crafting top left of city
 

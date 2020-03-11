@@ -1,8 +1,12 @@
 export default {
 	mode: 'universal',
+	server: {
+		port: 3000,
+		host: '0.0.0.0'
+	},
 	/*
-   ** Headers of the page
-   */
+	 ** Headers of the page
+	 */
 	head: {
 		title: process.env.npm_package_name || '',
 		meta: [
@@ -17,20 +21,20 @@ export default {
 		link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
 	},
 	/*
-   ** Customize the progress-bar color
-   */
+	 ** Customize the progress-bar color
+	 */
 	loading: { color: '#fff' },
 	/*
-   ** Global CSS
-   */
+	 ** Global CSS
+	 */
 	css: [],
 	/*
-   ** Plugins to load before mounting the App
-   */
+	 ** Plugins to load before mounting the App
+	 */
 	plugins: [],
 	/*
-   ** Nuxt.js dev-modules
-   */
+	 ** Nuxt.js dev-modules
+	 */
 	buildModules: [
 		// Doc: https://github.com/nuxt-community/eslint-module
 		'@nuxtjs/eslint-module',
@@ -38,28 +42,26 @@ export default {
 		'@nuxtjs/tailwindcss'
 	],
 	/*
-   ** Nuxt.js modules
-   */
+	 ** Nuxt.js modules
+	 */
 	modules: ['@nuxtjs/markdownit'],
 	// [optional] markdownit options
 	// See https://github.com/markdown-it/markdown-it
 	markdownit: {
 		preset: 'default',
+		html: true,
 		linkify: true,
 		breaks: true,
-		use: [
-			'markdown-it-div',
-			'markdown-it-attrs',
-			['markdown-it-task-lists', [{ enabled: true }]]
-		]
+		injected: true,
+		use: ['markdown-it-attrs']
 	},
 	/*
-   ** Build configuration
-   */
+	 ** Build configuration
+	 */
 	build: {
 		/*
-     ** You can extend webpack config here
-     */
+		 ** You can extend webpack config here
+		 */
 		extend (config, ctx) {}
 	}
 };

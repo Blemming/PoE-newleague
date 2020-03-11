@@ -6,11 +6,16 @@
 
 html {
 	font-family: "Inter", sans-serif;
-	font-size: 18px;
+	font-size: 16px;
 }
 @supports (font-variation-settings: normal) {
 	html {
 		font-family: "Inter var", sans-serif;
+	}
+}
+@media only screen and (min-width: 600px) {
+	html{
+		font-size: 18px;
 	}
 }
 
@@ -21,6 +26,10 @@ html {
 	url("~assets/fonts/Fontin-SmallCaps.woff") format("woff");
 }
 
+
+.custom-checkbox input:checked + svg {
+	display: block !important;
+}
 
 .text-shadow-black {
 	text-shadow: 1px 1px 1px #000;
