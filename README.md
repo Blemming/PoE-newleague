@@ -27,24 +27,24 @@
 
 ### Quests
 1. On the beach (*The Twilight Strand*) kill first mob -> to [Hillock].boss
-1. *The Coast* don't kill anything -> to *Mud flats* (don't forget the Waypoint)
-1. *Mud flats* get the [3 Glyphs].quest then -> *The Submerged Passage*
-1. *The Submerged Passage* get Waypoint, take Waypoint back to *The Coast* -> *The Tital Island*
-1. *The Tidal Island* kill [Hailrake].boss get [Medicine Chest].quest, town portal to go back to town
-1. Turn in quests then Waypoint to *The Submerged Passage*
-1. In *The Submerged Passage* look for long staircase or bridge
-1. Leave town portal at staircase or bridge -> *The Ledge*
-1. *The Ledge*, Waypoint to town, use town portal you left at the staircase or bridge
-1. Go right of staircase for *The Flooded depths*
-1. Find and kill [The Deep Dweller].boss then log out
-1. Waypoint to *The Ledge*  -> *The Climb* 
-1. *The Climb* you don't really need the Waypoint, killing [The Faun].boss to free Navali -> *The Lower Prison*
-1. *The Lower Prison* take Waypoint, do **trial** on first level -> *The Lower Prison* -> *The Upper Prison*  kill [Brutus].boss, log out
-1. Waypoint to *Prisoner's Gate* -> *The Ship Graveyard* -> *The Ship Graveyard Cave* and leave a town portal in front
-1. Find *The Cavern of Wrath* Waypoint to town turn in quest to get skill gem, then take your town portal (just entering the *The Cavern of Wrath* completes the quest)
-1. Go in *The Ship Graveyard Cave* get the [AllFlame].quest and log out
-1. Waypoint to *The Ship Graveyard* then find and kill [Fairgraves].boss, log out
-1. Waypoint *The Cavern of Wrath* -> kill [Merveil].boss -> Act 2
+1. *The Coast* don't kill anything -> to *Mud flats* (don't forget the [Waypoint])
+1. *Mud flats* get the [3xGlyphs].quest then -> *The Submerged Passage*
+1. *The Submerged Passage* get [Waypoint], take [Waypoint] back to *The Coast* -> *The Tital Island*
+1. *The Tidal Island* kill [Hailrake].boss get [Medicine Chest].quest, [Town Portal] to go back to town
+1. Turn in quests then [Waypoint] to *The Submerged Passage*
+2. *The Submerged Passage* look for long staircase or bridge
+3. Leave [Town Portal] at staircase or bridge -> *The Ledge*
+4. *The Ledge*, [Waypoint] to town, use [Town Portal] you left at the staircase or bridge
+5. Go right of staircase for *The Flooded depths*
+6. Find and kill [The Deep Dweller].boss then log out
+7. [Waypoint] to *The Ledge*  -> *The Climb* 
+8. *The Climb* you don't really need the [Waypoint], killing [The Faun].boss to free Navali -> *The Lower Prison*
+9. *The Lower Prison* take [Waypoint] , do **trial** on first level -> *The Lower Prison* -> *The Upper Prison*  kill [Brutus].boss, log out
+10. [Waypoint] to *Prisoner's Gate* -> *The Ship Graveyard* -> *The Ship Graveyard Cave* and leave a [Town Portal] in front
+11. Find *The Cavern of Wrath* [Waypoint] to town turn in quest to get skill gem, then take your [Town Portal] (just entering the *The Cavern of Wrath* completes the quest)
+12. Enter *The Ship Graveyard Cave* get the [AllFlame].quest and log out
+13. [Waypoint] to *The Ship Graveyard* then find and kill [Fairgraves].boss, log out
+14. [Waypoint] *The Cavern of Wrath* -> kill [Merveil].boss -> Act 2
 
 ## --=== Act 2 ===--
 ### Tips:
@@ -53,132 +53,135 @@
 	- Doing Einhar's quest gives you a chance to beast craft a unique (high chance of tabula because of low level)
 	- You can start doing the league mechanic now
 	- It is worth going back to Act 1 sometimes, to check vendors at beginning of Act 2
-	- If you check vendors in Act 1, Waypoint back to Act 2 town, so when you log out you are saved in Act 2 not 1
+	- If you check vendors in Act 1, [Waypoint] back to Act 2 town, so when you log out you are saved in Act 2 not 1
 	- You can vendor Armourer's Scrap for Scrolls of Identification
 
 ### Quests	
-1. -> *The Southern forest*
-1. In town, head North West to *The Old fields* find and leave a town portal outside *The Den* then -> *The Crossroads*
-1. *The Crossroads* Waypoint to town and take the town portal you left outside *The Den*
-1. Go in *The Den* and Kill The Great White Beast then log out
-1. Waypoint to *The Crossroads* and head North to *The Chamber of Sins*
-1. In *The Chamber of Sins*, get the Waypoint, the Waypoint points in directopm of the next level
-1. *The Chamber of Sins level 2* do the **trial** it is most likely north
-1. Find the long hallway, kill Fidelitas get the Baleful Gem then log out
-1. Get Herald reward if no herald good for your build get Summon Skitter Bots, check vendors
-1. Waypoint to *The Crossroads* head South to *The Fellshrine Ruins*
-1. Find *The Crypt*,*The Crypt* loops around do the **trial** then log out
-1. In *The Riverways* do Einhar's quest, get red beast then find *The Western Forest*
-1. In *The Western Forest* get the Waypoint (Allira is always the same side oft he road than Waypoint and *The Weaver's Chamber* on opposite side) 
-1. Find and -> *The Weaver's Chamber* and kill The weaver then log out
-1. Get Support Gem reward and use Waypoint to *The Crossroads* go north to *The Broken Bridge*, follow path , try find red beast if you didn't do it earlier
-1. Kill kraitlin log out then back in , go to *The Riverways* , follow path north 
-1. Go to *The Wetlands* kill Oak and get the Waypoint just north, Waypoint to *The Western Forest* and help Allira
-1. Then find the path, follow it to Arteri, kill him and get the Thaumetic Emblem, log out
-1. Waypoint to Act 1 get passive point reward and check vendor, Waypoint back to Act 2 town then *The Wetlands*
-1. -> *The Vaal ruins* -> *The Northern Forest* -> *The caverns* find and Waypoint to town vendor and check vendors
-1. Waypoint back to *The caverns* -> find *The Ancient Pyramid* and kill Vaal Oversoul (dont forget crafting) 
-1. log out vendor then Waypoint to Act 3
+1. *The Southern forest* -> town
+2. In town, head North East to *The Old fields* find and leave a [Town Portal] outside *The Den* then -> *The Crossroads*
+3. *The Crossroads* -> [Waypoint] to town and take the [Town Portal] you left outside *The Den*
+4. Go in *The Den* and Kill [The Great White Beast].boss then log out
+5. [Waypoint] to *The Crossroads* -> North to *The Chamber of Sins*
+6. In *The Chamber of Sins*, get the [Waypoint], the waypoint points in direction of the next level
+7. *The Chamber of Sins level 2* do the **trial** it is most likely north
+8. Find the long hallway, kill [Fidelitas].boss get the [Baleful Gem].quest then log out
+9. Get Herald reward if no herald good for your build get Summon Skitter Bots, check vendors
+10. [Waypoint] to *The Crossroads* -> South to *The Fellshrine Ruins*
+11. Find *The Crypt*, *The Crypt* loops around -> **trial** then log out
+12. *The Riverways* do Einhar's quest, get red beast -> *The Western Forest*
+13. *The Western Forest* get the [Waypoint] (Alira is always the same side oft he road than [Waypoint] and *The Weaver's Chamber* on opposite side) 
+14. Find and -> *The Weaver's Chamber* and kill [The weaver].boss then log out
+15. Get Support Gem reward and use [Waypoint] to *The Crossroads* go north to *The Broken Bridge*, follow path , try find red beast if you didn't do it earlier
+16. Kill [Kraitlin].boss log out then back in , go to *The Riverways* , follow path north -> *The Wetlands*
+17. *The Wetlands* kill [Oak].boss and get the [Waypoint] just north, [Waypoint] to *The Western Forest* and help Allira
+18. Then find the path, follow it to [Arteri].boss, kill him and get the [Thaumetic Emblem].quest, log out
+19. [Waypoint] to Act 1 get passive point reward and check vendor, [Waypoint] back to Act 2 town then *The Wetlands* -> *The Vaal ruins* 
+20. *The Vaal ruins* -> *The Northern Forest* -> *The caverns* find and [Waypoint] to town vendor and check vendors
+21. [Waypoint] *The caverns* -> find *The Ancient Pyramid* and kill [Vaal Oversoul].boss (dont forget crafting) 
+22. Log out, vendor then [Waypoint] to Act 3
 
 ## --=== Act 3 ===--
 ### Tips:
-	- No need to go a1 or 2 now
-	- Start looking for 4-link chests for lvl 31
-	- Pick up rares for transmutes
+	- No need to go back to Act 1 or 2 now
+	- Start looking from vendors and ground for 4-link chests for lvl 31
+	- Pick up rares and sell them for Orb of Transmutation shards
 	- Worth doing vaal side areas for vaal gems
 
 ### Quests
-1. Go north help clarissa dont forget to wait for herald
-1. Go to slums -> crematorium, wp to menagerie for unique
-1. Wp crematorium **trial** kill piety log out get rewards check vendor for 4 links
-1. Clarissa get keys, run back to slums -> the sewers
-1. Get wp and 3 quest items -> marketplace
-1. Catacombs do **trial** log out
-1. Wp marketplace Battle front normally opposite of Catacombs
-1. Battlefront get wp and quest item -> the docks (if 23 go to  solaris temple first)
-1. Get sulphite logout get passive point in town check vendors
-1. Wp battlefront north to solaris temple get wp -> lvl 2 get talc
-1. Wp to sewers get crafting -> Ebony barracks
-1. Kill general gravicius (very rippy) -> Lunaris
-1. Lunaris dont kill mini boss get wp go to lvl 2
-1. In lvl 2 watch for easy skips, 
-1. paths with 1 cart = right way 2 carts = wrong way best defense = keep moving
-1. Kill piety get craft and logout
-1. In town turn in quests wp ebony barracks -> Imperial Garden
-1. Get WP -> Library is north get WP and continue find secret door
-1. Get 3 pages logout, WP to library get missing gems
-1. WP imperial garden do **trial** get crafting, tp to town get wp to 1. ascendency thing
-1. WP imperial garden -> Scepter of god -> kill boss
-1. Go to aqueducts
+1. Go north help Clarissa dont forget to wait for her
+1. In town -> *The Slums* -> *The Crematorium*, [Waypoint] to menagerie for unique
+2. [Waypoint] *The Crematorium* **trial** kill [Piety].boss pick up [Tolman's Bracelet].quest log out get rewards check vendor
+3. Talk to Clarissa for [Sewer Keys].quest, run back to *The Slums* -> *The Sewers*
+4. Get [Waypoint] and [3xPlatinum].quest -> *The Marketplace*
+5. *The Catacombs* do **trial** log out
+6. [Waypoint] *The Marketplace* -> *The Battlefront* normally opposite of *The Catacombs*
+7. *The Battlefront* get [Waypoint] and [The Ribbon Spool].quest -> *The Docks* (if level 23 or less -> *The Solaris Temple* )
+8. Get [Thaumetic Sulphite].quest log out, turn in quests check vendors
+9.  [Waypoint] *The Battlefront* north -> *The Solaris Temple* get [Waypoint] -> *The Solaris Temple level 2*  turn in [The Ribbon Spool].quest
+10. [Waypoint] *The Sewers* get Crafting -> *The Ebony Barracks*
+11. Kill [General Gravicius].boss (very rippy) -> *The Lunaris Temple*
+12. *The Lunaris Temple* dont kill Kole get [Waypoint] -> *The Lunaris Temple level 2*
+13. *The Lunaris Temple level 2* look for easy skips, 
+14. Paths 1 cart = right way, 2 carts = wrong way to avoid dying to Tentacle Miscreation keep moving
+15. Kill [Piety].boss get Crafting and log out
+16. Turn in quests [Waypoint] *The Ebony Barracks* -> *The Imperial Gardens*
+17. *The Imperial Gardens* get [Waypoint] north -> *The Library* , get [Waypoint] -> Loose Candle -> *The Archives*
+18. Get [4xGolden Pages].quest log out, [Waypoint] to *The Library* get missing skill gems
+19. [Waypoint] *The Imperial Gardens* do **trial** get Crafting, [Town Portal] to town get [Waypoint] *Aspirant's plaza*
+20. [Waypoint] *The Imperial Gardens* -> *The Sceptre of God* -> *The Upper Sceptre of God* kill [Dominus].boss
+21. *The Upper Sceptre of God* -> *The Aqueduct*
 
 ## --=== Act 4 ===--
 ### Tips:
-	- Dont farm tabula in aqueducts
-	- Aim for 60% + resists with crafting bench (cost transmutes)
-	- Watch for items with 2 or + resist
-	- Get Delve nodes but dont do delve until later
+	- Don't farm tabula in aqueducts
+	- Aim for 60%+ all Elemental Resistances, use the crafting bench (Orb of Transmutations)
+	- Watch for items with 2 or + Elemental Resistances types
+	- Get Delve nodes but don't do delve until later
 
 ### Quests
-1. Aqueducts -> town
-1. Dried lake kill boss, get crafting , if underlvl (27-28 keep  clearing)
-1. TP check vendors -> The mines, get spirit
-1. Crystal veins get wp and craft wp town get passive point then wp to Aspirant plaza 
-1. Ascend
-1. Daressos dream -> first WP -> krystal veins
-1. Kaoms dream -> Kill Kaom get Eye of purity tp vendor 
-1. WP to Grand arena -> Kill daresso, wp to crystal veins
-1. Turn in quest -> Belly Beast -> lvl2
-1. Bowels kill Piety (don't get hit by beam) -> Harvest
-1. Get wp then 3 bosses, boss -> tp -> wp
-1. Kill Malachai
-1. Check vendors for 4-links, turn in quests -> The ascent
-1. Get crafting in ascent, go up to the Resonator
+1. *The Aqueduct* -> Town -> *The Dried Lake*
+2. *The Dried Lake* kill [Voll, Emperor of Purity].boss, get Crafting , if underleveled (27-28) keep  clearing
+3. [Town Portal] check vendors -> *The Mines* -> *The Mines level 2* -> [Deshret's spirit].quest -> *The Crystal Veins*
+4. *The Crystal Veins* get [Waypoint] and Crafting [Waypoint] town get passive point then [Waypoint] to *Aspirant's plaza*
+5. Ascend -> [Waypoint] to *The Crystal Veins*
+6. *Daresso's Dream* -> *The Grand Arena* get [Waypoint] -> [Waypoint] to *The Crystal Veins*
+7. *Kaom's Dream* -> *Kaom's Stronghold* kill [King Kaom].boss get [The Eye of Fury].quest [Town Portal] vendor 
+8. [Waypoint] to *The Grand Arena* -> Kill [Daresso, King of Swords].boss, [Waypoint] to *The Crystal Veins*
+9. Turn in quests -> *The Belly of the Beast* -> *The Belly of the Beast level 2* -> *The Harvest*
+10. *The Harvest* kill [Piety].boss (don't get hit by beam) -> *The Harvest*
+11. *The Harvest* get [Waypoint] 
+12. Kill [Doedre Darktongue].boss get [Malachai's Lungs].quest
+12. Kill [Maligaro, The Inquisitor].boss get [Malachai's Heart].quest
+12. Kill [Shavronne of Umbra].boss get [Malachai's Entrails].quest
+13. Turn in quests to Piety -> Kill [Malachai, The Nightmare].boss [Town Portal]
+14. Check vendors for 4-links, turn in quests -> *The Ascent*
+15. *The Ascent* -> get Crafting in *The Ascent*, pull the lever next to [The Resonator].quest
 
 ## --=== Act 5 ===-- 2:27:30
 ### Tips:
-	- Granite flask is op early
-	- Pick up all small rares (4 slots less) for shards
+	- Granite flask is very good early
+	- Pick up all small rare items (4 slots less) for Transmutation Shards
 	- Level gems when loading into zones
-	- Do vaal side areas if you dont have vaal skill you want
+	- Only do vaal side areas if you don't have vaal skill you want
 	
 ### Quests
-1. Slave pens -> kill Overserr
-1. Go to town -> talk to lani free ring
-1. Control blocks -> Kill justicar
-1. Oriath Square -> Templar's court take wp -> Chamber of innocence
-1. Kill Innocence (Summon 10 packs each phase) avoid laser
-1. Go out take wp to town, talk to bannon for jewel and flask (silver is best)
-1. Wp back to chamber of Innocence -> Torched courts
-1. Ruined square -> get wp then go to Ossuary
-1. Get sign of purity + craft tp town vendor
-1. Wp to Ruined square -> south for Reliquary
-1. Get 4 Kitava parts 4 corners
-1. Tp town, turn in quest
-1. Wp to Ruined Square -> Cathedral Rooftop -> Kill kitava
+1. *The Slave Pens* -> kill [Overseer Krow].boss
+2. Go to town -> talk to Lani free ring
+3. *The Control Blocks* -> Kill [Justicar Casticus].boss -> *Oriath Square*
+4. *Oriath Square* -> *The Templar Courts* get [Waypoint] -> *The Chamber of Innocence*
+5. Kill [High Templar Avarius].boss (Summon 10 packs each phase) avoid lasers
+6. Go out take [Waypoint] to town, talk to Bannon for Jewel and Flask (Silver is best)
+7. [Waypoint] back to *The Chamber of Innocence* -> *The Torched Courts* -> *The Ruined Square*
+8. *The Ruined Square* -> get [Waypoint] then go to *The Ossuary*
+9. Get [Sign of Purity].quest and Crafting [Town Portal] town and vendor
+10. [Waypoint] to *The Ruined Square* -> South for *The Reliquary*
+11. Get [3xKitava's Torments].quest check 4 corners of map
+12. [Town Portal] town, turn in quest
+13. [Waypoint] to *The Ruined Square* -> *The Cathedral Rooftop* -> kill [Kitava, the Insatiable].boss
 
 ## --=== Act 6 ===-- 2:52:30
 ### Tips:
-	- Try resist cap at crafting in Hideout
-	- If skills permit use rarety on kill support gem
+	- Try to be resist capped (75%) by crafting in Hideout
+	- If skills permit use rarety on kill support gem for better loot
 ### Quests
-1. Clear Twilight Strand tp town
-1. Vendor, buy missing gems
-1. The Coast -> WP skip side quest -> Mud flats
-1. Get Karui key then go left -> Karui Fortification
-1. Go in Karui Fortress kill Tukohama
-1. Go up back to Karui Fortifications -> The ridge
-1. The lower prison get wp do **trial**
-1. Go to Shavronne's Tower -> Go up all stairs -> Kill boss
-1. Go other side -> Prisoner's gate (not worth killing Aberath now) -> Western forest
-1. Get western forest WP -> The riverways
-1. Get riverways wp -> The wetlands 
-1. In wetlands -> Spawning ground, kill boss
-1. Tp to town, vendor place items into currency tab , turn in quests for 4 link helm
-1. Wp to The riverways -> Southern Forest
-1. Get wp go to Cavern of Anger (ignore betrayal)
-1. Go to the Beacon get WP get crafting, do the pillar things
-1. Click switch and the beacon, then run opposite direction, Weylam will be instantly there
-1. talk to weylam go to Brine King reef -> kill Brine King (if lazy or low on cold resist make portal to avoid lightning stage)
+1. Clear *The Twilight Strand* [Town Portal] town
+2. Vendor, buy missing gems -> *The Coast*
+3. *The Coast* -> [Waypoint] skip side quest -> *The Mud Flats*
+4. Kill [The Dishonoured Queen].boss for [Eye of Conquest].quest then go West -> *Karui Fortifications*
+5. *Karui Fortifications* -> *The Karui Fortress* kill [Tukohama, Karui God of War].boss -> *Karui Fortifications*
+6. *Karui Fortifications* -> *The Ridge* -> *The Lower Prison*
+7. *The Lower Prison* get [Waypoint] do **trial** -> *Shavronne's Tower*
+8. *Shavronne's Tower* -> Go up all stairs -> kill [Shavronne the Returned].boss and [Reassembled Brutus].boss
+9. Go other side -> *Prisoner's Gate* (not worth killing [Abberath, the Cloven One].boss now) -> *The Western Forest*
+10. *The Western Forest* get [Waypoint] -> *The Riverways*
+11. *The Riverways* get [Waypoint] -> *The Wetlands*
+12. *The Wetlands* -> *The Spawning Ground*, kill [Ryslatha, the Puppet Mistress].boss
+13. [Town Portal] to town, vendor place items into currency tab , turn in quests for 4-link helm
+14. [Waypoint] to *The Riverways* -> *The Southern Forest* get [Waypoint]
+15. *The Southern Forest* -> *The Cavern of Anger* (ignore betrayal) -> *The Beacon*
+16. *The Beacon* get [Waypoint] get Crafting, do the pillar event
+17. Click switch and the beacon, then run opposite direction, Weylam will instantly appear
+18. Talk to weylam go to *The Brine King's Reef* -> kill [The Brine King].boss (if lazy or low on cold resist make portal to avoid lightning stage)
 
 ## --=== Act 7 ===-- 
 ### Tips:
@@ -188,104 +191,104 @@
 	- LvL 50 start doing vaal areas again
 
 ### Quests
-1. Broken bridge -> get locket for flask - Crossroads (don't forget beasts)
-1. WP to town, do menagerie if beast gave something good
-1. Wp Crossroads -> fellshrine ruins -> The crypt
-1. The crypt do **trial** (get crafting) -> lvl 2 in Sarcafucus
-1. Get maligaro's map, tp to town, turn in quests
-1. Wp to Crossroads -> Chamber of Sins, get crafting and put in the maligaro map
-1. Kill maligaro then tp out
-1. Get obsidian key and continue to Chamber of sins lvl 2
-1. Chamber of sins lvl 2 do the **trial** -> The den
-1. In the Den get wp -> Ashen fields
-1. Ashen fields get wp -> Fortress Encampent
-1. Kill Greust -> Northern forest -> wp to town turn in quests
-1. Wp Prisoners gate -> Valley of the soul drinker kill aberath (around 1.6k life) tp to town, turn in quest
-1. Wp to northern forest -> The dread thicket
-1. In the Dread thicket get all 7 firefly's -> den despair (if hc wait til later)
-1. Go back to dread thicket get fireflys and craft, tp to town
-1. Turn in quests, wp to Nothern Forest
-1. Northern forest -> The causeway get craftin and wp, do alva to get her in hideout ->  Vaal city
-1. If arrive and big hole follow ledge to left then up to WP talk to yeena
-1. Wp to town turn in quests wp to Plaza (Dont forget to set soul of Ralakesh in the pantheon for less bleeding damage)
-1. Ascend (Don't forget crafting)
-1. Vendor wp to Vaal city -> Temple of decay
-1. Temple of decay -> lvl 2 get craft
-1. Temple of decay lvl 2 -> Arakaali's web, Kill Arakaali
+1. *The Broken Bridge* -> get [Silver Locket].quest for flask -> *The Crossroads* (don't forget beasts)
+2. *The Crossroads* [Waypoint] to town, do menagerie if beast gave something good
+3. [Waypoint] *The Crossroads* -> *The Fellshrine Ruins* -> *The Crypt*
+4. *The Crypt* do **trial** get Crafting -> level 2 in Sarcophagus
+5. Get [Maligaro's Map].quest, [Town Portal] to town, turn in quests
+6. [Waypoint] to *The Crossroads* -> *The Chamber of Sins*, get Crafting and put in the [Maligaro's Map].quest -> *Maligaro's Sanctum*
+7. *Maligaro's Sanctum* -> kill [Maligaro, the Artist].boss get [Black Venom].quest then [Town Portal] out
+8. Turn in [Black Venom].quest and get [Obsidian Key].quest -> *The Chamber of Sins level2*
+9. *The Chamber of Sins level2* do the **trial** -> *The Den*
+10. *The Den* get [Waypoint] -> *The Ashen Fields*
+11. *The Ashen Fields* get [Waypoint] -> *Fortress Encampent*
+12. *Fortress Encampent* kill [Greust, Lord of the Forest].boss -> *The Northern Forest* -> [Waypoint] to town turn in quests
+13. [Waypoint] *Prisoner's Gate* -> *The Valley of the Fire Drinker* kill [Abberath, the Cloven One].boss (recommended around 1.6k life) [Town Portal] to town, turn in quest
+14. [Waypoint] to *The Northern Forest* -> *The Dread Thicket*
+15. *The Dread Thicket* get [7xFireflies].quest -> *Den of Despair* and kill [Gruthkul, Mother of Despair].boss (if hardcore wait until later)
+16. *The Dread Thicket* get rest [7xFireflies].quest and Crafting, [Town Portal] to town
+17. Turn in quests, [Waypoint] to *The Northern Forest*
+18. *The Northern Forest* -> *The Causeway* get crafting and [Waypoint], do Alva to get her in hideout ->  *The Vaal City*
+19. If arrive and big hole follow ledge to West then North to [Waypoint] talk to Yeena
+20. [Waypoint] to town turn in quests [Waypoint] to *Aspirant's plaza* (Dont forget to set Soul of Ralakesh in the pantheon for less bleeding damage)
+21. Ascend (Don't forget Crafting)
+22. Vendor [Waypoint] to *The Vaal City* -> *The Temple of decay*
+23. *The Temple of decay* -> *The Temple of decay level 2* get Crafting
+24. *The Temple of decay level 2* -> *Arakaali's Web*, kill [Arakaali, Spinner of Shadows].boss
 
 
 ## --=== Act 8 ===-- 
 ### Tips:
 
 ### Quests
-1. Sarn Ramparts get wp -> Sarn encampment
-1. Vendor -> The toxic conduits
-1. The toxic conduits -> Deodre's Cesspool -> The cauldron, kill Deodre (stay melee range use granite flask)
-1.  Sewer Outlet -> get wp and craft -> The Quay
-1.  The quay get the Ankh -> Resurection Site talk to clarissa and kill Tolman
-1. Back to the Quay and continue -> Grain gate
-1. Grain gate get wp -> The imperial fields
-1. Imperial fields follow path get wp -> Solaris temple
-1. Solaris temple lvl 1 get wp -> lvl 2
-1. Solaris temple lvl 2 -> Go in portal, kill Dawn get crafting
-1. Tp to town turn in quests wp Solaris lvl 1
-1. Solaris lvl 1 -> Solaris concourse get wp -> The Harbour Bridge
-1. The Harbour bridge -> Lunaris concourse get wp -> Lunaris temple
-1. Lunaris temple lvl1 get wp ->  lvl 2
-1. Lunaris temple lvl 2  -> Go in portal kill Dusk get crafting, tp to town
-1. Turn in quest wp to Solaris Concourse
-1. Solaris Concourse -> Harbour Bridge -> The Sky shrine
-1. The Sky shrine, kill bosses (keep moving avoid skills) -> Blood aqueducts
-1. Can farm blood aqueducts and do delve
-1. Go back to bath house (a8) to do Trial and get crafting
-1. Go to high gardens (a8) -> Pools of terror, kill Yugul, tp town turn in quests
+1. *The Sarn Ramparts* get [Waypoint] -> *The Sarn Encampment*
+2. Vendor -> *The Toxic Conduits*
+3. *The Toxic Conduits* -> *Doedre's Cesspool* -> *The Cauldron* , kill [Doedre the Vile].boss (stay melee range use granite flask)
+4. *Sewer Outlet* -> get [Waypoint] and crafting -> *The Quay*
+5. *The Quay* get the [Ankh of Eternity].quest -> *Resurection Site* talk to clarissa and kill [Tolman].boss
+6. *The Quay*  -> *The Grain Gate*
+7. *The Grain Gate* get [Waypoint] -> *The Imperial Fields*
+8. *The Imperial Fields* follow path get [Waypoint] -> *The Solaris Temple*
+9. *The Solaris Temple* get [Waypoint] -> *The Solaris Temple level 2*
+10. *The Solaris Temple level 2* -> Go in portal, kill [Dawn, Harbinger of Solaris].boss get Crafting
+11. [Town Portal] to town turn in quests [Waypoint] *The Solaris Temple*
+12. *The Solaris Temple* -> *The Solaris Concourse* get [Waypoint] -> *The Harbour Bridge*
+13. *The Harbour Bridge* -> *The Lunaris Concourse*  get [Waypoint] -> *The Lunaris Temple*
+14. *The Lunaris Temple* get [Waypoint] -> *The Lunaris Temple level 2*
+15. *The Lunaris Temple level 2*  -> Go in portal kill [Dusk, Harbinger of Lunaris].boss get crafting, [Town Portal] to town
+16. Turn in quest [Waypoint] to *The Solaris Concourse* 
+17. *The Solaris Concourse*  -> *The Harbour Bridge* -> *The Sky Shrine*
+18. *The Sky Shrine*, kill [Solaris and Lunaris].boss (keep moving avoid skills) -> *The Blood Aqueduct*
+19. Can farm *The Blood Aqueduct* and do Delve
+20. Go back to *The Bath House* (act 8) to do **Trial** and get Crafting
+21. Go to *The High Gardens* (act 8) -> *The Pools of Terror*, kill [Yugul, reflection of terror].boss, [Town Portal] town turn in quests
 
 ## --=== Act 9 ===-- 
 ### Tips:
     - Focus movement speed and life on items
     - Check prophecies
-    - Don't forget to craft in hideout for res cap
-    - Can farm blood aqueducts and do delve
-    - Ziz farms blood aqueducts for 2 hours and gets a Tabula with humility cards
-    - SSF go to a1 get bunch of skill gems and 2 wands with 3 sockets to lvl skill gems, to later vaal a lvl 20/20 gem to get a lvl 21
+    - Don't forget to craft in hideout for resistances cap
+    - Can farm The Blood Aqueduct and do Delve
+    - Ziz farms The Blood Aqueduct for *2 hours* and gets a Tabula with humility cards
+    - SSF go to act 1 get bunch of skill gems and 2 wands with 3 sockets to lvl skill gems, to later vaal a lvl 20/20 gem to get a lvl 21
 
 ### Quests
 
-1. To up to the Descent -> keep going down -> The vastiri desert
-1. The vastiri desert get wp and craft -> Do side quest defeat the mummies -> Get storm blade 
-1. tp to town turn in quests -> wp back to vastiri desert -> The oasis, kill SHakari tp town
-1. Wp back to the vastiri desert -> The foothills (normally north)
-1. The foothills get wp, go in to boiling lake -> -> kill the basiliks get craft
-1. TP to town, wp to the foothills -> get the Calendar of fortune quest item -> The tunnels
-1. The tunnels do the **trial** get crafting  -> get wp -> The quarry
-1. The quarry, get crafting and wp in middle go north => the refinery, kill general , get quest item Trarthan Powder
-1. Tp to town turn in quests wp back to The quarry go left to -> Shrine of the winds, kill bosses
-1. Tp to town, turn in quests, -> wp to the quarry -> belly of the beast
-1. belly of the beast -> The Rotting core -> The black core
-1. Shavronne's Sorrow, kill Shavronne -> back to rotting core
-1. Doedre's Despair, kill Doedre -> back to rotting core
-1. Maligaro's Misery, kill Maligaro -> back to rotting core, talk to sin
-1. The black heart, kill Boss tp to town, take WP to Oriath Docks
+1. To up to *The Descent* -> keep going down -> *The Vastiri Desert*
+2. *The Vastiri Desert* get [Waypoint] and crafting -> find [Storm Blade].quest
+3. [Town Portal] to town turn in quests -> [Waypoint] back *The Vastiri Desert* -> *The Oasis*, kill [Shakari].boss [Town Portal] town
+4. [Waypoint] back to the vastiri desert -> The foothills (normally north)
+5. *The Vastiri Desert*  -> *The Foothills* get [Waypoint], -> *The Boiling Lake* -> kill [The Basilisk].boss get Crafting
+6. [Town Portal] to town, [Waypoint] to *The Foothills* -> find [Calendar of Fortune].quest -> *The Tunnel*
+7. The tunnels do the **trial** get crafting  -> get [Waypoint] -> The quarry
+8. *The Tunnel* -> *The Quarry*, get Crafting and [Waypoint] in middle go north -> *The Refinery*, kill [General Adus].boss , get [Trarthan Powder].quest
+9. [Town Portal] to town turn in quests [Waypoint] back to *The Quarry* go West to -> *Shrine of the winds*, kill [Garukhan, Queen of the Winds].boss
+10. [Town Portal] to town, turn in quests, -> [Waypoint] to *The Quarry* -> *The Belly of the Beast*
+11. *The Belly of the Beast* -> *The Rotting Core* -> *The Black Core*
+12. *Shavronne's Sorrow*, kill [Shavronne, Unbound].boss -> back to *The Rotting Core*
+13. *Doedre's Despair*, kill [Doedre, Darksoul].boss -> back to *The Rotting Core*
+14. *Maligaro's Misery*, kill [Maligaro, The Broken].boss -> back to *The Rotting Core*, talk to sin
+15. *The Black Heart*, kill [The Depraved Trinity].boss [Town Portal] to town, take [Waypoint] to *Oriath Docks*
 
 
 ## --=== Act 10 ===-- 
 
 ### Quests
-1. Go to the Cathedral rooftop -> Cathedral Apex, save Bannon
-1. Go back to cathedral rooftop -> Ravaged square
-1. Ravaged square get wp, make tp on bridge before wp, wp to town vendor -> take tp back to ravaged square
-1. Ravaged square -> The control blocks ( if hc you can skip Vilenta is Rippy)
-1. The control blocks, take wp -> find holes in gates to skip with movement skill
-1. Go in arena kill Vilenta tp to town
-1. Turn in quests wp to Ravaged square -> The ossuary
-1. The ossuary -> Get Elixir of Allure, do the **Trial** tp to town
-1. Turn in quests wp to Ravaged Square -> the torched courts
-1. The torched courts -> The desecrated courts take wp, get craft -> The sancrum of innocence
-1. Kill Avarius, pick up staff of purity, tp to town, vendor turn in quests
-1. if lvl 68, do ascendency, if SC and want to rush to maps go ahead, if HC Strongly recommended to farm blood aqueducts get ~lvl 70 then do ascendency
-1. Wp to the Ravaged Square, talk to innocence -> The Canals
-1. -> The Canals -> The feeding through, get crafting -> Altar of Hunger
-1. Altar of Hunger, Kill Kitava talk to sin, take portal to Oriath
-1. In Oriath, talk to lani, get movement speed crafting top left of city
+1. Go to *The Cathedral Rooftop* -> *Cathedral Apex*, save Bannon
+2. Go back *The Cathedral Rooftop* -> *The Ravaged Square*
+3. *The Ravaged Square* get [Waypoint], make [Town Portal] on bridge before [Waypoint], [Waypoint] to town vendor -> take [Town Portal] back to *The Ravaged Square*
+4. *The Ravaged Square* -> *The Control Blocks* ( if hc you can skip Vilenta is Rippy)
+5. *The Control Blocks* , take [Waypoint] -> find holes in gates to skip with movement skill
+6. Go in *Arena* kill [Vilenta].boss [Town Portal] to town
+7. Turn in quests [Waypoint] to *The Ravaged Square*  -> *The Ossuary*
+8. *The Ossuary* -> find [Elixir of Allure].quest, do the **Trial** [Town Portal] to town
+9. Turn in quests [Waypoint] to *The Ravaged Square* -> *The Torched Courts*
+10. *The Torched Courts* -> *The Desecrated Chambers* take [Waypoint], get Crafting -> *The Sancrum of Innocence*
+11. Kill [Avarius, Reassembled].boss, pick up [The Staff of Purity].quest, [Town Portal] to town, vendor turn in quests
+12. if lvl 68, do ascendency, if SC and want to rush to maps go ahead, if HC Strongly recommended to farm *The Blood Aqueduct* get ~lvl 70 then do ascendency
+13. [Waypoint] to *The Ravaged Square* , talk to Innocence -> *The Canals*
+14. *The Canals* -> *The Feeding Trough*, get Crafting -> *Altar of Hunger*
+15. *Altar of Hunger*, Kill [Kitava, the Insatiable].boss talk to Sin, take portal to Oriath
+16. In Oriath, talk to Lani, get movement speed Crafting North West of city
 
 ### You are now ready to start maps
