@@ -15,6 +15,12 @@ em{
 	color:rgb(74, 230, 58);
 	@apply font-bold;
 }
+.wp,.tp{
+	@apply tracking-tight;
+	@apply text-blue-200;
+	@apply opacity-75;
+	@apply text-sm;
+}
 strong{
 	@apply font-serif;
 	@apply text-white;
@@ -23,15 +29,24 @@ strong{
 ul.tips{
 	list-style-image: url('https://web.poecdn.com/image/list/t1.png');
 }
+li img{
+	@apply inline-block;
+	@apply w-5;
+	@apply h-5;
+	margin-right: 1px;
+}
 </style>
 <template>
 	<div>
 		<div class="bg-poe-y py-4 px-6 ">
 			<h1 class="text-5xl text-white font-serif text-center text-shadow-black">
-				POE-leveling
+				<span class="text-yellow-600">
+					POE
+				</span>
+				leveling
 			</h1>
 			<p class="text-center font-serif">
-				Leveling guide based off Zizaran's league start <a class="text-gray-300" target="_BLANK" href="https://www.youtube.com/watch?v=qRZdW1S38no">video</a>
+				Leveling guide based off <a class="text-gray-300" target="_BLANK" href="https://www.twitch.tv/zizaran">Zizaran's</a> league start <a class="text-gray-300" target="_BLANK" href="https://www.youtube.com/watch?v=qRZdW1S38no">video</a> <br><span class="text-xs">by the creator of <a class="text-gray-300" target="_BLANK" href="https://poe.house">POE.house</a></span>
 			</p>
 		</div>
 		<div v-for="(content,act) of data" :key="act" class="bg-poe-y py-4 px-6">
@@ -41,7 +56,7 @@ ul.tips{
 			<h2 v-else class="text-4xl text-white font-serif text-center text-shadow-black">
 				--== General ==--
 			</h2>
-			<div class="bg-black-85 border-black px-4 py-2 text-gray-300 opacity-75">
+			<div v-if="content && content.tips && content.tips.length" class="bg-black-85 border-black px-4 py-2 text-gray-300 opacity-75">
 				<h3 class="text-xl font-semibold">
 					Tips
 				</h3>
