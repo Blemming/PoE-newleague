@@ -1,4 +1,18 @@
-# === PoE Delirium ===
+[![Netlify Status](https://api.netlify.com/api/v1/badges/eaabe7fa-27ab-4bb8-a006-e25cd26bbed5/deploy-status)](https://app.netlify.com/sites/poe-leveling/deploys)
+# Contributing
+To contribute edit this page and create a pull request. The page uses basic markdown with some custom tags.
+
+Here are the custom tags:
+```
+*Zone Name*
+**Trial**
+[Quest Item].quest
+[Boss Name].boss
+-> instead of writing go through or go to
+```
+The idea is to keep the text as short as possible, for easier reading and a better mobile experience
+
+# === PoE Leveling ===
 ### Tips
 	- Logging out and back in is a great way to go back to town for free (might not be worth it in first hour of league)
 	- You don't need to talk to NPCs to get quests
