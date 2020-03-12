@@ -30,7 +30,7 @@ The idea is to keep the text as short as possible, for easier reading and a bett
 ## --=== Act 1 ===--
 ### Tips
 	- Look for 3-link wands at vendor and +1 skill gem type you are using
-	- Look for movement speed boots at vendor by using the search function, searching 'movement'
+	- Look for movement speed boots at vendor by using the search function, searching 'nn', thanks to /u/Door2doorcalgary for bring this up
 	- Pick up all small blues to vendor for alteration shards
 	- Wait until level ~10-12 for league mechanics
 	- Don't use chest armor, chest armor slow your movement speed
