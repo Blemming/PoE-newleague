@@ -21,13 +21,13 @@ export const actions = {
 	addProgress ({ commit }, payload) {
 		commit('SET_PROGRESS', payload);
 		if (localStorage) {
-			localStorage.setItem('progress', this.progress);
+			localStorage.setItem('progress', payload);
 		}
 	},
 	nuxtClientInit ({ commit, dispatch }) {
 		if (localStorage) {
 			const savedProgress = localStorage.getItem('progress');
-			const payload = (savedProgress !== null) ? savedProgress.split(',').filter(Boolean) : [];
+			const payload = (savedProgress !== null) ? savedProgress.split(',').filter(Boolean).filter(prog => prog !== 'undefined') : [];
 			commit('SET_PROGRESS', payload);
 		}
 	}
