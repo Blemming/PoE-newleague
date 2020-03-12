@@ -29,6 +29,7 @@ The idea is to keep the text as short as possible, for easier reading and a bett
 
 ## --=== Act 1 ===--
 ### Tips
+	- There's a crafting recipe after Brutus, but it is not worth picking up
 	- Look for 3-link wands at vendor and +1 skill gem type you are using
 	- Look for movement speed boots at vendor by using the search function, searching 'nn', thanks to /u/Door2doorcalgary for bring this up
 	- Pick up all small blues to vendor for alteration shards
