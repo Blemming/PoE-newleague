@@ -37,7 +37,7 @@ The idea is to keep the text as short as possible, for easier reading and a bett
 	- Tri-color tri-link gives you a chromatic orb when sold to vendor
 	- It is worth killing blue mobs groups early, but not rare mobs as they give little value compared to the time it takes to kill
 	- Frostblink is better than dash in many cases because it does damage
-	- Freeing Navali give syou access to prophecies
+	- Freeing Navali gives you access to prophecies
 
 ### Quests
 1. On the beach (*The Twilight Strand*) kill first mob -> to [Hillock].boss
