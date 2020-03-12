@@ -50,7 +50,7 @@ li img{
 			</p>
 		</div>
 		<div v-for="(content,act) of data" :key="act" class="bg-poe-y py-4 px-6">
-			<h2 v-if="act !== 'act_0'" class="text-4xl text-white font-serif text-center text-shadow-black">
+			<h2 v-if="act !== 'act_0'" :id="act" :ref="act" class="text-4xl text-white font-serif text-center text-shadow-black">
 				--== {{ act.replace('_',' ') }} ==--
 			</h2>
 			<h2 v-else class="text-4xl text-white font-serif text-center text-shadow-black">
@@ -66,10 +66,7 @@ li img{
 					</li>
 				</ul>
 			</div>
-			<h3 v-if="content && content.steps && content.steps.length" class="text-3xl">
-				Quests
-			</h3>
-			<ul class="ml-6">
+			<ul class="ml-6 mt-4">
 				<li v-for="(step,index) in content.steps" :key="`${act}-step-${index}`" class="mb-2 list-decimal">
 					<label class="custom-checkbox flex items-center" :for="`${act}-step-${index}`">
 						<div class="bg-gray-900 border border-black-85 shadow w-4 h-4 flex justify-center items-center mr-2">
@@ -79,7 +76,7 @@ li img{
 								class="hidden"
 								type="checkbox"
 								:value="`${act}-step-${index}`"
-								@change="save"
+								@change="nextAct(content.steps.length,index,act)"
 							>
 							<svg class="hidden w-4 h-4 text-gray-300 pointer-events-none" viewBox="0 0 172 172">
 								<g
@@ -104,27 +101,37 @@ li img{
 </template>
 
 <script>
-import data from '~/data/data.json';
+import { mapState } from 'vuex';
 export default {
-	data () {
-		return {
-			data,
-			progress: []
-		};
+	computed: {
+		progress: {
+			get () {
+				return this.$store.state.progress;
+			},
+			set (value) {
+				this.$store.dispatch('addProgress', value);
+			}
+		},
+		...mapState({
+			data: state => state.data,
+			moveToAct: state => state.moveToAct
+		})
 	},
-	mounted () {
-		if (localStorage) {
-			const savedProgress = localStorage.getItem('progress');
-			this.progress = (savedProgress !== null) ? savedProgress.split(',') : [];
+	watch: {
+		moveToAct (act) {
+			this.moveTo(act);
 		}
 	},
 	methods: {
-		clearAll () {
-			this.progress = [];
+		moveTo (act) {
+			this.$refs[act][0].scrollIntoView({ behavior: 'smooth' });
 		},
-		save () {
-			if (localStorage) {
-				localStorage.setItem('progress', this.progress);
+		nextAct (arrayLength, index, act) {
+			if ((arrayLength - 1) === index && this.progress.includes(`${act}-step-${index}`)) {
+				const nextAct = `act_${(parseInt(act.split('_').reverse()[0])) + 1}`;
+				if (nextAct !== 'act_11') {
+					this.moveTo(nextAct);
+				}
 			}
 		}
 	}
