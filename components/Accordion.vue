@@ -53,7 +53,7 @@ ul.tips{
 }
 .tips{
 	overflow: hidden;
-	max-height: 260px;
+	max-height: 500px;
 }
 .open-enter-active, .open-leave-active {
   transition: max-height .5s;
