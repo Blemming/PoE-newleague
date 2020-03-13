@@ -45,6 +45,8 @@ nav ul li a[aria-disabled="true"] {
 					<span v-if="parent.$store.state.hideTips">Hide</span>
 					<span v-else>Show</span>
 					Tips</a>
+			</li>
+			<li>
 				<a style="opacity:0.9;" class="m-2 text-sm text-shadow-black hover:text-white text-red-200 bg-red-900 hover:bg-red-800" href="#" @click.prevent="listeners.clearAll">Clear All</a>
 			</li>
 		</ul>
