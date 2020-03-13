@@ -2,7 +2,7 @@ import data from '~/data/data.json';
 export const state = () => ({
 	data,
 	progress: [],
-	hideTips: false,
+	hideTips: true,
 	moveToAct: ''
 });
 export const mutations = {
