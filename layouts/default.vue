@@ -55,11 +55,11 @@ aside section{
 				</div>
 			</section>
 		</section>
-		<div :class="{'pointer-events-none opacity-0':!showSidebar}" class="backdrop fixed w-screen h-screen bg-black" @click="toggleSidebar" />
+		<div v-if="showBackdrop" :class="{'pointer-events-none opacity-0':!showSidebar}" class="backdrop fixed w-screen h-screen bg-black" @click="toggleSidebar" />
 		<div class="fixed h-screen flex">
 			<aside :style="{transform:`translateX(${(showSidebar)?'0':'-100'}%)`}" :class="{'w-full':showSidebar,'w-0':!showSidebar}" class="z-10 border-poe">
-				<section class="pt-16 bg-poe-y flex" @click="toggleSidebar">
-					<Sidebar :acts="acts" @moveTo="moveTo" @clearAll="clearAll" />
+				<section class="pt-16 bg-poe-y flex" @click="clickedSidebar">
+					<Sidebar :acts="acts" @moveTo="moveTo" @hideTips="hideTips" @clearAll="clearAll" />
 				</section>
 			</aside>
 		</div>
@@ -84,13 +84,34 @@ export default {
 		moveToAct: ''
 	}),
 	computed: {
+		showBackdrop () {
+			if (process.client) {
+				if (window && window.innerWidth > 1366) {
+					return false;
+				}
+			}
+			return true;
+		},
 		...mapGetters({
 			acts: 'acts'
 		})
 	},
+	mounted () {
+		if (window && window.innerWidth > 1366) {
+			this.showSidebar = true;
+		}
+	},
 	methods: {
+		clickedSidebar () {
+			if (window && window.innerWidth < 1366) {
+				this.showSidebar = !this.showSidebar;
+			}
+		},
 		toggleSidebar () {
 			this.showSidebar = !this.showSidebar;
+		},
+		hideTips () {
+			this.$store.commit('SET_HIDE_TIPS');
 		},
 		moveTo (act) {
 			this.$store.commit('SET_MOVE_TO', act);
