@@ -25,6 +25,11 @@ The idea is to keep the text as short as possible, for easier reading and a bett
 	- 7 vaal gems + sacrifice fragment = Vaal orb, with Vaal Orbs you can vaal your skills
 	- Molten shell is a very good skill to vaal for Hardcore
 	- Essences are good for easy leveling crafting
+	- Sell to the vendor a Rustic Sash (magic or rare) + Blacksmith Whetstone + weapon = Magic same weapon type with (40 to 64%) Increased Physical Damage
+	- Sell to the vendor a Chain Belt (magix or rare) + Blacksmith Whetstone + Dagger/Sceptre/Staff/Wand = Magic  same weapon with (10 to 29%) Increased Spell Damage
+	- Sell to a vendor Magic Sceptre/Wand/Rune Dagger + Ruby Ring(for Fire Damage) or Topaz Ring(for Lightning Damage) or Sapphire Ring(for Cold Damage) + Orb of Alteration = Weapon with with added x to x Lightning/Fire/Cold Damage to Spells
+	- Sell to a vendor White Boots + Any rarity Quicksilver Flask + Orb of Augmentation = Magic Boots with 10% increased Movement Speed
+	- Sell to a vendor Magic or Rare Boots with +X% Movement Speed + Any rarity Quicksilver Flask + Orb of Augmentation = Magic Boots with (original value)+5% increased Movement Speed
 
 
 ## --=== Act 1 ===--
@@ -53,7 +58,7 @@ The idea is to keep the text as short as possible, for easier reading and a bett
 5. Go right of staircase for *The Flooded depths*
 6. Find and kill [The Deep Dweller].boss then log out
 7. [Waypoint] to *The Ledge*  -> *The Climb* 
-8. *The Climb* you don't really need the [Waypoint], killing [The Faun].boss to free Navali -> *The Lower Prison*
+8. *The Climb* (3 stalagmites side of waypoint points to exit) you don't really need the [Waypoint], killing [The Faun].boss to free Navali -> *The Lower Prison*
 9. *The Lower Prison* take [Waypoint] , do **trial** on first level -> *The Lower Prison* -> *The Upper Prison*  kill [Brutus].boss, log out
 10. [Waypoint] to *Prisoner's Gate* -> *The Ship Graveyard* -> *The Ship Graveyard Cave* and leave a [Town Portal] in front
 11. Find *The Cavern of Wrath* [Waypoint] to town turn in quest to get skill gem, then take your [Town Portal] (just entering the *The Cavern of Wrath* completes the quest)
