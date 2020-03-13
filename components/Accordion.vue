@@ -6,7 +6,7 @@
 			<span v-else class="font-serif leading-none text-3xl">+</span>
 		</h3>
 		<transition name="open">
-			<ul v-show="isOpen" class="tips text-sm mt-2">
+			<ul ref="tips" class="tips text-sm mt-2">
 				<li v-for="(tip,index) in content.tips" :key="`${act}-tip-${index}`">
 					{{ tip }}
 				</li>
@@ -30,8 +30,14 @@ export default {
 	},
 	data () {
 		return {
+			height: 0,
 			isOpen: true
 		};
+	},
+	mounted () {
+		this.height = this.$refs.tips.clientHeight;
+		this.$refs.tips.style.maxHeight = `${this.height}px`;
+		this.$refs.tips.style.overflow = 'hidden';
 	},
 	computed: {
 		...mapState({
@@ -39,6 +45,13 @@ export default {
 		})
 	},
 	watch: {
+		isOpen (change) {
+			if (change) {
+				this.$refs.tips.style.maxHeight = `${this.height}px`;
+			} else {
+				this.$refs.tips.style.maxHeight = '0px';
+			}
+		},
 		hideTips (change) {
 			this.isOpen = change;
 		}
@@ -47,18 +60,30 @@ export default {
 </script>
 
 <style>
-ul.tips{
+ul.tips {
 	list-style-position: inside;
-	list-style-image: url('https://web.poecdn.com/image/list/t1.png')!important;
+	list-style-image: url("https://web.poecdn.com/image/list/t1.png") !important;
 }
-.tips{
+
+/* @media only screen and (max-width: 600px) {
+	.tips {
+		overflow: auto!important;
+	}
+}
+.tips {
 	overflow: hidden;
 	max-height: 500px;
+} */
+.tips {
+	transform: translateZ(0);
+	transition: max-height 0.5s;
 }
-.open-enter-active, .open-leave-active {
-  transition: max-height .5s;
+.open-enter-active,
+.open-leave-active {
+	transition: max-height 0.5s;
 }
-.open-enter, .open-leave-to {
-  max-height: 0;
-}
+/* .open-enter,
+.open-leave-to {
+	max-height: 0;
+} */
 </style>

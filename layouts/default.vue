@@ -58,13 +58,13 @@ aside section{
 		<div v-if="showBackdrop" :class="{'pointer-events-none opacity-0':!showSidebar}" class="backdrop fixed w-screen h-screen bg-black" @click="toggleSidebar" />
 		<div class="fixed h-screen flex">
 			<aside :style="{transform:`translateX(${(showSidebar)?'0':'-100'}%)`}" :class="{'w-full':showSidebar,'w-0':!showSidebar}" class="z-10 border-poe">
-				<section class="pt-16 bg-poe-y flex" @click="clickedSidebar">
+				<section class="pt-16 bg-poe-y flex overflow-y-auto max-h-screen" @click="clickedSidebar">
 					<Sidebar :acts="acts" @moveTo="moveTo" @hideTips="hideTips" @clearAll="clearAll" />
 				</section>
 			</aside>
 		</div>
 		<div class="fixed mt-4">
-			<button :class="{'bg-black-85 hover:bg-gray-900':!showSidebar,'bg-transparent hover:bg-black-85':showSidebar}" class="sidemenu-toggle flex" @click="toggleSidebar">
+			<button class="bg-black-85 hover:bg-gray-900 sidemenu-toggle flex" @click="toggleSidebar">
 				<svg xmlns="http://www.w3.org/2000/svg" class="fill-current text-white mr-2" viewBox="0 0 24 24" width="24" height="24"><path d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z" /></svg>
 				<span class="font-serif text-yellow-600">View Acts</span>
 			</button>
