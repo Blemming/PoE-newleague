@@ -32,7 +32,20 @@ nav ul li a[aria-disabled="true"] {
 		</ul>
 		<ul class="w-full">
 			<li>
-				<a class="m-2 text-sm text-shadow-black text-white hover:text-red-200 bg-red-900 opacity-75" href="#" @click.prevent="listeners.clearAll">Clear All</a>
+				<a
+					style="opacity:0.9;"
+					:class="{
+						'bg-yellow-900 hover:bg-yellow-800':parent.$store.state.hideTips,
+						'bg-yellow-700 hover:bg-yellow-600':!parent.$store.state.hideTips
+					}"
+					class="m-2 px-2 text-center text-sm text-shadow-black hover:text-white text-yellow-200"
+					href="#"
+					@click.prevent="listeners.hideTips"
+				>
+					<span v-if="parent.$store.state.hideTips">Hide</span>
+					<span v-else>Show</span>
+					Tips</a>
+				<a style="opacity:0.9;" class="m-2 text-sm text-shadow-black hover:text-white text-red-200 bg-red-900 hover:bg-red-800" href="#" @click.prevent="listeners.clearAll">Clear All</a>
 			</li>
 		</ul>
 	</nav>

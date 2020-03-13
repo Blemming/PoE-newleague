@@ -14,7 +14,7 @@ The idea is to keep the text as short as possible, for easier reading and a bett
 
 # === PoE Leveling ===
 ### Tips
-	- Logging out and back in is a great way to go back to town for free (might not be worth it in first hour of league)
+	- Logging out to the Character Selection screen and back in is a great way to go back to town for free (risky for the first hour of the league)
 	- You don't need to talk to NPCs to get quests
 	- One Man tag: Hit boss with everyone not in instance, port in, easy 1 man boss
 	- Flesh and stone blinds mobs
@@ -29,8 +29,9 @@ The idea is to keep the text as short as possible, for easier reading and a bett
 
 ## --=== Act 1 ===--
 ### Tips
+	- There's a crafting recipe after Brutus, but it is not worth picking up
 	- Look for 3-link wands at vendor and +1 skill gem type you are using
-	- Look for movement speed boots at vendor by using the search function, searching 'movement'
+	- Look for movement speed boots at vendor by using the search function, searching 'nn', thanks to /u/Door2doorcalgary for bring this up
 	- Pick up all small blues to vendor for alteration shards
 	- Wait until level ~10-12 for league mechanics
 	- Don't use chest armor, chest armor slow your movement speed
@@ -63,8 +64,8 @@ The idea is to keep the text as short as possible, for easier reading and a bett
 ## --=== Act 2 ===--
 ### Tips:
 	- Still better not to use chest armor
-	- Look for movement speed boots at vendor by using the search function, searching 'movement'
-	- Doing Einhar's quest gives you a chance to beast craft a unique (high chance of tabula because of low level)
+	- Look for movement speed boots at vendor by using the search function, searching 'nn'
+	- Doing Einhar's quest gives you a chance to beast craft a unique (because of the smaller pool of unique items to choose from, you have a higher chance to get a Tabula)
 	- You can start doing the league mechanic now
 	- It is worth going back to Act 1 sometimes, to check vendors at beginning of Act 2
 	- If you check vendors in Act 1, [Waypoint] back to Act 2 town, so when you log out you are saved in Act 2 not 1

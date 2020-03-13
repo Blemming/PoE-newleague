@@ -2,11 +2,15 @@ import data from '~/data/data.json';
 export const state = () => ({
 	data,
 	progress: [],
+	hideTips: false,
 	moveToAct: ''
 });
 export const mutations = {
 	SET_PROGRESS (state, payload) {
 		state.progress = [...payload];
+	},
+	SET_HIDE_TIPS (state) {
+		state.hideTips = !state.hideTips;
 	},
 	SET_MOVE_TO (state, payload) {
 		state.moveToAct = payload;

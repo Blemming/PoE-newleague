@@ -55,17 +55,18 @@ aside section{
 				</div>
 			</section>
 		</section>
-		<div :class="{'pointer-events-none opacity-0':!showSidebar}" class="backdrop fixed w-screen h-screen bg-black" @click="toggleSidebar" />
+		<div v-if="showBackdrop" :class="{'pointer-events-none opacity-0':!showSidebar}" class="backdrop fixed w-screen h-screen bg-black" @click="toggleSidebar" />
 		<div class="fixed h-screen flex">
 			<aside :style="{transform:`translateX(${(showSidebar)?'0':'-100'}%)`}" :class="{'w-full':showSidebar,'w-0':!showSidebar}" class="z-10 border-poe">
-				<section class="pt-16 bg-poe-y flex" @click="toggleSidebar">
-					<Sidebar :acts="acts" @moveTo="moveTo" @clearAll="clearAll" />
+				<section class="pt-16 bg-poe-y flex" @click="clickedSidebar">
+					<Sidebar :acts="acts" @moveTo="moveTo" @hideTips="hideTips" @clearAll="clearAll" />
 				</section>
 			</aside>
 		</div>
 		<div class="fixed mt-4">
-			<button :class="{'bg-black-85 hover:bg-gray-900':!showSidebar,'bg-transparent hover:bg-black-85':showSidebar}" class="sidemenu-toggle" @click="toggleSidebar">
-				<svg xmlns="http://www.w3.org/2000/svg" class="fill-current" viewBox="0 0 24 24" width="24" height="24"><path d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z" /></svg>
+			<button :class="{'bg-black-85 hover:bg-gray-900':!showSidebar,'bg-transparent hover:bg-black-85':showSidebar}" class="sidemenu-toggle flex" @click="toggleSidebar">
+				<svg xmlns="http://www.w3.org/2000/svg" class="fill-current text-white mr-2" viewBox="0 0 24 24" width="24" height="24"><path d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z" /></svg>
+				<span class="font-serif text-yellow-600">View Acts</span>
 			</button>
 		</div>
 	</main>
@@ -83,13 +84,34 @@ export default {
 		moveToAct: ''
 	}),
 	computed: {
+		showBackdrop () {
+			if (process.client) {
+				if (window && window.innerWidth > 1366) {
+					return false;
+				}
+			}
+			return true;
+		},
 		...mapGetters({
 			acts: 'acts'
 		})
 	},
+	mounted () {
+		if (window && window.innerWidth > 1366) {
+			this.showSidebar = true;
+		}
+	},
 	methods: {
+		clickedSidebar () {
+			if (window && window.innerWidth < 1366) {
+				this.showSidebar = !this.showSidebar;
+			}
+		},
 		toggleSidebar () {
 			this.showSidebar = !this.showSidebar;
+		},
+		hideTips () {
+			this.$store.commit('SET_HIDE_TIPS');
 		},
 		moveTo (act) {
 			this.$store.commit('SET_MOVE_TO', act);

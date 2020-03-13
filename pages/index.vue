@@ -26,9 +26,6 @@ strong{
 	@apply text-white;
 	text-shadow: 1px 1px 1px #000;
 }
-ul.tips{
-	list-style-image: url('https://web.poecdn.com/image/list/t1.png');
-}
 li img{
 	@apply inline-block;
 	@apply w-5;
@@ -56,7 +53,8 @@ li img{
 			<h2 v-else class="text-4xl text-white font-serif text-center text-shadow-black">
 				--== General ==--
 			</h2>
-			<div v-if="content && content.tips && content.tips.length" class="bg-black-85 border-black px-4 py-2 text-gray-300 opacity-75">
+			<Accordion v-if="content && content.tips && content.tips.length" :act="act" :content="content" />
+			<!-- <div  class="bg-black-85 border-black px-4 py-2 text-gray-300 opacity-75">
 				<h3 class="text-xl font-semibold">
 					Tips
 				</h3>
@@ -65,7 +63,7 @@ li img{
 						{{ tip }}
 					</li>
 				</ul>
-			</div>
+			</div> -->
 			<ul class="ml-6 mt-4">
 				<li v-for="(step,index) in content.steps" :key="`${act}-step-${index}`" class="mb-2 list-decimal">
 					<label class="custom-checkbox flex items-center" :for="`${act}-step-${index}`">
@@ -102,7 +100,11 @@ li img{
 
 <script>
 import { mapState } from 'vuex';
+import Accordion from '~/components/Accordion';
 export default {
+	components: {
+		Accordion
+	},
 	computed: {
 		progress: {
 			get () {
