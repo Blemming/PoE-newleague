@@ -1,6 +1,6 @@
 const { promises: fs } = require('fs');
 const { join } = require('path');
-const readme = join(__dirname.replace(/[\\|/]tools/gi, ''), '/readme.md');
+const readme = join(__dirname.replace(/[\\|/]tools/gi, ''), '/README.md');
 
 function getText () {
 	return fs.readFile(readme, 'utf8').catch(console.log);
