@@ -49,7 +49,7 @@ The idea is to keep the text as short as possible, for easier reading and a bett
 1. On the beach (*The Twilight Strand*) kill first mob -> to [Hillock].boss
 1. *The Coast* don't kill anything -> to *Mud flats* (don't forget the [Waypoint])
 1. *Mud flats* get the [3xGlyphs].quest then -> *The Submerged Passage*
-1. *The Submerged Passage* get [Waypoint], take [Waypoint] back to *The Coast* -> *The Tital Island*
+1. *The Submerged Passage* get [Waypoint], take [Waypoint] back to *The Coast* -> *The Tidal Island*
 1. *The Tidal Island* kill [Hailrake].boss get [Medicine Chest].quest, [Town Portal] to go back to town
 1. Turn in quests then [Waypoint] to *The Submerged Passage*
 2. *The Submerged Passage* look for long staircase or bridge
