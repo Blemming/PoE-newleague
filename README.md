@@ -192,7 +192,7 @@ The idea is to keep the text as short as possible, for easier reading and a bett
 6. *Karui Fortifications* -> *The Ridge* -> *The Lower Prison*
 7. *The Lower Prison* get [Waypoint] do **trial** -> *Shavronne's Tower*
 8. *Shavronne's Tower* -> Go up all stairs -> kill [Shavronne the Returned].boss and [Reassembled Brutus].boss
-9. Go to the Warden's Chamber, get Crafting -> *Prisoner's Gate* (not worth killing [Abberath, the Cloven One].boss now) -> *The Western Forest*
+9. Go to the Warden's Chamber, get Crafting -> *Prisoner's Gate* (not worth killing [Abberath, the Cloven One].boss now) -> *The Western Forest* (follow the road)
 10. *The Western Forest* get [Waypoint] -> *The Riverways*
 11. *The Riverways* get [Waypoint] -> *The Wetlands*
 12. *The Wetlands* -> *The Spawning Ground*, kill [Ryslatha, the Puppet Mistress].boss
