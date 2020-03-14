@@ -147,8 +147,8 @@ The idea is to keep the text as short as possible, for easier reading and a bett
 6. *Daresso's Dream* -> *The Grand Arena* get [Waypoint] -> [Waypoint] to *The Crystal Veins*
 7. *Kaom's Dream* -> *Kaom's Stronghold* kill [King Kaom].boss get [The Eye of Fury].quest [Town Portal] vendor 
 8. [Waypoint] to *The Grand Arena* -> Kill [Daresso, King of Swords].boss, [Waypoint] to *The Crystal Veins*
-9. Turn in quests -> *The Belly of the Beast* -> *The Belly of the Beast level 2* -> *The Harvest*
-10. *The Harvest* kill [Piety].boss (don't get hit by beam) -> *The Harvest*
+9. Turn in quests -> *The Belly of the Beast* -> *The Belly of the Beast level 2* -> Kill [Piety].boss
+10. *The Belly of the Beast level 2* kill [Piety].boss (don't get hit by beam) -> *The Harvest*
 11. *The Harvest* get [Waypoint] 
 12. Kill [Doedre Darktongue].boss get [Malachai's Lungs].quest
 12. Kill [Maligaro, The Inquisitor].boss get [Malachai's Heart].quest
