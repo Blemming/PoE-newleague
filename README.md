@@ -260,7 +260,7 @@ The idea is to keep the text as short as possible, for easier reading and a bett
 17. *The Solaris Concourse*  -> *The Harbour Bridge* -> *The Sky Shrine*
 18. *The Sky Shrine*, kill [Solaris and Lunaris].boss (keep moving avoid skills) -> *The Blood Aqueduct*
 19. Can farm *The Blood Aqueduct* and do Delve
-20. Go back to *The Bath House* (act 8) to do **Trial** and get Crafting
+20. Go back to [Town Portal] to The Lunaris Concourse (Act 8) -> *The Bath House* (act 8) to do **Trial** and get Crafting
 21. Go to *The High Gardens* (act 8) -> *The Pools of Terror*, kill [Yugul, reflection of terror].boss, [Town Portal] town turn in quests
 
 ## --=== Act 9 ===-- 
