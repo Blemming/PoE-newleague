@@ -223,8 +223,8 @@ The idea is to keep the text as short as possible, for easier reading and a bett
 10. *The Den* get [Waypoint] -> *The Ashen Fields*
 11. *The Ashen Fields* get [Waypoint] -> *Fortress Encampent*
 12. *Fortress Encampent* kill [Greust, Lord of the Forest].boss -> *The Northern Forest* -> [Waypoint] to town turn in quests
-13. [Waypoint] *Prisoner's Gate* -> *The Valley of the Fire Drinker* kill [Abberath, the Cloven One].boss (recommended around 1.6k life) [Town Portal] to town, turn in quest
-14. [Waypoint] to *The Northern Forest* -> *The Dread Thicket*
+13. [Waypoint] (Act 6) *Prisoner's Gate* -> *The Valley of the Fire Drinker* kill [Abberath, the Cloven One].boss (recommended around 1.6k life) [Town Portal] to town, turn in quest
+14. [Waypoint] (Back to Act 7) to *The Northern Forest* -> *The Dread Thicket*
 15. *The Dread Thicket* get [7xFireflies].quest -> *Den of Despair* and kill [Gruthkul, Mother of Despair].boss (if hardcore wait until later)
 16. *The Dread Thicket* get rest [7xFireflies].quest and Crafting, [Town Portal] to town
 17. Turn in quests, [Waypoint] to *The Northern Forest*
