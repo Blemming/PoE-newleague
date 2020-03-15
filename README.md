@@ -49,7 +49,7 @@ The idea is to keep the text as short as possible, for easier reading and a bett
 1. On the beach (*The Twilight Strand*) kill first mob -> to [Hillock].boss
 1. *The Coast* don't kill anything -> to *Mud flats* (don't forget the [Waypoint])
 1. *Mud flats* get the [3xGlyphs].quest then -> *The Submerged Passage*
-1. *The Submerged Passage* get [Waypoint], take [Waypoint] back to *The Coast* -> *The Tital Island*
+1. *The Submerged Passage* get [Waypoint], take [Waypoint] back to *The Coast* -> *The Tidal Island*
 1. *The Tidal Island* kill [Hailrake].boss get [Medicine Chest].quest, [Town Portal] to go back to town
 1. Turn in quests then [Waypoint] to *The Submerged Passage*
 2. *The Submerged Passage* look for long staircase or bridge
@@ -147,8 +147,8 @@ The idea is to keep the text as short as possible, for easier reading and a bett
 6. *Daresso's Dream* -> *The Grand Arena* get [Waypoint] -> [Waypoint] to *The Crystal Veins*
 7. *Kaom's Dream* -> *Kaom's Stronghold* kill [King Kaom].boss get [The Eye of Fury].quest [Town Portal] vendor 
 8. [Waypoint] to *The Grand Arena* -> Kill [Daresso, King of Swords].boss, [Waypoint] to *The Crystal Veins*
-9. Turn in quests -> *The Belly of the Beast* -> *The Belly of the Beast level 2* -> *The Harvest*
-10. *The Harvest* kill [Piety].boss (don't get hit by beam) -> *The Harvest*
+9. Turn in quests -> *The Belly of the Beast* -> *The Belly of the Beast level 2* -> Kill [Piety].boss
+10. *The Belly of the Beast level 2* kill [Piety].boss (don't get hit by beam) -> *The Harvest*
 11. *The Harvest* get [Waypoint] 
 12. Kill [Doedre Darktongue].boss get [Malachai's Lungs].quest
 12. Kill [Maligaro, The Inquisitor].boss get [Malachai's Heart].quest
@@ -192,7 +192,7 @@ The idea is to keep the text as short as possible, for easier reading and a bett
 6. *Karui Fortifications* -> *The Ridge* -> *The Lower Prison*
 7. *The Lower Prison* get [Waypoint] do **trial** -> *Shavronne's Tower*
 8. *Shavronne's Tower* -> Go up all stairs -> kill [Shavronne the Returned].boss and [Reassembled Brutus].boss
-9. Go other side -> *Prisoner's Gate* (not worth killing [Abberath, the Cloven One].boss now) -> *The Western Forest*
+9. Go to the Warden's Chamber, get Crafting -> *Prisoner's Gate* (not worth killing [Abberath, the Cloven One].boss now) -> *The Western Forest* (follow the road)
 10. *The Western Forest* get [Waypoint] -> *The Riverways*
 11. *The Riverways* get [Waypoint] -> *The Wetlands*
 12. *The Wetlands* -> *The Spawning Ground*, kill [Ryslatha, the Puppet Mistress].boss
@@ -223,8 +223,8 @@ The idea is to keep the text as short as possible, for easier reading and a bett
 10. *The Den* get [Waypoint] -> *The Ashen Fields*
 11. *The Ashen Fields* get [Waypoint] -> *Fortress Encampent*
 12. *Fortress Encampent* kill [Greust, Lord of the Forest].boss -> *The Northern Forest* -> [Waypoint] to town turn in quests
-13. [Waypoint] *Prisoner's Gate* -> *The Valley of the Fire Drinker* kill [Abberath, the Cloven One].boss (recommended around 1.6k life) [Town Portal] to town, turn in quest
-14. [Waypoint] to *The Northern Forest* -> *The Dread Thicket*
+13. [Waypoint] (Act 6) *Prisoner's Gate* -> *The Valley of the Fire Drinker* kill [Abberath, the Cloven One].boss (recommended around 1.6k life) [Town Portal] to town, turn in quest
+14. [Waypoint] (Back to Act 7) to *The Northern Forest* -> *The Dread Thicket*
 15. *The Dread Thicket* get [7xFireflies].quest -> *Den of Despair* and kill [Gruthkul, Mother of Despair].boss (if hardcore wait until later)
 16. *The Dread Thicket* get rest [7xFireflies].quest and Crafting, [Town Portal] to town
 17. Turn in quests, [Waypoint] to *The Northern Forest*
@@ -260,7 +260,7 @@ The idea is to keep the text as short as possible, for easier reading and a bett
 17. *The Solaris Concourse*  -> *The Harbour Bridge* -> *The Sky Shrine*
 18. *The Sky Shrine*, kill [Solaris and Lunaris].boss (keep moving avoid skills) -> *The Blood Aqueduct*
 19. Can farm *The Blood Aqueduct* and do Delve
-20. Go back to *The Bath House* (act 8) to do **Trial** and get Crafting
+20. Go back to [Town Portal] to The Lunaris Concourse (Act 8) -> *The Bath House* (act 8) to do **Trial** and get Crafting
 21. Go to *The High Gardens* (act 8) -> *The Pools of Terror*, kill [Yugul, reflection of terror].boss, [Town Portal] town turn in quests
 
 ## --=== Act 9 ===-- 
