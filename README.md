@@ -167,7 +167,7 @@ The idea is to keep the text as short as possible, for easier reading and a bett
 ### Quests
 1. *The Slave Pens* -> kill [Overseer Krow].boss
 2. Go to town -> talk to Lani free ring
-3. *The Control Blocks* -> Kill [Justicar Casticus].boss -> *Oriath Square*
+3. *The Control Blocks* -> Get the [Miasmeter].quest -> Kill [Justicar Casticus].boss -> *Oriath Square*
 4. *Oriath Square* -> *The Templar Courts* get [Waypoint] -> *The Chamber of Innocence*
 5. Kill [High Templar Avarius].boss (Summon 10 packs each phase) avoid lasers
 6. Go out take [Waypoint] to town, talk to Bannon for Jewel and Flask (Silver is best)
