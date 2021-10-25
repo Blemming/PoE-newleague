@@ -261,7 +261,7 @@ The idea is to keep the text as short as possible, for easier reading and a bett
 18. *The Sky Shrine*, kill [Solaris and Lunaris].boss (keep moving avoid skills) -> *The Blood Aqueduct*
 19. Can farm *The Blood Aqueduct* and do Delve
 20. Go back to [Town Portal] to The Lunaris Concourse (Act 8) -> *The Bath House* (act 8) to do **Trial** and get Crafting
-21. Go to *The High Gardens* (act 8) -> *The Pools of Terror*, kill [Yugul, reflection of terror].boss, [Town Portal] town turn in quests
+21. Find *The High Gardens* inside *The Bath House* (act 8) -> *The Pools of Terror*, kill [Yugul, reflection of terror].boss, [Town Portal] town turn in quests
 
 ## --=== Act 9 ===-- 
 ### Tips:
@@ -276,7 +276,7 @@ The idea is to keep the text as short as possible, for easier reading and a bett
 
 1. To up to *The Descent* -> keep going down -> *The Vastiri Desert*
 2. *The Vastiri Desert* get [Waypoint] and crafting -> find [Storm Blade].quest
-3. [Town Portal] to town turn in quests -> [Waypoint] back *The Vastiri Desert* -> *The Oasis*, kill [Shakari].boss [Town Portal] town
+3. [Town Portal] to town turn in quests (talk to sin + Petarus and Vanja) -> [Waypoint] back *The Vastiri Desert* -> *The Oasis*, kill [Shakari].boss [Town Portal] town
 4. [Waypoint] back to the vastiri desert -> The foothills (normally north)
 5. *The Vastiri Desert*  -> *The Foothills* get [Waypoint], -> *The Boiling Lake* -> kill [The Basilisk].boss get Crafting
 6. [Town Portal] to town, [Waypoint] to *The Foothills* -> find [Calendar of Fortune].quest -> *The Tunnel*

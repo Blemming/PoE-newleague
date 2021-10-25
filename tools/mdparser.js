@@ -19,8 +19,8 @@ function getText () {
 						.replace(/\s->\s/g, ' ⟶ ')
 						.replace(/\[([a-zA-Z0-9\s',]{0,50})\]\.boss/gm, '<span class="boss">$1</span>')
 						.replace(/\[([a-zA-Z0-9\s',]{0,50})\]\.quest/gm, '<span class="quest">$1</span>')
-						.replace(/\[Town Portal\]/gmi, '![Town Portal](https://webcdn.pathofexile.com/image/art/2DArt/UIImages/InGame/4K/WorldPanelTownPortalIcon.png)<span class="tp">Town Portal</span>')
-						.replace(/\[Waypoint\]/gmi, '![Waypoint](https://webcdn.pathofexile.com/image/art/2DArt/UIImages/InGame/4K/WorldPanelActivatedWaypointPinIcon.png)<span class="wp">Waypoint</span>')
+						.replace(/\[Town Portal\]/gmi, '![Town Portal](/images/portalscroll.png)<span class="tp">Town Portal</span>')
+						.replace(/\[Waypoint\]/gmi, '![Waypoint](/images/waypoint.png)<span class="wp">Waypoint</span>')
 				);
 				acc[`act_${index}`].steps = actDescriptions;
 			}
