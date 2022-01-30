@@ -19,6 +19,7 @@ function getText () {
 						.replace(/\s->\s/g, ' ⟶ ')
 						.replace(/\[([a-zA-Z0-9\s',]{0,50})\]\.boss/gm, '<span class="boss">$1</span>')
 						.replace(/\[([a-zA-Z0-9\s',]{0,50})\]\.quest/gm, '<span class="quest">$1</span>')
+						.replace(/\[\[\s(.{0,300})\s\]\]\.optional/gm, '<span class="optional">$1</span>')
 						.replace(/\[Town Portal\]/gmi, '![Town Portal](/images/portalscroll.png)<span class="tp">Town Portal</span>')
 						.replace(/\[Waypoint\]/gmi, '![Waypoint](/images/waypoint.png)<span class="wp">Waypoint</span>')
 				);
@@ -32,7 +33,7 @@ function getText () {
 			}
 			return acc;
 		}, {});
-		await fs.writeFile('./data/data.json', JSON.stringify(actSteps));
+		await fs.writeFile('./data/data.json', JSON.stringify(actSteps, null, 2));
 	} catch (e) {
 		console.log(e);
 	}

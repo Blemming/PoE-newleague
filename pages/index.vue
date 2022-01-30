@@ -1,36 +1,40 @@
 <style>
-em{
+em {
 	@apply font-serif;
 	@apply font-bold;
 	@apply not-italic;
 	@apply text-yellow-poe-light;
 }
-.boss{
+.boss {
 	@apply font-serif;
 	@apply text-orange-600;
 	@apply font-bold;
 }
-.quest{
+.quest {
 	@apply font-serif;
-	color:rgb(74, 230, 58);
+	color: rgb(74, 230, 58);
 	@apply font-bold;
 }
-.wp,.tp{
+.wp,
+.tp {
 	@apply tracking-tight;
 	@apply text-blue-200;
 	@apply opacity-75;
 	@apply text-sm;
 }
-strong{
+strong {
 	@apply font-serif;
 	@apply text-white;
 	text-shadow: 1px 1px 1px #000;
 }
-li img{
+li img {
 	@apply inline-block;
 	@apply w-5;
 	@apply h-5;
 	margin-right: 1px;
+}
+.hide-optional span.optional {
+	display: none;
 }
 </style>
 <template>
@@ -65,7 +69,7 @@ li img{
 				</ul>
 			</div> -->
 			<ul class="ml-6 mt-4">
-				<li v-for="(step,index) in content.steps" :key="`${act}-step-${index}`" class="mb-2 list-decimal">
+				<li v-for="(step,index) in content.steps" :key="`${act}-step-${index}`" :class="{ 'hide-optional':!isNewLeague}" class="mb-2 list-decimal">
 					<label class="custom-checkbox flex items-center" :for="`${act}-step-${index}`">
 						<div class="bg-gray-900 border border-black-85 shadow w-4 h-4 flex justify-center items-center mr-2">
 							<input
@@ -116,6 +120,7 @@ export default {
 		},
 		...mapState({
 			data: state => state.data,
+			isNewLeague: state => state.newLeague,
 			moveToAct: state => state.moveToAct
 		})
 	},

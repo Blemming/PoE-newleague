@@ -3,14 +3,18 @@ export const state = () => ({
 	data,
 	progress: [],
 	hideTips: true,
+	newLeague: true,
 	moveToAct: ''
 });
 export const mutations = {
 	SET_PROGRESS (state, payload) {
 		state.progress = [...payload];
 	},
-	SET_HIDE_TIPS (state) {
+	TOGGLE_TIPS (state) {
 		state.hideTips = !state.hideTips;
+	},
+	TOGGLE_NEWLEAGUE (state) {
+		state.newLeague = !state.newLeague;
 	},
 	SET_MOVE_TO (state, payload) {
 		state.moveToAct = payload;

@@ -20,9 +20,9 @@ main {
 	@apply min-h-screen;
 	transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
-.backdrop{
-	background-color: rgba(0,0,0,0.6);
-	transition-duration: 0.2s ;
+.backdrop {
+	background-color: rgba(0, 0, 0, 0.6);
+	transition-duration: 0.2s;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 	will-change: opacity;
 	transition-property: opacity;
@@ -31,14 +31,14 @@ aside {
 	@apply fixed;
 	@apply left-0;
 	@apply flex-none;
-	max-width:8rem;
+	max-width: 8rem;
 	transform: translateZ(0);
-	transition-duration: 0.3s ;
+	transition-duration: 0.3s;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 	will-change: transform;
 	transition-property: transform, width;
 }
-aside section{
+aside section {
 	@apply top-0;
 	@apply left-0;
 	@apply w-full;
@@ -47,7 +47,7 @@ aside section{
 }
 </style>
 <template>
-	<main style="background-image:url('https://api.poe.house/uploads/15381705a2404b3e8464c54b4ceb38f5.jpg')" class="relative flex  bg-cover bg-fixed overflow-hidden min-h-screen">
+	<main :style="`background-image:url('${require('~/assets/images/backgroundimage.jpg')}')`" class="relative flex  bg-cover bg-fixed overflow-hidden min-h-screen">
 		<section class="w-full flex flex-col items-center pt-16 bg-cover bg-fixed">
 			<section class="relative w-full lg:w-5/6 border-poe mb-4">
 				<div class="bg-poe-x text-yellow-poe-dark ">
@@ -59,7 +59,7 @@ aside section{
 		<div class="fixed h-screen flex">
 			<aside :style="{transform:`translateX(${(showSidebar)?'0':'-100'}%)`}" :class="{'w-full':showSidebar,'w-0':!showSidebar}" class="z-10 border-poe">
 				<section class="pt-16 bg-poe-y flex" @click="clickedSidebar">
-					<Sidebar :acts="acts" @moveTo="moveTo" @hideTips="hideTips" @clearAll="clearAll" />
+					<Sidebar :acts="acts" @moveTo="moveTo" @hideTips="hideTips" @toggleNewLeague="toggleNewLeague" @clearAll="clearAll" />
 				</section>
 			</aside>
 		</div>
@@ -110,8 +110,11 @@ export default {
 		toggleSidebar () {
 			this.showSidebar = !this.showSidebar;
 		},
+		toggleNewLeague () {
+			this.$store.commit('TOGGLE_NEWLEAGUE');
+		},
 		hideTips () {
-			this.$store.commit('SET_HIDE_TIPS');
+			this.$store.commit('TOGGLE_TIPS');
 		},
 		moveTo (act) {
 			this.$store.commit('SET_MOVE_TO', act);
