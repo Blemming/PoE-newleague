@@ -6,7 +6,7 @@
 			<span v-else class="font-serif leading-none text-3xl">+</span>
 		</h3>
 		<transition name="open">
-			<ul v-show="isOpen" class="tips text-sm mt-2">
+			<ul ref="tips" class="tips text-sm mt-2">
 				<li v-for="(tip,index) in content.tips" :key="`${act}-tip-${index}`">
 					{{ tip }}
 				</li>
@@ -30,8 +30,14 @@ export default {
 	},
 	data () {
 		return {
+			height: 0,
 			isOpen: true
 		};
+	},
+	mounted () {
+		this.height = this.$refs.tips.clientHeight;
+		this.$refs.tips.style.maxHeight = `${this.height}px`;
+		this.$refs.tips.style.overflow = 'hidden';
 	},
 	computed: {
 		...mapState({
@@ -39,6 +45,13 @@ export default {
 		})
 	},
 	watch: {
+		isOpen (change) {
+			if (change) {
+				this.$refs.tips.style.maxHeight = `${this.height}px`;
+			} else {
+				this.$refs.tips.style.maxHeight = '0px';
+			}
+		},
 		hideTips (change) {
 			this.isOpen = change;
 		}
@@ -63,4 +76,8 @@ ul.tips {
 .open-leave-to {
 	max-height: 0;
 }
+/* .open-enter,
+.open-leave-to {
+	max-height: 0;
+} */
 </style>

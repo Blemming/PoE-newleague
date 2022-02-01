@@ -11,7 +11,7 @@
 				Leveling guide based off <a class="text-gray-300" target="_BLANK" href="https://www.twitch.tv/zizaran">Zizaran's</a> league start <a class="text-gray-300" target="_BLANK" href="https://www.youtube.com/watch?v=qRZdW1S38no">video</a> <br><span class="text-xs">by the creator of <a class="text-gray-300" target="_BLANK" href="https://poe.house">POE.house</a></span>
 			</p>
 		</div>
-		<div v-for="(content,act) of data" :key="act" class="bg-poe-y py-4 px-6">
+		<div v-for="(content,act) of data" :key="act" class="bg-poe-y py-4 px-2 lg:px-6">
 			<h2 v-if="act !== 'act_0'" :id="act" :ref="act" class="text-4xl text-white font-serif text-center text-shadow-black">
 				--== {{ act.replace('_',' ') }} ==--
 			</h2>
@@ -32,7 +32,7 @@
 			<ul class="ml-6 mt-4">
 				<li v-for="(step,index) in content.steps" :key="`${act}-step-${index}`" :class="{ 'hide-optional':!isNewLeague}" class="mb-2 list-decimal">
 					<label class="custom-checkbox flex items-center" :for="`${act}-step-${index}`">
-						<div class="bg-gray-900 border border-black-85 shadow w-4 h-4 flex justify-center items-center mr-2">
+						<div class=" bg-gray-900 hidden lg:flex border border-black-85 shadow w-4 h-4 justify-center items-center mr-0 lg:mr-2">
 							<input
 								:id="`${act}-step-${index}`"
 								v-model="progress"
@@ -55,7 +55,7 @@
 									<path d="M0 172V0h172v172z" /><path d="M145.433 37.933L64.5 118.8658 33.7337 88.0996l-10.134 10.1341L64.5 139.1341l91.067-91.067z" fill="currentColor" stroke-width="1" /></g>
 							</svg>
 						</div>
-						<div :class="{'opacity-25':progress.includes(`${act}-step-${index}`)}" v-html="$md.render(step)" />
+						<div :class="{'opacity-25 line-through':progress.includes(`${act}-step-${index}`)}" v-html="$md.render(step)" />
 					</label>
 				</li>
 			</ul>
