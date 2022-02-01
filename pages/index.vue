@@ -1,42 +1,3 @@
-<style>
-em {
-	@apply font-serif;
-	@apply font-bold;
-	@apply not-italic;
-	@apply text-yellow-poe-light;
-}
-.boss {
-	@apply font-serif;
-	@apply text-orange-600;
-	@apply font-bold;
-}
-.quest {
-	@apply font-serif;
-	color: rgb(74, 230, 58);
-	@apply font-bold;
-}
-.wp,
-.tp {
-	@apply tracking-tight;
-	@apply text-blue-200;
-	@apply opacity-75;
-	@apply text-sm;
-}
-strong {
-	@apply font-serif;
-	@apply text-white;
-	text-shadow: 1px 1px 1px #000;
-}
-li img {
-	@apply inline-block;
-	@apply w-5;
-	@apply h-5;
-	margin-right: 1px;
-}
-.hide-optional span.optional {
-	display: none;
-}
-</style>
 <template>
 	<div>
 		<div class="bg-poe-y py-4 px-6 ">
@@ -104,7 +65,7 @@ li img {
 
 <script>
 import { mapState } from 'vuex';
-import Accordion from '~/components/Accordion';
+import Accordion from '~/components/accordion';
 export default {
 	components: {
 		Accordion
@@ -144,3 +105,42 @@ export default {
 	}
 };
 </script>
+<style>
+em {
+	@apply font-serif;
+	@apply font-bold;
+	@apply not-italic;
+	@apply text-yellow-poe-light;
+}
+.boss {
+	@apply font-serif;
+	@apply text-orange-600;
+	@apply font-bold;
+}
+.quest {
+	@apply font-serif;
+	color: rgb(74, 230, 58);
+	@apply font-bold;
+}
+.wp,
+.tp {
+	@apply tracking-tight;
+	@apply text-blue-200;
+	@apply opacity-75;
+	@apply text-sm;
+}
+strong {
+	@apply font-serif;
+	@apply text-white;
+	text-shadow: 1px 1px 1px #000;
+}
+li img {
+	@apply inline-block;
+	@apply w-5;
+	@apply h-5;
+	margin-right: 1px;
+}
+.hide-optional span.optional {
+	display: none;
+}
+</style>

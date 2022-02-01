@@ -1,9 +1,5 @@
 export default {
-	mode: 'universal',
-	server: {
-		port: 3000,
-		host: '0.0.0.0'
-	},
+	ssr: false,
 	/*
 	 ** Headers of the page
 	 */
@@ -35,7 +31,9 @@ export default {
 	/*
 	 ** Global CSS
 	 */
-	css: [],
+	css: [
+		'@/assets/css/tailwind.css'
+	],
 	/*
 	 ** Plugins to load before mounting the App
 	 */
@@ -48,8 +46,7 @@ export default {
 	buildModules: [
 		// Doc: https://github.com/nuxt-community/eslint-module
 		'@nuxtjs/eslint-module',
-		// Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-		'@nuxtjs/tailwindcss'
+		'@nuxt/postcss8'
 	],
 	/*
 	 ** Nuxt.js modules
@@ -72,6 +69,7 @@ export default {
 		/*
 		 ** You can extend webpack config here
 		 */
-		extend (config, ctx) {}
+		extend (config, ctx) {},
+		postcss: { plugins: { tailwindcss: {}, autoprefixer: {} } }
 	}
 };
