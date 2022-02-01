@@ -1,51 +1,3 @@
-<style>
-button.sidemenu-toggle {
-	@apply w-auto;
-	@apply p-1;
-	@apply mx-4;
-	@apply text-gray-300;
-	@apply shadow-md;
-}
-button.sidemenu-toggle:hover {
-	@apply text-gray-100;
-	@apply shadow-lg;
-}
-button.sidemenu-toggle svg {
-	@apply fill-current;
-}
-main {
-	@apply flex;
-	@apply flex-wrap;
-	@apply h-auto;
-	@apply min-h-screen;
-	transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-.backdrop {
-	background-color: rgba(0, 0, 0, 0.6);
-	transition-duration: 0.2s;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-	will-change: opacity;
-	transition-property: opacity;
-}
-aside {
-	@apply fixed;
-	@apply left-0;
-	@apply flex-none;
-	max-width: 8rem;
-	transform: translateZ(0);
-	transition-duration: 0.3s;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-	will-change: transform;
-	transition-property: transform, width;
-}
-aside section {
-	@apply top-0;
-	@apply left-0;
-	@apply w-full;
-	@apply overflow-hidden;
-	@apply min-h-screen;
-}
-</style>
 <template>
 	<main :style="`background-image:url('${require('~/assets/images/backgroundimage.jpg')}')`" class="relative flex  bg-cover bg-fixed overflow-hidden min-h-screen">
 		<section class="w-full flex flex-col items-center pt-16 bg-cover bg-fixed">
@@ -126,3 +78,51 @@ export default {
 };
 
 </script>
+<style>
+button.sidemenu-toggle {
+	@apply w-auto;
+	@apply p-1;
+	@apply mx-4;
+	@apply text-gray-300;
+	@apply shadow-md;
+}
+button.sidemenu-toggle:hover {
+	@apply text-gray-100;
+	@apply shadow-lg;
+}
+button.sidemenu-toggle svg {
+	@apply fill-current;
+}
+main {
+	@apply flex;
+	@apply flex-wrap;
+	@apply h-auto;
+	@apply min-h-screen;
+	transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.backdrop {
+	background-color: rgba(0, 0, 0, 0.6);
+	transition-duration: 0.2s;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	will-change: opacity;
+	transition-property: opacity;
+}
+aside {
+	@apply fixed;
+	@apply left-0;
+	@apply flex-none;
+	max-width: 8rem;
+	transform: translateZ(0);
+	transition-duration: 0.3s;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	will-change: transform;
+	transition-property: transform, width;
+}
+aside section {
+	@apply top-0;
+	@apply left-0;
+	@apply w-full;
+	@apply overflow-hidden;
+	@apply min-h-screen;
+}
+</style>

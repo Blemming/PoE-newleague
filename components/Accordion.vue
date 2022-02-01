@@ -47,18 +47,20 @@ export default {
 </script>
 
 <style>
-ul.tips{
+ul.tips {
 	list-style-position: inside;
-	list-style-image: url('https://web.poecdn.com/image/list/t1.png')!important;
+	list-style-image: url("~/assets/images/t1.png") !important;
 }
-.tips{
+.tips {
 	overflow: hidden;
-	max-height: 260px;
+	max-height: 280px;
 }
-.open-enter-active, .open-leave-active {
-  transition: max-height .5s;
+.open-enter-active,
+.open-leave-active {
+	transition: max-height 0.5s;
 }
-.open-enter, .open-leave-to {
-  max-height: 0;
+.open-enter,
+.open-leave-to {
+	max-height: 0;
 }
 </style>

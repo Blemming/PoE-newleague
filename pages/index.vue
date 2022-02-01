@@ -65,11 +65,7 @@
 
 <script>
 import { mapState } from 'vuex';
-import Accordion from '~/components/accordion';
 export default {
-	components: {
-		Accordion
-	},
 	computed: {
 		progress: {
 			get () {

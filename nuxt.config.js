@@ -40,6 +40,8 @@ export default {
 	plugins: [
 		'~plugins/NuxtClientInit.client.js'
 	],
+	// Auto import components: https://go.nuxtjs.dev/config-components
+	components: true,
 	/*
 	 ** Nuxt.js dev-modules
 	 */
@@ -48,6 +50,9 @@ export default {
 		'@nuxtjs/eslint-module',
 		'@nuxt/postcss8'
 	],
+	eslint: {
+		cache: false
+	},
 	/*
 	 ** Nuxt.js modules
 	 */
