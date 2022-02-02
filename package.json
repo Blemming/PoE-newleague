@@ -7,7 +7,7 @@
     "scripts": {
         "gen:md": "node ./tools/mdparser.js",
         "gen:gems": "node ./tools/updategemdata.js",
-        "data": "gen:md && node gen:gems",
+        "data": "node ./tools/mdparser.js && node ./tools/updategemdata.js",
         "dev": "nuxt",
         "build": "npm run data && nuxt build",
         "start": "nuxt start",

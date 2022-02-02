@@ -1,5 +1,6 @@
 const { promises: fs } = require('fs');
 const fetch = require('node-fetch');
+const oldGems = require('../data/gems.json');
 
 (async function () {
 	const questOrder = {
@@ -31,7 +32,11 @@ const fetch = require('node-fetch');
 			return acc;
 		}, []).sort((a, b) => a.act - b.act || a.order - b.order);
 		await fs.writeFile('./data/quests.json', JSON.stringify(quests, null, 2));
-		await fs.writeFile('./data/gems.json', JSON.stringify(gems.gems, null, 2));
+		if (oldGems.length !== gems.gems.length) {
+			await fs.writeFile('./data/gems.json', JSON.stringify(gems.gems, null, 2));
+		} else {
+			console.log('No new gems');
+		}
 	} catch (e) {
 		console.log(e);
 	}
