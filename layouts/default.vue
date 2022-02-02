@@ -1,5 +1,5 @@
 <template>
-	<main :style="`background-image:url('${require('~/assets/images/backgroundimage.jpg')}')`" class="relative flex  bg-cover bg-fixed overflow-hidden min-h-screen">
+	<main :class="{'modal-open':showModal}" :style="`background-image:url('${require('~/assets/images/backgroundimage.jpg')}')`" class="relative flex  bg-cover bg-fixed overflow-hidden min-h-screen">
 		<section class="w-full flex flex-col items-center pt-16 bg-cover bg-fixed">
 			<section class="relative w-full lg:w-5/6 border-poe mb-4">
 				<div class="bg-poe-x text-yellow-poe-dark ">
@@ -11,7 +11,14 @@
 		<div class="fixed h-screen flex">
 			<aside :style="{transform:`translateX(${(showSidebar)?'0':'-100'}%)`}" :class="{'w-full':showSidebar,'w-0':!showSidebar}" class="z-10 border-poe">
 				<section class="pt-16 bg-poe-y flex" @click="clickedSidebar">
-					<Sidebar :acts="acts" @moveTo="moveTo" @hideTips="hideTips" @toggleNewLeague="toggleNewLeague" @clearAll="clearAll" />
+					<Sidebar
+						:acts="acts"
+						@moveTo="moveTo"
+						@hideTips="hideTips"
+						@toggleModal="toggleModal"
+						@toggleNewLeague="toggleNewLeague"
+						@clearAll="clearAll"
+					/>
 				</section>
 			</aside>
 		</div>
@@ -21,6 +28,12 @@
 				<span class="font-serif text-yellow-600">View Acts</span>
 			</button>
 		</div>
+		<modal
+			v-if="showModal"
+			@toggleModal="toggleModal"
+		>
+			<gem-helper />
+		</modal>
 	</main>
 </template>
 <script>
@@ -33,6 +46,7 @@ export default {
 	},
 	data: () => ({
 		showSidebar: false,
+		showModal: false,
 		moveToAct: ''
 	}),
 	computed: {
@@ -59,6 +73,9 @@ export default {
 				this.showSidebar = !this.showSidebar;
 			}
 		},
+		toggleModal () {
+			this.showModal = !this.showModal;
+		},
 		toggleSidebar () {
 			this.showSidebar = !this.showSidebar;
 		},
@@ -79,6 +96,10 @@ export default {
 
 </script>
 <style>
+main.modal-open {
+	height: 100vh;
+	overflow-y: hidden;
+}
 button.sidemenu-toggle {
 	@apply w-auto;
 	@apply p-1;
@@ -111,7 +132,7 @@ aside {
 	@apply fixed;
 	@apply left-0;
 	@apply flex-none;
-	max-width: 8rem;
+	max-width: 10rem;
 	transform: translateZ(0);
 	transition-duration: 0.3s;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

@@ -1,8 +1,8 @@
 <template>
 	<div>
 		<div class="bg-poe-y py-4 px-6 ">
-			<h1 class="text-5xl text-white font-serif text-center text-shadow-black">
-				<span class="text-yellow-600">
+			<h1 class="text-5xl text-white font-serif text-center tracking-tighter text-shadow-black">
+				<span class="text-yellow-600 ">
 					POE
 				</span>
 				leveling
@@ -19,65 +19,19 @@
 				--== General ==--
 			</h2>
 			<Accordion v-if="content && content.tips && content.tips.length" :act="act" :content="content" />
-			<!-- <div  class="bg-black-85 border-black px-4 py-2 text-gray-300 opacity-75">
-				<h3 class="text-xl font-semibold">
-					Tips
-				</h3>
-				<ul class="tips text-sm ml-4">
-					<li v-for="(tip,index) in content.tips" :key="`${act}-tip-${index}`" class="list-disc">
-						{{ tip }}
-					</li>
-				</ul>
-			</div> -->
-			<ul class="ml-6 mt-4">
-				<li v-for="(step,index) in content.steps" :key="`${act}-step-${index}`" :class="{ 'hide-optional':!isNewLeague}" class="mb-2 list-decimal">
-					<label class="custom-checkbox flex items-center" :for="`${act}-step-${index}`">
-						<div class=" bg-gray-900 hidden lg:flex border border-black-85 shadow w-4 h-4 justify-center items-center mr-0 lg:mr-2">
-							<input
-								:id="`${act}-step-${index}`"
-								v-model="progress"
-								class="hidden"
-								type="checkbox"
-								:value="`${act}-step-${index}`"
-								@change="nextAct(content.steps.length,index,act)"
-							>
-							<svg class="hidden w-4 h-4 text-gray-300 pointer-events-none" viewBox="0 0 172 172">
-								<g
-									fill="none"
-									stroke-width="none"
-									stroke-miterlimit="10"
-									font-family="none"
-									font-weight="none"
-									font-size="none"
-									text-anchor="none"
-									style="mix-blend-mode:normal"
-								>
-									<path d="M0 172V0h172v172z" /><path d="M145.433 37.933L64.5 118.8658 33.7337 88.0996l-10.134 10.1341L64.5 139.1341l91.067-91.067z" fill="currentColor" stroke-width="1" /></g>
-							</svg>
-						</div>
-						<div :class="{'opacity-25 line-through':progress.includes(`${act}-step-${index}`)}" v-html="$md.render(step)" />
-					</label>
-				</li>
-			</ul>
+			<step-list :key="`steps-${act}`" :act="act" :content="content" @next-act="moveTo" />
 		</div>
 	</div>
 </template>
 
 <script>
 import { mapState } from 'vuex';
+import StepList from '~/components/StepList.vue';
 export default {
+	components: { StepList },
 	computed: {
-		progress: {
-			get () {
-				return this.$store.state.progress;
-			},
-			set (value) {
-				this.$store.dispatch('addProgress', value);
-			}
-		},
 		...mapState({
 			data: state => state.data,
-			isNewLeague: state => state.newLeague,
 			moveToAct: state => state.moveToAct
 		})
 	},
@@ -89,34 +43,40 @@ export default {
 	methods: {
 		moveTo (act) {
 			this.$refs[act][0].scrollIntoView({ behavior: 'smooth' });
-		},
-		nextAct (arrayLength, index, act) {
-			if ((arrayLength - 1) === index && this.progress.includes(`${act}-step-${index}`)) {
-				const nextAct = `act_${(parseInt(act.split('_').reverse()[0])) + 1}`;
-				if (nextAct !== 'act_11') {
-					this.moveTo(nextAct);
-				}
-			}
 		}
 	}
 };
 </script>
-<style>
-em {
+<style lang="postcss">
+.run {
+	content: url("~/assets/svg/running.svg");
+	@apply text-yellow-poe-light;
+	@apply h-4;
+	@apply w-4;
+}
+.zone {
 	@apply font-serif;
 	@apply font-bold;
 	@apply not-italic;
 	@apply text-yellow-poe-light;
 }
+.gem {
+	@apply font-serif;
+	@apply text-gem-poe;
+}
 .boss {
 	@apply font-serif;
 	@apply text-orange-600;
-	@apply font-bold;
 }
 .quest {
 	@apply font-serif;
 	color: rgb(74, 230, 58);
+}
+.quest-title {
+	@apply font-serif;
+	@apply text-amber-300;
 	@apply font-bold;
+	text-shadow: 1px 1px 1px #000;
 }
 .wp,
 .tp {
@@ -125,7 +85,7 @@ em {
 	@apply opacity-75;
 	@apply text-sm;
 }
-strong {
+.trial {
 	@apply font-serif;
 	@apply text-white;
 	text-shadow: 1px 1px 1px #000;

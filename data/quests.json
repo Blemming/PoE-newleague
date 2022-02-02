@@ -1,0 +1,74 @@
+[
+  {
+    "act": 1,
+    "quest": "Enemy at the Gate",
+    "order": 0,
+    "gems": []
+  },
+  {
+    "act": 1,
+    "quest": "Breaking Some Eggs",
+    "order": 1,
+    "gems": []
+  },
+  {
+    "act": 1,
+    "quest": "Mercy Mission",
+    "order": 2,
+    "gems": []
+  },
+  {
+    "act": 1,
+    "quest": "The Caged Brute",
+    "order": 3,
+    "gems": []
+  },
+  {
+    "act": 1,
+    "quest": "The Siren's Cadence",
+    "order": 4,
+    "gems": []
+  },
+  {
+    "act": 2,
+    "quest": "Intruders in Black",
+    "order": 0,
+    "gems": []
+  },
+  {
+    "act": 2,
+    "quest": "Sharp and Cruel",
+    "order": 1,
+    "gems": []
+  },
+  {
+    "act": 3,
+    "quest": "Lost in Love",
+    "order": 0,
+    "gems": []
+  },
+  {
+    "act": 3,
+    "quest": "Sever the Right Hand",
+    "order": 1,
+    "gems": []
+  },
+  {
+    "act": 3,
+    "quest": "A Fixture of Fate",
+    "order": 2,
+    "gems": []
+  },
+  {
+    "act": 4,
+    "quest": "Breaking the Seal",
+    "order": 0,
+    "gems": []
+  },
+  {
+    "act": 4,
+    "quest": "The Eternal Nightmare",
+    "order": 1,
+    "gems": []
+  }
+]

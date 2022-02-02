@@ -16,8 +16,12 @@ function getText () {
 			if (descriptions !== null) {
 				const actDescriptions = descriptions.map(description =>
 					description.replace(/^[0-9]{1,2}\. /g, '')
-						.replace(/\s->\s/g, ' ⟶ ')
+						.replace(/\s->\sto\s/g, ' -> ')
+						.replace(/\s->\s/g, ' ➞ ')
 						.replace(/\[([a-zA-Z0-9\s',]{0,50})\]\.boss/gm, '<span class="boss">$1</span>')
+						.replace(/\[([a-zA-Z0-9\s',]{0,50})\]\.zone/gm, '<span class="zone">$1</span>')
+						.replace(/\[([a-zA-Z0-9\s',]{0,50})\]\.trial/gm, '<span class="trial">$1</span>')
+						.replace(/\[([a-zA-Z0-9\s',]{0,50})\]\.quest-title/gm, '<span class="quest-title">$1</span>')
 						.replace(/\[([a-zA-Z0-9\s',]{0,50})\]\.quest/gm, '<span class="quest">$1</span>')
 						.replace(/\[\[\s(.{0,300})\s\]\]\.optional/gm, '<span class="optional">$1</span>')
 						.replace(/\[Town Portal\]/gmi, '![Town Portal](/images/portalscroll.png)<span class="tp">Town Portal</span>')

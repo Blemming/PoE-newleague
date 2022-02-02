@@ -28,6 +28,7 @@ module.exports = {
 					85: 'rgba(0,0,0,0.85)',
 					100: 'rgba(0,0,0,1)'
 				},
+				'gem-poe': 'rgb(27,162,155)',
 				'yellow-poe-light': '#cec59f',
 				'yellow-poe-dark': '#B49E79',
 				gray: {

@@ -1,6 +1,6 @@
 <template>
 	<div class="bg-black-85 border-black px-4 py-2 text-gray-300 opacity-75">
-		<h3 class="w-full cursor-pointer text-yellow-poe-light text-xl font-semibold inline-flex justify-between" @click="isOpen = !isOpen">
+		<h3 class="w-full select-none cursor-pointer text-yellow-poe-light text-xl font-semibold inline-flex justify-between" @click="isOpen = !isOpen">
 			Tips
 			<span v-if="isOpen" class="font-serif leading-none text-3xl">-</span>
 			<span v-else class="font-serif leading-none text-3xl">+</span>
@@ -34,11 +34,6 @@ export default {
 			isOpen: true
 		};
 	},
-	mounted () {
-		this.height = this.$refs.tips.clientHeight;
-		this.$refs.tips.style.maxHeight = `${this.height}px`;
-		this.$refs.tips.style.overflow = 'hidden';
-	},
 	computed: {
 		...mapState({
 			hideTips: state => state.hideTips
@@ -55,18 +50,23 @@ export default {
 		hideTips (change) {
 			this.isOpen = change;
 		}
+	},
+	mounted () {
+		this.height = this.$refs.tips.clientHeight;
+		this.$refs.tips.style.maxHeight = `${this.height}px`;
+		this.$refs.tips.style.overflow = 'hidden';
 	}
 };
 </script>
 
-<style>
+<style lang="postcss">
 ul.tips {
 	list-style-position: inside;
 	list-style-image: url("~/assets/images/t1.png") !important;
 }
 .tips {
 	overflow: hidden;
-	max-height: 280px;
+	max-height: 400px;
 }
 .open-enter-active,
 .open-leave-active {

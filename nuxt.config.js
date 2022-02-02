@@ -18,8 +18,6 @@ export default {
 			}
 		],
 		link: [
-			{ rel: 'dns-prefetch', href: 'https://webcdn.pathofexile.com' },
-			{ rel: 'preconnect', href: 'https://webcdn.pathofexile.com' },
 			{ rel: 'stylesheet', type: 'text/css', href: 'https://rsms.me/inter/inter.css' },
 			{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
 		]
