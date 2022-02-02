@@ -42,7 +42,7 @@ export default {
 							const currentQuest = this.currentActQuests.find(ogQuest => ogQuest.order === questPosition.questOrder);
 							const gems = [];
 							this.$store.state.chosenGems[currentQuest.quest].forEach((gem) => {
-								gems.push(`<span class=" text-gem-poe mr-2"><img class="w-5 h-5" src="${gem.icon}" alt="${gem.name}">${gem.name}</span>`);
+								gems.push(`<span class=" text-gem-poe mr-2"><img class="w-5 h-5" src="${gem.icon.replace('https://www.poewiki.net/wiki/Special:FilePath', '/images')}" alt="${gem.name}">${gem.name}</span>`);
 							});
 							newSteps.push(`Turn in <span class="quest-title">${currentQuest.quest}</span>${gems.length ? ' and pick ' : ''}${gems.join(' and')}`);
 						});

@@ -18,8 +18,9 @@ const oldGems = require('../data/gems.json');
 		'The Eternal Nightmare': 1
 	};
 	try {
-		const gems = await fetch('https://poe-gems.blemming.workers.dev/api/gems').then(res => res.json());
-		const quests = gems.gems.reduce((acc, gem) => {
+		const gemsResult = await fetch('https://poe-gems.blemming.workers.dev/api/gems').then(res => res.json());
+        const gems = gemsResult.gems.filter(gem=> gem.vendor_rewards[0].act !== null);
+		const quests = gems.filter(gem=> gem.vendor_rewards[0].act !== null).reduce((acc, gem) => {
 			if (!gem.quest_rewards[0]) { return acc; }
 			if (!acc.find(obj => obj.quest === gem.quest_rewards[0].quest)) {
 				acc.push({
@@ -32,8 +33,8 @@ const oldGems = require('../data/gems.json');
 			return acc;
 		}, []).sort((a, b) => a.act - b.act || a.order - b.order);
 		await fs.writeFile('./data/quests.json', JSON.stringify(quests, null, 2));
-		if (oldGems.length !== gems.gems.length) {
-			await fs.writeFile('./data/gems.json', JSON.stringify(gems.gems, null, 2));
+		if (oldGems.length !== gems.length) {
+			await fs.writeFile('./data/gems.json', JSON.stringify(gems, null, 2));
 		} else {
 			console.log('No new gems');
 		}

@@ -24,7 +24,7 @@
 				<div class="border-poe ">
 					<div class="bg-poe-x p-2 flex flex-col">
 						<div v-for="gem of quest.gems" :key="gem.id" :class="{'opacity-100':getChosenGems.includes(gem.id),'opacity-30':!getChosenGems.includes(gem.id) && $store.state.chosenGems[quest.quest].length > 0}" class="cursor-pointer inline-flex mr-2" @click="addChosenGem(quest.quest,gem)">
-							<img class="w-6 h-6" :src="gem.icon" :alt="gem.name">
+							<img class="w-6 h-6" :src="gem.icon.replace('https://www.poewiki.net/wiki/Special:FilePath', '/images')" :alt="gem.name">
 							<h2 class="text-gem-poe">
 								{{ gem.name }}
 							</h2>
