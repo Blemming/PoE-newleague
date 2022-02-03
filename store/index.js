@@ -128,11 +128,29 @@ export const getters = {
 		});
 		return referenceQuests;
 	},
+	getClassGemVendor: (state) => {
+		if (!state.chosenClass) { return []; }
+		const classGems = state.gems.filter(gem => gem.quest_rewards[0] && gem.quest_rewards[0].classes.includes(state.chosenClass));
+		const referenceQuests = clone(state.quests);
+		classGems.forEach((gem) => {
+			const quest = referenceQuests.find(obj => obj.quest === gem.quest_rewards[0].quest);
+			// eslint-disable-next-line camelcase
+			const { icon, id, name, primary_attr, required_level } = gem;
+			if (quest) {
+				quest.gems.push({ icon, id, name, primary_attr, required_level });
+			}
+		});
+		return referenceQuests;
+	},
 	getChosenGems: (state) => {
 		return Object.keys(state.chosenGems).reduce((acc, quest) => {
 			acc.push(state.chosenGems[quest].map(gem => gem.id));
 			return acc;
 		}, []).flat(2);
+	},
+	encodedGemChoices: (state, getters) => {
+		if (!state.chosenClass) { return ''; }
+		return btoa(JSON.stringify([state.chosenClass, ...getters.getChosenGems]));
 	}
 };
 export const actions = {
@@ -147,6 +165,32 @@ export const actions = {
 		localStorage.setItem('chosenClass', payload);
 		commit('RESET_CHOSEN_GEMS');
 		localStorage.setItem('chosenGems', JSON.stringify(state.chosenGems));
+	},
+	decodeStringToGems ({ commit, state }, payload) {
+		try {
+			const decodedGems = JSON.parse(atob(payload));
+			const [chosenClass, ...chosenGems] = decodedGems;
+			const foundGems = chosenGems.map(gem => state.gems.find(g => g.id === gem)).filter(Boolean);
+			const result = foundGems.reduce((acc, gem) => {
+				if (!acc[gem.quest_rewards[0].quest]) {
+					acc[gem.quest_rewards[0].quest] = [];
+				}
+				acc[gem.quest_rewards[0].quest].push({
+					icon: gem.icon,
+					id: gem.id,
+					name: gem.name,
+					primary_attr: gem.primary_attr,
+					required_level: gem.required_level
+				});
+				return acc;
+			}, {});
+			commit('SET_CHOSEN_CLASS', chosenClass);
+			localStorage.setItem('chosenClass', chosenClass);
+			commit('SET_CHOSEN_GEMS', result);
+			localStorage.setItem('chosenGems', JSON.stringify(result));
+		} catch (e) {
+			console.log(e);
+		}
 	},
 	saveGems ({ commit, state }, payload) {
 		commit('ADD_CHOSEN_GEM', payload);

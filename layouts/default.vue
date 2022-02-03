@@ -13,8 +13,10 @@
 				<section class="pt-16 bg-poe-y flex" @click="clickedSidebar">
 					<Sidebar
 						:acts="acts"
+						:copy-text="copyText"
 						@moveTo="moveTo"
 						@hideTips="hideTips"
+						@copyExport="copyExport"
 						@toggleModal="toggleModal"
 						@toggleNewLeague="toggleNewLeague"
 						@clearAll="clearAll"
@@ -47,6 +49,7 @@ export default {
 	data: () => ({
 		showSidebar: false,
 		showModal: false,
+		copyText: 'copy',
 		moveToAct: ''
 	}),
 	computed: {
@@ -72,6 +75,15 @@ export default {
 			if (window && window.innerWidth < 1366) {
 				this.showSidebar = !this.showSidebar;
 			}
+		},
+		copyExport () {
+			const copyText = document.getElementById('export');
+			copyText.select();
+			navigator.clipboard.writeText(this.$store.getters.encodedGemChoices);
+			this.copyText = 'copied';
+			setTimeout(() => {
+				this.copyText = 'copy';
+			}, 3000);
 		},
 		toggleModal () {
 			this.showModal = !this.showModal;

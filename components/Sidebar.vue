@@ -8,6 +8,22 @@
 			</li>
 		</ul>
 		<ul class="w-full">
+			<li class="px-6">
+				<div class="flex justify-around">
+					<label class="text-gray-300" for="export">Export</label>
+					<button class="ml-auto text-green-500 text-shadow-black hover:text-green-600 font-serif text-sm" @click.prevent="listeners.copyExport">
+						{{ props.copyText }}
+					</button>
+				</div>
+				<input
+					id="export"
+					disabled
+					class="max-w-full bg-gray-poe-dark text-yellow-poe-light px-1 opacity-50"
+					type="text"
+					:value="parent.$store.getters.encodedGemChoices"
+					name="export"
+				>
+			</li>
 			<li>
 				<button class=" opacity-75 text-white bg-gem-poe hover:opacity-100" href="#" @click.prevent="listeners.toggleModal">
 					Pick gems
@@ -79,7 +95,7 @@ nav ul li a {
 	@apply px-6;
 	@apply py-2;
 }
-nav ul li button {
+nav ul li > button {
 	@apply my-2;
 	@apply mx-auto;
 	@apply block;
