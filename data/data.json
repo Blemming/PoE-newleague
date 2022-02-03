@@ -66,12 +66,12 @@
       "<span class=\"optional\">Find <span class=\"zone\">The Crypt</span>, <span class=\"zone\">The Crypt</span> loops around ➞ <span class=\"trial\">trial</span> then log out,</span> <span class=\"zone\">The Riverways</span> do Einhar's quest, get red beast ➞ <span class=\"zone\">The Western Forest</span>",
       "<span class=\"zone\">The Western Forest</span> get the ![Waypoint](/images/waypoint.png)<span class=\"wp\">Waypoint</span> (Alira is always the same side oft he road than ![Waypoint](/images/waypoint.png)<span class=\"wp\">Waypoint</span> and <span class=\"zone\">The Weaver's Chamber</span> on opposite side) ",
       "Find and ➞ <span class=\"zone\">The Weaver's Chamber</span> and kill <span class=\"boss\">The weaver</span> then log out",
-      "Get Support Gem reward and use ![Waypoint](/images/waypoint.png)<span class=\"wp\">Waypoint</span> to <span class=\"zone\">The Crossroads</span> go north to <span class=\"zone\">The Broken Bridge</span>, follow path , try find red beast if you didn't do it earlier",
+      "![Waypoint](/images/waypoint.png)<span class=\"wp\">Waypoint</span> to <span class=\"zone\">The Crossroads</span> go north to <span class=\"zone\">The Broken Bridge</span>, follow path , try find red beast if you didn't do it earlier",
       "Kill <span class=\"boss\">Kraitlin</span> log out then back in , go to <span class=\"zone\">The Riverways</span> , follow path north ➞ <span class=\"zone\">The Wetlands</span>",
       "<span class=\"zone\">The Wetlands</span> kill <span class=\"boss\">Oak</span> and get the ![Waypoint](/images/waypoint.png)<span class=\"wp\">Waypoint</span> just north, ![Waypoint](/images/waypoint.png)<span class=\"wp\">Waypoint</span> to <span class=\"zone\">The Western Forest</span> and help Allira",
       "Then find the path, follow it to <span class=\"boss\">Arteri</span>, kill him and get the <span class=\"quest\">Thaumetic Emblem</span>, log out",
       "![Waypoint](/images/waypoint.png)<span class=\"wp\">Waypoint</span> to Act 1 get passive point reward and check vendor, ![Waypoint](/images/waypoint.png)<span class=\"wp\">Waypoint</span> back to Act 2 town then <span class=\"zone\">The Wetlands</span> ➞ <span class=\"zone\">The Vaal ruins</span> ",
-      "<span class=\"zone\">The Vaal ruins</span> ➞ <span class=\"zone\">The Northern Forest</span> ➞ <span class=\"zone\">The caverns</span> find and ![Waypoint](/images/waypoint.png)<span class=\"wp\">Waypoint</span> to town vendor and check vendors",
+      "<span class=\"zone\">The Vaal ruins</span> ➞ <span class=\"zone\">The Northern Forest</span> ➞ <span class=\"zone\">The caverns</span> find and ![Waypoint](/images/waypoint.png)<span class=\"wp\">Waypoint</span> to town",
       "![Waypoint](/images/waypoint.png)<span class=\"wp\">Waypoint</span> <span class=\"zone\">The caverns</span> ➞ find <span class=\"zone\">The Ancient Pyramid</span> and kill <span class=\"boss\">Vaal Oversoul</span> <span class=\"optional\">(dont forget crafting)</span> ",
       "Log out, vendor then ![Waypoint](/images/waypoint.png)<span class=\"wp\">Waypoint</span> to Act 3"
     ],
@@ -169,7 +169,6 @@
   "act_6": {
     "steps": [
       "Clear <span class=\"zone\">The Twilight Strand</span> ![Town Portal](/images/portalscroll.png)<span class=\"tp\">Town Portal</span> town",
-      "Vendor, buy missing gems ➞ <span class=\"zone\">The Coast</span>",
       "<span class=\"zone\">The Coast</span> ➞ ![Waypoint](/images/waypoint.png)<span class=\"wp\">Waypoint</span> skip side quest ➞ <span class=\"zone\">The Mud Flats</span>",
       "Kill <span class=\"boss\">The Dishonoured Queen</span> for <span class=\"quest\">Eye of Conquest</span> then go West ➞ <span class=\"zone\">Karui Fortifications</span>",
       "<span class=\"zone\">Karui Fortifications</span> ➞ <span class=\"zone\">The Karui Fortress</span> kill <span class=\"boss\">Tukohama, Karui God of War</span> ➞ <span class=\"zone\">Karui Fortifications</span>",

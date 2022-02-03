@@ -1,5 +1,8 @@
 <template>
-	<div class="fixed w-screen h-screen bg-black-85">
+	<div
+		v-if="showModal"
+		:class="`fixed w-screen h-screen bg-black-85 ${!showModal?'pointer-events-none':''}`"
+	>
 		<section v-click-outside="onClickOutside" class="relative w-full lg:w-1/2 flex flex-col items-center pt-8 mx-auto">
 			<section style="max-height:95vh;" class="w-full overflow-y-auto relative  border-poe mb-4">
 				<div class="bg-poe-x text-yellow-poe-dark ">
@@ -22,9 +25,17 @@ export default {
 	directives: {
 		clickOutside: vClickOutside.directive
 	},
+	props: {
+		showModal: {
+			type: Boolean,
+			default: false
+		}
+	},
 	methods: {
 		onClickOutside () {
-			this.$emit('toggleModal');
+			if (this.showModal) {
+				this.$emit('toggleModal');
+			}
 		}
 	}
 };

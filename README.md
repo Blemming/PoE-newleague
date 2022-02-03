@@ -87,12 +87,12 @@ The idea is to keep the text as short as possible, for easier reading and a bett
 12. [[ Find [The Crypt].zone, [The Crypt].zone loops around -> [trial].trial then log out, ]].optional [The Riverways].zone do Einhar's quest, get red beast -> [The Western Forest].zone
 13. [The Western Forest].zone get the [Waypoint] (Alira is always the same side oft he road than [Waypoint] and [The Weaver's Chamber].zone on opposite side) 
 14. Find and -> [The Weaver's Chamber].zone and kill [The weaver].boss then log out
-15. Get Support Gem reward and use [Waypoint] to [The Crossroads].zone go north to [The Broken Bridge].zone, follow path , try find red beast if you didn't do it earlier
+15. [Waypoint] to [The Crossroads].zone go north to [The Broken Bridge].zone, follow path , try find red beast if you didn't do it earlier
 16. Kill [Kraitlin].boss log out then back in , go to [The Riverways].zone , follow path north -> [The Wetlands].zone
 17. [The Wetlands].zone kill [Oak].boss and get the [Waypoint] just north, [Waypoint] to [The Western Forest].zone and help Allira
 18. Then find the path, follow it to [Arteri].boss, kill him and get the [Thaumetic Emblem].quest, log out
 19. [Waypoint] to Act 1 get passive point reward and check vendor, [Waypoint] back to Act 2 town then [The Wetlands].zone -> [The Vaal ruins].zone 
-20. [The Vaal ruins].zone -> [The Northern Forest].zone -> [The caverns].zone find and [Waypoint] to town vendor and check vendors
+20. [The Vaal ruins].zone -> [The Northern Forest].zone -> [The caverns].zone find and [Waypoint] to town
 21. [Waypoint] [The caverns].zone -> find [The Ancient Pyramid].zone and kill [Vaal Oversoul].boss [[ (dont forget crafting) ]].optional 
 22. Log out, vendor then [Waypoint] to Act 3
 
@@ -180,7 +180,6 @@ The idea is to keep the text as short as possible, for easier reading and a bett
 	- If skills permit use rarety on kill support gem for better loot
 ### Quests
 1. Clear [The Twilight Strand].zone [Town Portal] town
-2. Vendor, buy missing gems -> [The Coast].zone
 3. [The Coast].zone -> [Waypoint] skip side quest -> [The Mud Flats].zone
 4. Kill [The Dishonoured Queen].boss for [Eye of Conquest].quest then go West -> [Karui Fortifications].zone
 5. [Karui Fortifications].zone -> [The Karui Fortress].zone kill [Tukohama, Karui God of War].boss -> [Karui Fortifications].zone

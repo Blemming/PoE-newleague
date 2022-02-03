@@ -44,6 +44,12 @@ module.exports = {
 					'poe-dark': '#050505'
 				}
 			},
+			maxHeight: {
+				20: '20rem',
+				24: '24rem',
+				56: '56rem',
+				64: '64rem'
+			},
 			spacing: {
 				80: '20rem',
 				96: '24rem'

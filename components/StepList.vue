@@ -41,10 +41,26 @@ export default {
 						questPositions.forEach((questPosition) => {
 							const currentQuest = this.currentActQuests.find(ogQuest => ogQuest.order === questPosition.questOrder);
 							const gems = [];
-							this.$store.state.chosenGems[currentQuest.quest].forEach((gem) => {
-								gems.push(`<span class=" text-gem-poe mr-2"><img class="w-5 h-5" src="${gem.icon.replace('https://www.poewiki.net/wiki/Special:FilePath', '/images')}" alt="${gem.name}">${gem.name}</span>`);
-							});
+							const vendorGems = {};
+							if (this.$store.state.chosenGems[currentQuest.quest]) {
+								this.$store.state.chosenGems[currentQuest.quest].forEach((gem) => {
+									gems.push(`<span class=" text-gem-poe mr-2"><img class="w-5 h-5" src="${gem.icon.replace('https://www.poewiki.net/wiki/Special:FilePath', '/images')}" alt="${gem.name}">${gem.name}</span>`);
+								});
+							}
 							newSteps.push(`Turn in <span class="quest-title">${currentQuest.quest}</span>${gems.length ? ' and pick ' : ''}${gems.join(' and')}`);
+							if (this.$store.state.chosenVendorGems[currentQuest.quest]) {
+								this.$store.state.chosenVendorGems[currentQuest.quest].forEach((gem) => {
+									if (!vendorGems[gem.npc]) {
+										vendorGems[gem.npc] = [];
+									}
+									vendorGems[gem.npc].push(`<span class=" text-gem-poe mr-2"><img class="w-5 h-5" src="${gem.icon.replace('https://www.poewiki.net/wiki/Special:FilePath', '/images')}" alt="${gem.name}">${gem.name}</span>for <img class="w-5 h-5" src="/images/${gem.price.replace(/\s/g, '_')}.png" alt="${gem.price}"><span class="font-serif text-yellow-poe-light">${gem.price}</span>`);
+								});
+							}
+							if (Object.keys(vendorGems).length) {
+								for (const vendor in vendorGems) {
+									newSteps.push(`Talk to <span class="text-white text-shadow-black font-serif">${vendor}</span> and buy ${vendorGems[vendor].join(' and ')}`);
+								}
+							}
 						});
 					}
 					return newSteps;

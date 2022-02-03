@@ -66,3 +66,6 @@ html {
 .border-poe {
 	border: 1px solid #1b1b1b;
 }
+.border-t-poe {
+	border-top: 1px solid #1b1b1b;
+}

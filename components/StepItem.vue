@@ -1,7 +1,7 @@
 <template>
 	<li :class="{ 'hide-optional':!isNewLeague}" class="mb-2 list-decimal">
 		<label class="custom-checkbox inline-flex items-center" :for="`${act}-step-${index}${isAddedStep?'.1':''}`">
-			<div class=" bg-gray-900 hidden lg:flex border border-black-85 shadow w-4 h-4 justify-center items-center mr-0 lg:mr-2">
+			<div style="min-width: 18px;" class=" bg-gray-900 hidden lg:flex border border-black-85 shadow w-4 h-4 justify-center items-center mr-0 lg:mr-2">
 				<input
 					:id="`${act}-step-${index}${isAddedStep?'.1':''}`"
 					v-model="progress"

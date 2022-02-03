@@ -33,20 +33,44 @@
 				</button>
 			</div>
 		</div>
-		<div v-if="$store.state.chosenClass" class="flex flex-wrap">
-			<div v-for="(quest) of $store.getters.getClassGemRewards" :key="quest.quest" class="w-full">
-				<h3 class="text-yellow-poe-light text-xl font-semibold">
-					Act {{ quest.act }} - {{ quest.quest }} ({{ $store.state.chosenGems[quest.quest].length }}/{{ (quest.quest ==='The Caged Brute'?'2':'1') }})
-				</h3>
-				<div class="border-poe ">
-					<div class="bg-poe-x p-2 flex flex-col">
-						<div v-for="gem of quest.gems" :key="gem.id" :class="{'opacity-100':getChosenGems.includes(gem.id),'opacity-30':!getChosenGems.includes(gem.id) && $store.state.chosenGems[quest.quest].length > 0}" class="cursor-pointer inline-flex mr-2" @click="addChosenGem(quest.quest,gem)">
-							<img class="w-6 h-6" :src="gem.icon.replace('https://www.poewiki.net/wiki/Special:FilePath', '/images')" :alt="gem.name">
-							<h2 class="text-gem-poe">
-								{{ gem.name }}
-							</h2>
+		<nav v-if="$store.state.chosenClass" class="tabs">
+			<ul class="flex">
+				<li :class="{'opacity-50 hover:opacity-75':currentTab !== 'quest'}" class="border-poe ">
+					<a class="font-serif bg-poe-y " href="#" @click.prevent="currentTab = 'quest'">Quest rewards</a>
+				</li>
+				<li :class="{'opacity-50 hover:opacity-75':currentTab !== 'vendor'}" class="border-poe ">
+					<a class="font-serif bg-poe-y " href="#" @click.prevent="currentTab = 'vendor'">Vendor</a>
+				</li>
+			</ul>
+		</nav>
+		<div v-show="currentTab === 'quest'">
+			<div v-if="$store.state.chosenClass" class="flex flex-wrap border-t-poe">
+				<div v-for="(quest) of $store.getters.getClassGemRewards" :key="quest.quest" class="w-full mt-4">
+					<div class="inline-flex">
+						<h3 class="text-yellow-poe-light text-xl font-semibold  mb-2">
+							Act {{ quest.act }} - {{ quest.quest }} ({{ $store.state.chosenGems[quest.quest].length }}/{{ (quest.quest ==='The Caged Brute'?'2':'1') }})
+						</h3>
+						<button v-if="$store.state.chosenGems[quest.quest].length" class="text-red-500 text-shadow-black hover:text-red-600 font-serif ml-2" @click.prevent="resetChosenGems(quest.quest)">
+							Reset
+						</button>
+					</div>
+					<div class="border-poe bg-poe-x">
+						<div class=" bg-black-50 p-2 flex flex-col">
+							<div v-for="gem of quest.gems" :key="gem.id" :class="{'opacity-100':getChosenGems.includes(gem.id),'opacity-30':!getChosenGems.includes(gem.id) && $store.state.chosenGems[quest.quest].length > 0}" class="cursor-pointer inline-flex mr-2" @click="addChosenGem(quest.quest,gem)">
+								<img class="w-6 h-6" :src="gem.icon.replace('https://www.poewiki.net/wiki/Special:FilePath', '/images')" :alt="gem.name">
+								<h2 class="text-gem-poe">
+									{{ gem.name }}
+								</h2>
+							</div>
 						</div>
 					</div>
+				</div>
+			</div>
+		</div>
+		<div v-show="currentTab === 'vendor'">
+			<div v-if="$store.state.chosenClass" class="flex flex-wrap border-t-poe">
+				<div v-for="(quest) of $store.getters.getClassGemVendor" :key="quest.quest" class="w-full mt-4">
+					<gem-helper-gem-list :quest="quest" />
 				</div>
 			</div>
 		</div>
@@ -57,7 +81,8 @@ import { mapGetters } from 'vuex';
 export default {
 	data () {
 		return {
-			stringToDecode: ''
+			stringToDecode: '',
+			currentTab: 'quest'
 		};
 	},
 	computed: {
@@ -67,7 +92,6 @@ export default {
 	},
 	methods: {
 		decodeStringToGems () {
-			console.log(this.stringToDecode);
 			this.$nextTick(() => {
 				this.$store.dispatch('decodeStringToGems', this.stringToDecode);
 			});
@@ -80,7 +104,22 @@ export default {
 		},
 		checkChosen (quest, gem) {
 			return this.$store.state.chosenGems[quest].id === gem.id;
+		},
+		resetChosenGems (quest) {
+			this.$store.dispatch('resetGems', { quest });
 		}
 	}
 };
 </script>
+<style lang="postcss">
+nav.tabs ul li a {
+	@apply block;
+	@apply text-lg;
+	@apply text-gray-300;
+	@apply px-6;
+	@apply py-2;
+}
+nav.tabs ul li:hover a {
+	@apply text-gray-100;
+}
+</style>

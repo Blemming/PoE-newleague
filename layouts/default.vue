@@ -31,7 +31,7 @@
 			</button>
 		</div>
 		<modal
-			v-if="showModal"
+			:show-modal="showModal"
 			@toggleModal="toggleModal"
 		>
 			<gem-helper />

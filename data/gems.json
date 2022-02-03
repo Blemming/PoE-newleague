@@ -38,7 +38,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "ambush",
@@ -73,7 +75,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "ancestral_cry",
@@ -115,7 +119,9 @@
           "Duelist"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "ancestral_protector",
@@ -158,7 +164,9 @@
           "Duelist"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "ancestral_warchief",
@@ -199,7 +207,9 @@
           "Marauder"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "anger",
@@ -242,7 +252,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "animate_guardian",
@@ -270,7 +282,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "animate_weapon",
@@ -302,7 +316,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "arc",
@@ -342,7 +358,9 @@
           "Witch"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "arcane_cloak",
@@ -385,7 +403,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "arcanist_brand",
@@ -420,7 +440,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alchemy"
   },
   {
     "id": "arctic_armour",
@@ -466,7 +488,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "armageddon_brand",
@@ -506,7 +530,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "artillery_ballista",
@@ -548,7 +574,9 @@
           "Ranger"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "assassins_mark",
@@ -590,7 +618,9 @@
           "Ranger"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "ball_lightning",
@@ -631,7 +661,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "bane",
@@ -674,7 +706,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "barrage",
@@ -707,7 +741,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "battlemages_cry",
@@ -748,7 +784,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "bear_trap",
@@ -791,7 +829,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "berserk",
@@ -826,7 +866,9 @@
           "Marauder"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "blade_blast",
@@ -868,7 +910,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "blade_flurry",
@@ -911,7 +955,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "blade_trap",
@@ -943,7 +989,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "blade_vortex",
@@ -985,7 +1033,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "bladefall",
@@ -1027,7 +1077,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "bladestorm",
@@ -1067,7 +1119,9 @@
           "Duelist"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "blast_rain",
@@ -1108,7 +1162,9 @@
           "Ranger"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "blazing_salvo",
@@ -1150,7 +1206,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "blight",
@@ -1192,7 +1250,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "blink_arrow",
@@ -1235,7 +1295,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "blood_and_sand",
@@ -1276,7 +1338,9 @@
           "Duelist"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "blood_rage",
@@ -1320,7 +1384,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "bodyswap",
@@ -1362,7 +1428,9 @@
           "Witch"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "bone_offering",
@@ -1394,7 +1462,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "boneshatter",
@@ -1435,7 +1505,9 @@
           "Marauder"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "brand_recall",
@@ -1476,7 +1548,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "burning_arrow",
@@ -1509,7 +1583,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "caustic_arrow",
@@ -1550,7 +1626,9 @@
           "Ranger"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "chain_hook",
@@ -1590,7 +1668,9 @@
           "Marauder"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "charged_dash",
@@ -1636,7 +1716,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "clarity",
@@ -1674,7 +1756,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "cleave",
@@ -1715,7 +1799,9 @@
           "Duelist"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "cobra_lash",
@@ -1755,7 +1841,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "cold_snap",
@@ -1798,7 +1886,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "conductivity",
@@ -1842,7 +1932,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "consecrated_path",
@@ -1882,7 +1974,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "contagion",
@@ -1924,7 +2018,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "conversion_trap",
@@ -1957,7 +2053,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "convocation",
@@ -1997,7 +2095,9 @@
           "Witch"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "corrupting_fever",
@@ -2040,7 +2140,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "crackling_lance",
@@ -2081,7 +2183,9 @@
           "Witch"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "creeping_frost",
@@ -2122,7 +2226,9 @@
           "Witch"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "cremation",
@@ -2165,7 +2271,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "cyclone",
@@ -2209,7 +2317,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "dark_pact",
@@ -2241,7 +2351,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "dash",
@@ -2280,7 +2392,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "decoy_totem",
@@ -2324,7 +2438,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "defiance_banner",
@@ -2365,7 +2481,9 @@
           "Duelist"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "desecrate",
@@ -2407,7 +2525,9 @@
           "Witch"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "despair",
@@ -2450,7 +2570,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "destructive_link",
@@ -2476,7 +2598,9 @@
         ]
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "determination",
@@ -2516,7 +2640,9 @@
           "Marauder"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "detonate_dead",
@@ -2557,7 +2683,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "detonate_mines",
@@ -2573,7 +2701,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "devouring_totem",
@@ -2608,7 +2738,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "discharge",
@@ -2636,7 +2768,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "discipline",
@@ -2677,7 +2811,9 @@
           "Witch"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "divine_ire",
@@ -2719,7 +2855,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "dominating_blow",
@@ -2760,7 +2898,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "double_strike",
@@ -2794,7 +2934,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "dread_banner",
@@ -2836,7 +2978,9 @@
           "Duelist"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "dual_strike",
@@ -2870,7 +3014,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "earthquake",
@@ -2911,7 +3057,9 @@
           "Marauder"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "earthshatter",
@@ -2953,7 +3101,9 @@
           "Duelist"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "elemental_hit",
@@ -2994,7 +3144,9 @@
           "Ranger"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "elemental_weakness",
@@ -3038,7 +3190,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "enduring_cry",
@@ -3080,7 +3234,9 @@
           "Duelist"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "energy_blade",
@@ -3113,7 +3269,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "enfeeble",
@@ -3156,7 +3314,9 @@
           "Witch"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "ensnaring_arrow",
@@ -3197,7 +3357,9 @@
           "Ranger"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "essence_drain",
@@ -3239,7 +3401,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "ethereal_knives",
@@ -3279,7 +3443,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "explosive_arrow",
@@ -3311,7 +3477,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "explosive_concoction",
@@ -3352,7 +3520,9 @@
           "Ranger"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "explosive_trap",
@@ -3393,7 +3563,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "exsanguinate",
@@ -3435,7 +3607,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "eye_of_winter",
@@ -3476,7 +3650,9 @@
           "Witch"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "fire_trap",
@@ -3517,7 +3693,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "fireball",
@@ -3551,7 +3729,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "firestorm",
@@ -3593,7 +3773,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "flame_dash",
@@ -3637,7 +3819,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "flame_link",
@@ -3672,7 +3856,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "flame_surge",
@@ -3705,7 +3891,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "flame_wall",
@@ -3747,7 +3935,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "flameblast",
@@ -3791,7 +3981,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "flamethrower_trap",
@@ -3831,7 +4023,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "flammability",
@@ -3876,7 +4070,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "flesh_and_stone",
@@ -3916,7 +4112,9 @@
           "Duelist"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "flesh_offering",
@@ -3956,7 +4154,9 @@
           "Witch"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "flicker_strike",
@@ -3990,7 +4190,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "forbidden_rite",
@@ -4022,7 +4224,9 @@
         ]
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "freezing_pulse",
@@ -4063,7 +4267,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "frenzy",
@@ -4107,7 +4313,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "frost_blades",
@@ -4148,7 +4356,9 @@
           "Ranger"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "frost_bomb",
@@ -4191,7 +4401,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "frost_shield",
@@ -4229,7 +4441,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "frost_wall",
@@ -4261,7 +4475,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "frostbite",
@@ -4306,7 +4522,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "frostblink",
@@ -4345,7 +4563,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "frostbolt",
@@ -4386,7 +4606,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "galvanic_arrow",
@@ -4427,7 +4649,9 @@
           "Ranger"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "generals_cry",
@@ -4468,7 +4692,9 @@
           "Marauder"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "glacial_cascade",
@@ -4509,7 +4735,9 @@
           "Witch"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "glacial_hammer",
@@ -4541,7 +4769,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "grace",
@@ -4582,7 +4812,9 @@
           "Ranger"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "ground_slam",
@@ -4622,7 +4854,9 @@
           "Marauder"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "haste",
@@ -4655,7 +4889,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "hatred",
@@ -4701,7 +4937,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "heavy_strike",
@@ -4734,7 +4972,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "herald_of_agony",
@@ -4776,7 +5016,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "herald_of_ash",
@@ -4818,7 +5060,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "herald_of_ice",
@@ -4852,7 +5096,9 @@
         "act": 2,
         "classes": []
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "herald_of_purity",
@@ -4894,7 +5140,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "herald_of_thunder",
@@ -4936,7 +5184,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "hexblast",
@@ -4979,7 +5229,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "holy_flame_totem",
@@ -5019,7 +5271,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "hydrosphere",
@@ -5055,7 +5309,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "ice_crash",
@@ -5100,7 +5356,9 @@
           "Duelist"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "ice_nova",
@@ -5143,7 +5401,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "ice_shot",
@@ -5183,7 +5443,9 @@
           "Ranger"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "ice_spear",
@@ -5216,7 +5478,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "ice_trap",
@@ -5248,7 +5512,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "icicle_mine",
@@ -5289,7 +5555,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "immortal_call",
@@ -5316,7 +5584,9 @@
         ]
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "incinerate",
@@ -5349,7 +5619,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "infernal_blow",
@@ -5385,7 +5657,9 @@
           "Marauder"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "infernal_blow",
@@ -5401,7 +5675,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "infernal_cry",
@@ -5442,7 +5718,9 @@
           "Marauder"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "intimidating_cry",
@@ -5484,7 +5762,9 @@
           "Duelist"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "intuitive_link",
@@ -5519,7 +5799,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "kinetic_blast",
@@ -5560,7 +5842,9 @@
           "Witch"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "kinetic_bolt",
@@ -5601,7 +5885,9 @@
           "Witch"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "lacerate",
@@ -5644,7 +5930,9 @@
           "Duelist"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "lancing_steel",
@@ -5684,7 +5972,9 @@
           "Duelist"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "leap_slam",
@@ -5729,7 +6019,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "lightning_arrow",
@@ -5769,7 +6061,9 @@
           "Ranger"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "lightning_spire_trap",
@@ -5809,7 +6103,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "lightning_strike",
@@ -5851,7 +6147,9 @@
           "Ranger"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "lightning_tendrils",
@@ -5894,7 +6192,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "lightning_trap",
@@ -5935,7 +6235,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "lightning_warp",
@@ -5976,7 +6278,9 @@
           "Witch"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "malevolence",
@@ -6019,7 +6323,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "manabond",
@@ -6061,7 +6367,9 @@
           "Witch"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "mirror_arrow",
@@ -6083,7 +6391,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "molten_shell",
@@ -6124,7 +6434,9 @@
           "Marauder"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "molten_strike",
@@ -6168,7 +6480,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "orb_of_storms",
@@ -6210,7 +6524,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "penance_brand",
@@ -6250,7 +6566,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "perforate",
@@ -6321,7 +6639,9 @@
           "Duelist"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "pestilent_strike",
@@ -6361,7 +6681,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "petrified_blood",
@@ -6404,7 +6726,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "phase_run",
@@ -6431,7 +6755,9 @@
         ]
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "plague_bearer",
@@ -6473,7 +6799,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "poachers_mark",
@@ -6546,7 +6874,9 @@
           "Ranger"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "poisonous_concoction",
@@ -6587,7 +6917,9 @@
           "Ranger"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "power_siphon",
@@ -6619,7 +6951,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "precision",
@@ -6656,7 +6990,9 @@
           "Ranger"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "pride",
@@ -6693,7 +7029,9 @@
           "Duelist"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "protective_link",
@@ -6719,7 +7057,9 @@
         ]
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "puncture",
@@ -6760,7 +7100,9 @@
           "Ranger"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "punishment",
@@ -6803,7 +7145,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "purifying_flame",
@@ -6844,7 +7188,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "purity_of_elements",
@@ -6880,7 +7226,9 @@
           "Witch"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "purity_of_fire",
@@ -6913,7 +7261,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "purity_of_ice",
@@ -6946,7 +7296,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "purity_of_lightning",
@@ -6979,7 +7331,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "pyroclast_mine",
@@ -7020,7 +7374,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "rage_vortex",
@@ -7061,7 +7417,9 @@
           "Marauder"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "rain_of_arrows",
@@ -7104,7 +7462,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "raise_spectre",
@@ -7144,7 +7504,9 @@
           "Witch"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "raise_zombie",
@@ -7184,7 +7546,9 @@
           "Witch"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "rallying_cry",
@@ -7225,7 +7589,9 @@
           "Duelist"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "reap",
@@ -7267,7 +7633,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "reave",
@@ -7308,7 +7676,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "reckoning",
@@ -7340,7 +7710,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "rejuvenation_totem",
@@ -7373,7 +7745,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "righteous_fire",
@@ -7406,7 +7780,9 @@
         ]
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "riposte",
@@ -7448,7 +7824,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "rolling_magma",
@@ -7490,7 +7868,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "scorching_ray",
@@ -7533,7 +7913,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "scourge_arrow",
@@ -7574,7 +7956,9 @@
           "Ranger"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "searing_bond",
@@ -7614,7 +7998,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "seismic_cry",
@@ -7656,7 +8042,9 @@
           "Duelist"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "seismic_trap",
@@ -7696,7 +8084,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "shattering_steel",
@@ -7736,7 +8126,9 @@
           "Duelist"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "shield_charge",
@@ -7776,7 +8168,9 @@
           "Marauder"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "shield_crush",
@@ -7820,7 +8214,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "shock_nova",
@@ -7861,7 +8257,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "shockwave_totem",
@@ -7901,7 +8299,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "shrapnel_ballista",
@@ -7943,7 +8343,9 @@
           "Ranger"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "siege_ballista",
@@ -7984,7 +8386,9 @@
           "Ranger"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "sigil_of_power",
@@ -8020,7 +8424,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "siphoning_trap",
@@ -8060,7 +8466,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "smite",
@@ -8100,7 +8508,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "smoke_mine",
@@ -8143,7 +8553,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "snipers_mark",
@@ -8185,7 +8597,9 @@
           "Duelist"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "soul_link",
@@ -8220,7 +8634,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "soulrend",
@@ -8263,7 +8679,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "spark",
@@ -8296,7 +8714,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "spectral_helix",
@@ -8339,7 +8759,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "spectral_shield_throw",
@@ -8381,7 +8803,9 @@
           "Duelist"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "spectral_throw",
@@ -8416,7 +8840,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "spellslinger",
@@ -8457,7 +8883,9 @@
           "Witch"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "spirit_offering",
@@ -8489,7 +8917,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "split_arrow",
@@ -8531,7 +8961,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "splitting_steel",
@@ -8572,7 +9004,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "static_strike",
@@ -8616,7 +9050,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "steelskin",
@@ -8655,7 +9091,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "storm_brand",
@@ -8695,7 +9133,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "storm_burst",
@@ -8737,7 +9177,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "storm_call",
@@ -8778,7 +9220,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "storm_rain",
@@ -8819,7 +9263,9 @@
           "Ranger"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "stormbind",
@@ -8861,7 +9307,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "stormblast_mine",
@@ -8902,7 +9350,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "summon_carrion_golem",
@@ -8939,7 +9389,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "summon_chaos_golem",
@@ -8975,7 +9427,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "summon_flame_golem",
@@ -9011,7 +9465,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "summon_holy_relic",
@@ -9050,7 +9506,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "summon_ice_golem",
@@ -9086,7 +9544,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "summon_lightning_golem",
@@ -9122,7 +9582,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "summon_raging_spirit",
@@ -9162,7 +9624,9 @@
           "Witch"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "summon_reaper",
@@ -9202,7 +9666,9 @@
           "Witch"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "summon_skeletons",
@@ -9242,7 +9708,9 @@
           "Witch"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "summon_skitterbots",
@@ -9283,7 +9751,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "summon_stone_golem",
@@ -9319,7 +9789,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "sunder",
@@ -9360,7 +9832,9 @@
           "Marauder"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "sweep",
@@ -9401,7 +9875,9 @@
           "Duelist"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "tectonic_slam",
@@ -9443,7 +9919,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "tempest_shield",
@@ -9478,7 +9956,9 @@
         ]
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "temporal_chains",
@@ -9521,7 +10001,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "temporal_rift",
@@ -9556,7 +10038,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "tornado",
@@ -9591,7 +10075,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "tornado_shot",
@@ -9633,7 +10119,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "toxic_rain",
@@ -9674,7 +10162,9 @@
           "Ranger"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "unearth",
@@ -9716,7 +10206,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "vampiric_link",
@@ -9742,7 +10234,9 @@
         ]
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "vengeance",
@@ -9782,7 +10276,9 @@
           "Marauder"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "venom_gyre",
@@ -9822,7 +10318,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "vigilant_strike",
@@ -9867,7 +10365,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "viper_strike",
@@ -9900,7 +10400,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "vitality",
@@ -9938,7 +10440,9 @@
           "Duelist"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "void_sphere",
@@ -9976,7 +10480,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "volatile_dead",
@@ -10019,7 +10525,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "voltaxic_burst",
@@ -10059,7 +10567,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "vortex",
@@ -10092,7 +10602,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "vulnerability",
@@ -10135,7 +10647,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "war_banner",
@@ -10177,7 +10691,9 @@
           "Duelist"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "warlords_mark",
@@ -10219,7 +10735,9 @@
           "Duelist"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "wave_of_conviction",
@@ -10260,7 +10778,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "whirling_blades",
@@ -10302,7 +10822,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "wild_strike",
@@ -10342,7 +10864,9 @@
           "Ranger"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "winter_orb",
@@ -10375,7 +10899,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": false,
+    "price": "Orb of Chance"
   },
   {
     "id": "wintertide_brand",
@@ -10416,7 +10942,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "wither",
@@ -10457,7 +10985,9 @@
           "Witch"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "withering_step",
@@ -10500,7 +11030,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "wrath",
@@ -10543,7 +11075,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "zealotry",
@@ -10586,7 +11120,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": false,
+    "price": "Orb of Alteration"
   },
   {
     "id": "added_chaos_damage_support",
@@ -10608,7 +11144,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "added_cold_damage_support",
@@ -10651,7 +11189,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "added_fire_damage_support",
@@ -10697,7 +11237,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "added_lightning_damage_support",
@@ -10741,7 +11283,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "additional_accuracy_support",
@@ -10776,7 +11320,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "advanced_traps_support",
@@ -10809,7 +11355,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "ancestral_call_support",
@@ -10854,7 +11402,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "arcane_surge_support",
@@ -10897,7 +11447,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "archmage_support",
@@ -10940,7 +11492,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "arrogance_support",
@@ -10984,7 +11538,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "arrow_nova_support",
@@ -11025,7 +11581,9 @@
           "Ranger"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "ballista_totem_support",
@@ -11058,7 +11616,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "barrage_support",
@@ -11091,7 +11651,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alchemy"
   },
   {
     "id": "behead_support",
@@ -11127,7 +11689,9 @@
           "Duelist"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alchemy"
   },
   {
     "id": "blasphemy_support",
@@ -11164,7 +11728,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "blastchain_mine_support",
@@ -11198,7 +11764,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "blind_support",
@@ -11232,7 +11800,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "bloodlust_support",
@@ -11280,7 +11850,9 @@
         ]
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Alteration"
   },
   {
     "id": "bloodthirst_support",
@@ -11323,7 +11895,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "bonechill_support",
@@ -11359,7 +11933,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alchemy"
   },
   {
     "id": "brutality_support",
@@ -11393,7 +11969,9 @@
           "Marauder"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alchemy"
   },
   {
     "id": "burning_damage_support",
@@ -11435,7 +12013,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "cast_on_critical_strike_support",
@@ -11457,7 +12037,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Alchemy"
   },
   {
     "id": "cast_on_death_support",
@@ -11479,7 +12061,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Alchemy"
   },
   {
     "id": "cast_on_melee_kill_support",
@@ -11501,7 +12085,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Alchemy"
   },
   {
     "id": "cast_when_damage_taken_support",
@@ -11523,7 +12109,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Alchemy"
   },
   {
     "id": "cast_when_stunned_support",
@@ -11545,7 +12133,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Alchemy"
   },
   {
     "id": "cast_while_channelling_support",
@@ -11567,7 +12157,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Alchemy"
   },
   {
     "id": "chain_support",
@@ -11603,7 +12195,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alchemy"
   },
   {
     "id": "chance_to_bleed_support",
@@ -11648,7 +12242,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "chance_to_flee_support",
@@ -11682,7 +12278,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "chance_to_poison_support",
@@ -11726,7 +12324,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "charged_mines_support",
@@ -11766,7 +12366,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "charged_traps_support",
@@ -11806,7 +12408,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "close_combat_support",
@@ -11858,7 +12462,9 @@
           "Ranger"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alteration"
   },
   {
     "id": "cluster_traps_support",
@@ -11893,7 +12499,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alchemy"
   },
   {
     "id": "cold_penetration_support",
@@ -11938,7 +12546,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "cold_to_fire_support",
@@ -11982,7 +12592,9 @@
         ]
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Alteration"
   },
   {
     "id": "combustion_support",
@@ -12024,7 +12636,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "concentrated_effect_support",
@@ -12072,7 +12686,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alteration"
   },
   {
     "id": "controlled_destruction_support",
@@ -12119,7 +12735,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alteration"
   },
   {
     "id": "critical_strike_affliction_support",
@@ -12160,7 +12778,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "cruelty_support",
@@ -12204,7 +12824,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alteration"
   },
   {
     "id": "culling_strike_support",
@@ -12238,7 +12860,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Alteration"
   },
   {
     "id": "damage_on_full_life_support",
@@ -12282,7 +12906,9 @@
         ]
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Alteration"
   },
   {
     "id": "deadly_ailments_support",
@@ -12333,7 +12959,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alteration"
   },
   {
     "id": "decay_support",
@@ -12368,7 +12996,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alchemy"
   },
   {
     "id": "earthbreaker_support",
@@ -12401,7 +13031,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "efficacy_support",
@@ -12442,7 +13074,9 @@
           "Witch"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "elemental_army_support",
@@ -12474,7 +13108,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "elemental_damage_with_attacks_support",
@@ -12528,7 +13164,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alteration"
   },
   {
     "id": "elemental_focus_support",
@@ -12576,7 +13214,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alteration"
   },
   {
     "id": "elemental_proliferation_support",
@@ -12620,7 +13260,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "endurance_charge_on_melee_stun_support",
@@ -12664,7 +13306,9 @@
         ]
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Alteration"
   },
   {
     "id": "energy_leech_support",
@@ -12708,7 +13352,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "faster_attacks_support",
@@ -12762,7 +13408,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alteration"
   },
   {
     "id": "faster_casting_support",
@@ -12811,7 +13459,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alteration"
   },
   {
     "id": "faster_projectiles_support",
@@ -12852,7 +13502,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "feeding_frenzy_support",
@@ -12893,7 +13545,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "fire_penetration_support",
@@ -12937,7 +13591,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "fist_of_war_support",
@@ -12974,7 +13630,9 @@
           "Duelist"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alchemy"
   },
   {
     "id": "focused_ballista_support",
@@ -13015,7 +13673,9 @@
           "Ranger"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "fork_support",
@@ -13057,7 +13717,9 @@
           "Ranger"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "fortify_support",
@@ -13104,7 +13766,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "generosity_support",
@@ -13137,7 +13801,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "greater_multiple_projectiles_support",
@@ -13173,7 +13839,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alchemy"
   },
   {
     "id": "greater_volley_support",
@@ -13206,7 +13874,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alchemy"
   },
   {
     "id": "hextouch_support",
@@ -13228,7 +13898,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Alchemy"
   },
   {
     "id": "high-impact_mine_support",
@@ -13268,7 +13940,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "hypothermia_support",
@@ -13312,7 +13986,9 @@
           "Ranger"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "ice_bite_support",
@@ -13357,7 +14033,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "ignite_proliferation_support",
@@ -13391,7 +14069,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alchemy"
   },
   {
     "id": "immolate_support",
@@ -13427,7 +14107,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alchemy"
   },
   {
     "id": "impale_support",
@@ -13471,7 +14153,9 @@
           "Ranger"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "impending_doom_support",
@@ -13514,7 +14198,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "increased_area_of_effect_support",
@@ -13550,7 +14236,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alchemy"
   },
   {
     "id": "increased_critical_damage_support",
@@ -13594,7 +14282,9 @@
         ]
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Alteration"
   },
   {
     "id": "increased_critical_strikes_support",
@@ -13627,7 +14317,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "increased_duration_support",
@@ -13667,7 +14359,9 @@
           "Marauder"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "infernal_legion_support",
@@ -13706,7 +14400,9 @@
           "Witch"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "infused_channelling_support",
@@ -13749,7 +14445,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "innervate_support",
@@ -13792,7 +14490,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "inspiration_support",
@@ -13825,7 +14525,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "intensify_support",
@@ -13868,7 +14570,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "iron_grip_support",
@@ -13914,7 +14618,9 @@
         ]
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Alteration"
   },
   {
     "id": "iron_will_support",
@@ -13958,7 +14664,9 @@
         ]
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Alteration"
   },
   {
     "id": "item_rarity_support",
@@ -13991,7 +14699,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "knockback_support",
@@ -14024,7 +14734,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "less_duration_support",
@@ -14057,7 +14769,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "lesser_multiple_projectiles_support",
@@ -14102,7 +14816,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "life_gain_on_hit_support",
@@ -14135,7 +14851,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "life_leech_support",
@@ -14181,7 +14899,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "lifetap_support",
@@ -14225,7 +14945,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "lightning_penetration_support",
@@ -14269,7 +14991,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "maim_support",
@@ -14310,7 +15034,9 @@
           "Duelist"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "mana_leech_support",
@@ -14344,7 +15070,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "meat_shield_support",
@@ -14385,7 +15113,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "melee_physical_damage_support",
@@ -14425,7 +15155,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alteration"
   },
   {
     "id": "melee_splash_support",
@@ -14465,7 +15197,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "minefield_support",
@@ -14499,7 +15233,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alchemy"
   },
   {
     "id": "minion_damage_support",
@@ -14539,7 +15275,9 @@
           "Witch"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "minion_life_support",
@@ -14581,7 +15319,9 @@
         ]
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Alteration"
   },
   {
     "id": "minion_speed_support",
@@ -14625,7 +15365,9 @@
           "Witch"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alteration"
   },
   {
     "id": "mirage_archer_support",
@@ -14667,7 +15409,9 @@
           "Ranger"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "multiple_totems_support",
@@ -14699,7 +15443,9 @@
           "Marauder"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alchemy"
   },
   {
     "id": "multiple_traps_support",
@@ -14740,7 +15486,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "multistrike_support",
@@ -14776,7 +15524,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alchemy"
   },
   {
     "id": "nightblade_support",
@@ -14820,7 +15570,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alteration"
   },
   {
     "id": "onslaught_support",
@@ -14868,7 +15620,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "physical_to_lightning_support",
@@ -14916,7 +15670,9 @@
         ]
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Alteration"
   },
   {
     "id": "pierce_support",
@@ -14960,7 +15716,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "pinpoint_support",
@@ -15002,7 +15760,9 @@
           "Witch"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "point_blank_support",
@@ -15046,7 +15806,9 @@
         ]
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Alteration"
   },
   {
     "id": "power_charge_on_critical_support",
@@ -15090,7 +15852,9 @@
         ]
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Alteration"
   },
   {
     "id": "predator_support",
@@ -15134,7 +15898,9 @@
           "Witch"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alteration"
   },
   {
     "id": "pulverise_support",
@@ -15178,7 +15944,9 @@
           "Duelist"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "rage_support",
@@ -15229,7 +15997,9 @@
           "Duelist"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alteration"
   },
   {
     "id": "ruthless_support",
@@ -15273,7 +16043,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "second_wind_support",
@@ -15317,7 +16089,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "shockwave_support",
@@ -15364,7 +16138,9 @@
           "Marauder"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alteration"
   },
   {
     "id": "slower_projectiles_support",
@@ -15397,7 +16173,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "spell_cascade_support",
@@ -15441,7 +16219,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "spell_echo_support",
@@ -15477,7 +16257,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alchemy"
   },
   {
     "id": "spell_totem_support",
@@ -15510,7 +16292,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "stun_support",
@@ -15543,7 +16327,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "summon_phantasm_support",
@@ -15585,7 +16371,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "swift_affliction_support",
@@ -15628,7 +16416,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "swift_assembly_support",
@@ -15670,7 +16460,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "swiftbrand_support",
@@ -15711,7 +16503,9 @@
           "Templar"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "trap_and_mine_damage_support",
@@ -15759,7 +16553,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alteration"
   },
   {
     "id": "trap_support",
@@ -15793,7 +16589,9 @@
         "classes": []
       }
     ],
-    "quest_rewards": []
+    "quest_rewards": [],
+    "support": true,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "trinity_support",
@@ -15838,7 +16636,9 @@
           "Ranger"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alteration"
   },
   {
     "id": "unbound_ailments_support",
@@ -15880,7 +16680,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "unleash_support",
@@ -15918,7 +16720,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alchemy"
   },
   {
     "id": "urgent_orders_support",
@@ -15960,7 +16764,9 @@
           "Duelist"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Chance"
   },
   {
     "id": "vicious_projectiles_support",
@@ -16002,7 +16808,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alteration"
   },
   {
     "id": "vile_toxins_support",
@@ -16036,7 +16844,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alchemy"
   },
   {
     "id": "void_manipulation_support",
@@ -16080,7 +16890,9 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Transmutation"
   },
   {
     "id": "volley_support",
@@ -16126,7 +16938,9 @@
           "Scion"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Scroll of Wisdom"
   },
   {
     "id": "withering_touch_support",
@@ -16162,6 +16976,8 @@
           "Shadow"
         ]
       }
-    ]
+    ],
+    "support": true,
+    "price": "Orb of Alchemy"
   }
 ]
