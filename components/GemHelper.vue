@@ -1,5 +1,5 @@
 <template>
-	<div class="w-full flex flex-col">
+	<div class="relative w-full flex flex-col">
 		<h2 class="text-3xl text-white font-serif text-center text-shadow-black">
 			Gem Helper
 		</h2>
@@ -23,7 +23,7 @@
 						id="import"
 						v-model="stringToDecode"
 						placeholder="Paste code to import gems"
-						class="w-full appearance-none font-serif placeholder-gray-700 bg-gray-900 py-1.5 px-1  border border-black-85 focus:border-yellow-poe-dark"
+						class="w-full appearance-none font-serif placeholder-gray-600 bg-gray-900 py-1.5 px-1  border border-black-85 focus:border-yellow-poe-dark"
 						type="text"
 						name=""
 					>
@@ -43,7 +43,7 @@
 				</li>
 			</ul>
 		</nav>
-		<div v-show="currentTab === 'quest'">
+		<div v-show="currentTab === 'quest'" style="max-height:72vh;" class="overflow-y-scroll">
 			<div v-if="$store.state.chosenClass" class="flex flex-wrap border-t-poe">
 				<div v-for="(quest) of $store.getters.getClassGemRewards" :key="quest.quest" class="w-full mt-4">
 					<div class="inline-flex">
@@ -67,7 +67,7 @@
 				</div>
 			</div>
 		</div>
-		<div v-show="currentTab === 'vendor'">
+		<div v-show="currentTab === 'vendor'" style="max-height:72vh;" class="overflow-y-scroll">
 			<div v-if="$store.state.chosenClass" class="flex flex-wrap border-t-poe">
 				<div v-for="(quest) of $store.getters.getClassGemVendor" :key="quest.quest" class="w-full mt-4">
 					<gem-helper-gem-list :quest="quest" />

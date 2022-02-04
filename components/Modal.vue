@@ -4,7 +4,7 @@
 		:class="`fixed w-screen h-screen bg-black-85 ${!showModal?'pointer-events-none':''}`"
 	>
 		<section v-click-outside="onClickOutside" class="relative w-full lg:w-1/2 flex flex-col items-center pt-8 mx-auto">
-			<section style="max-height:95vh;" class="w-full overflow-y-auto relative  border-poe mb-4">
+			<section style="max-height:95vh;" class="w-full overflow-y-hidden relative  border-poe mb-4">
 				<div class="bg-poe-x text-yellow-poe-dark ">
 					<div class="bg-poe-y py-4 px-6 ">
 						<slot />

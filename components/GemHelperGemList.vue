@@ -14,7 +14,7 @@
 					:id="`${quest.name}-search`"
 					v-model="vendorSearch"
 					:placeholder="`Search ${quest.quest} gems`"
-					class="w-full text-sm appearance-none font-serif placeholder-gray-700 bg-gray-900 py-1 px-1  border border-black-85 focus:border-yellow-poe-dark"
+					class="w-full text-sm appearance-none font-serif placeholder-gray-600 bg-gray-900 py-1 px-1  border border-black-85 focus:border-yellow-poe-dark"
 					type="text"
 					name=""
 				>
@@ -27,7 +27,7 @@
 		<div class="border-poe bg-poe-x">
 			<div
 				v-if="chosenVendorGems[quest.quest]"
-				class=" bg-black-50 p-2 flex flex-wrap max-h-20 overflow-y-auto"
+				class=" bg-black-50 p-2 flex flex-wrap max-h-24 overflow-y-auto"
 			>
 				<!-- <div v-if="vendorSearch.length < 3 && quest.gems.length > 30">
 					<p class="text-yellow-poe-dark font-serif">

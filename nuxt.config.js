@@ -54,7 +54,7 @@ export default {
 	/*
 	 ** Nuxt.js modules
 	 */
-	modules: ['@nuxtjs/markdownit'],
+	modules: ['@nuxtjs/markdownit', '@nuxtjs/sentry'],
 	// [optional] markdownit options
 	// See https://github.com/markdown-it/markdown-it
 	markdownit: {
@@ -64,6 +64,13 @@ export default {
 		breaks: true,
 		injected: true,
 		use: ['markdown-it-attrs']
+	},
+	sentry: {
+		dsn: 'https://464dc1e05c4f4341b45757fe25f54390@o1133839.ingest.sentry.io/6180686',
+		// Additional Module Options go here
+		// https://sentry.nuxtjs.org/sentry/options
+		config: {
+		}
 	},
 	/*
 	 ** Build configuration
