@@ -29,6 +29,11 @@
 					Pick gems
 				</button>
 			</li>
+			<!-- <li>
+				<button class=" opacity-75 text-white bg-yellow-poe-dark hover:opacity-100" href="#" @click.prevent="listeners.toggleBuildsModal">
+					Builds
+				</button>
+			</li> -->
 			<li class="px-6">
 				<label class="mx-auto custom-checkbox flex text-gray-300 text-center font-serif text-sm">
 					<div class="bg-gray-900 border border-black-85 shadow w-4 h-4 flex justify-center items-center mr-1">

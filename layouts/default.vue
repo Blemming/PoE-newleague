@@ -18,6 +18,7 @@
 						@hideTips="hideTips"
 						@copyExport="copyExport"
 						@toggleModal="toggleModal"
+						@toggleBuildsModal="toggleBuildsModal"
 						@toggleNewLeague="toggleNewLeague"
 						@clearAll="clearAll"
 					/>
@@ -36,6 +37,12 @@
 		>
 			<gem-helper />
 		</modal>
+		<modal
+			:show-modal="showBuildsModal"
+			@toggleModal="toggleBuildsModal"
+		>
+			<builds-list />
+		</modal>
 	</main>
 </template>
 <script>
@@ -49,6 +56,7 @@ export default {
 	data: () => ({
 		showSidebar: false,
 		showModal: false,
+		showBuildsModal: false,
 		copyText: 'copy',
 		moveToAct: ''
 	}),
@@ -87,6 +95,9 @@ export default {
 		},
 		toggleModal () {
 			this.showModal = !this.showModal;
+		},
+		toggleBuildsModal () {
+			this.showBuildsModal = !this.showBuildsModal;
 		},
 		toggleSidebar () {
 			this.showSidebar = !this.showSidebar;
@@ -157,5 +168,13 @@ aside section {
 	@apply w-full;
 	@apply overflow-hidden;
 	@apply min-h-screen;
+}
+
+.btn {
+	@apply my-2;
+	@apply px-2;
+	@apply block;
+	@apply py-1;
+	text-shadow: 1px 1px 1px #000;
 }
 </style>

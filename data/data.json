@@ -93,9 +93,9 @@
       "Talk to Clarissa for <span class=\"quest\">Sewer Keys</span>, run back to <span class=\"zone\">The Slums</span> ➞ <span class=\"zone\">The Sewers</span>",
       "Get ![Waypoint](/images/waypoint.png)<span class=\"wp\">Waypoint</span> and <span class=\"quest\">3xPlatinum</span> ➞ <span class=\"zone\">The Marketplace</span> <span class=\"optional\">➞ <span class=\"zone\">The Catacombs</span> do <span class=\"trial\">trial</span> log out</span>",
       "![Waypoint](/images/waypoint.png)<span class=\"wp\">Waypoint</span> <span class=\"zone\">The Marketplace</span> ➞ <span class=\"zone\">The Battlefront</span> normally opposite of <span class=\"zone\">The Catacombs</span>",
-      "<span class=\"zone\">The Battlefront</span> get ![Waypoint](/images/waypoint.png)<span class=\"wp\">Waypoint</span> and <span class=\"quest\">The Ribbon Spool</span> ➞ <span class=\"zone\">The Docks</span> (if level 23 or less ➞ <span class=\"zone\">The Solaris Temple</span> )",
-      "Get <span class=\"quest\">Thaumetic Sulphite</span> log out, turn in quests check vendors",
-      " ![Waypoint](/images/waypoint.png)<span class=\"wp\">Waypoint</span> <span class=\"zone\">The Battlefront</span> north ➞ <span class=\"zone\">The Solaris Temple</span> get ![Waypoint](/images/waypoint.png)<span class=\"wp\">Waypoint</span> ➞ <span class=\"zone\">The Solaris Temple level 2</span>  turn in <span class=\"quest\">The Ribbon Spool</span>",
+      "<span class=\"zone\">The Battlefront</span> get ![Waypoint](/images/waypoint.png)<span class=\"wp\">Waypoint</span> and <span class=\"quest\">The Ribbon Spool</span> next to the waypoint ➞ <span class=\"zone\">The Docks</span> (if level 23 or less ➞ <span class=\"zone\">The Solaris Temple</span> )",
+      "In <span class=\"zone\">The Docks</span> find the <span class=\"quest\">Thaumetic Sulphite</span> at the end of a dock log out, turn in quests check vendors",
+      "![Waypoint](/images/waypoint.png)<span class=\"wp\">Waypoint</span> <span class=\"zone\">The Battlefront</span> north ➞ <span class=\"zone\">The Solaris Temple</span> get ![Waypoint](/images/waypoint.png)<span class=\"wp\">Waypoint</span> ➞ <span class=\"zone\">The Solaris Temple level 2</span>  turn in <span class=\"quest\">The Ribbon Spool</span>",
       "![Waypoint](/images/waypoint.png)<span class=\"wp\">Waypoint</span> <span class=\"zone\">The Sewers</span> <span class=\"optional\">get Crafting</span> ➞ <span class=\"zone\">The Ebony Barracks</span>",
       "Kill <span class=\"boss\">General Gravicius</span> (very rippy) ➞ <span class=\"zone\">The Lunaris Temple</span>",
       "<span class=\"zone\">The Lunaris Temple</span> dont kill Kole get ![Waypoint](/images/waypoint.png)<span class=\"wp\">Waypoint</span> ➞ <span class=\"zone\">The Lunaris Temple level 2</span>",
@@ -113,7 +113,8 @@
       "No need to go back to Act 1 or 2 now",
       "Start looking from vendors and ground for 4-link chests for lvl 31",
       "Pick up rares and sell them for Orb of Transmutation shards",
-      "Worth doing vaal side areas for vaal gems"
+      "Worth doing vaal side areas for vaal gems",
+      "The docks are a great place to catch up in levels by killing blue packs"
     ]
   },
   "act_4": {

@@ -102,6 +102,7 @@ The idea is to keep the text as short as possible, for easier reading and a bett
 	- Start looking from vendors and ground for 4-link chests for lvl 31
 	- Pick up rares and sell them for Orb of Transmutation shards
 	- Worth doing vaal side areas for vaal gems
+    - The docks are a great place to catch up in levels by killing blue packs
 
 ### Quests
 1. Go north help Clarissa dont forget to wait for her
@@ -110,9 +111,9 @@ The idea is to keep the text as short as possible, for easier reading and a bett
 3. Talk to Clarissa for [Sewer Keys].quest, run back to [The Slums].zone -> [The Sewers].zone
 4. Get [Waypoint] and [3xPlatinum].quest -> [The Marketplace].zone [[ -> [The Catacombs].zone do [trial].trial log out ]].optional
 6. [Waypoint] [The Marketplace].zone -> [The Battlefront].zone normally opposite of [The Catacombs].zone
-7. [The Battlefront].zone get [Waypoint] and [The Ribbon Spool].quest -> [The Docks].zone (if level 23 or less -> [The Solaris Temple].zone )
-8. Get [Thaumetic Sulphite].quest log out, turn in quests check vendors
-9.  [Waypoint] [The Battlefront].zone north -> [The Solaris Temple].zone get [Waypoint] -> [The Solaris Temple level 2].zone  turn in [The Ribbon Spool].quest
+7. [The Battlefront].zone get [Waypoint] and [The Ribbon Spool].quest next to the waypoint -> [The Docks].zone (if level 23 or less -> [The Solaris Temple].zone )
+8. In [The Docks].zone find the [Thaumetic Sulphite].quest at the end of a dock log out, turn in quests check vendors
+9. [Waypoint] [The Battlefront].zone north -> [The Solaris Temple].zone get [Waypoint] -> [The Solaris Temple level 2].zone  turn in [The Ribbon Spool].quest
 10. [Waypoint] [The Sewers].zone [[ get Crafting ]].optional -> [The Ebony Barracks].zone
 11. Kill [General Gravicius].boss (very rippy) -> [The Lunaris Temple].zone
 12. [The Lunaris Temple].zone dont kill Kole get [Waypoint] -> [The Lunaris Temple level 2].zone
