@@ -5,6 +5,7 @@
     "author": "Blemming",
     "private": true,
     "scripts": {
+        "postversion": "git push && git push --tags",
         "gen:md": "node ./tools/mdparser.js",
         "gen:gems": "node ./tools/updategemdata.js",
         "data": "node ./tools/mdparser.js && node ./tools/updategemdata.js",
