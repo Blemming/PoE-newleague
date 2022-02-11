@@ -81,6 +81,12 @@ export const state = () => ({
 	]
 });
 export const mutations = {
+	SET_GEMS (state, gems) {
+		state.gems = gems;
+	},
+	SET_QUESTS (state, quests) {
+		state.quests = quests;
+	},
 	SET_CHOSEN_GEMS (state, payload) {
 		state.chosenGems = { ...state.chosenGems, ...payload };
 	},
@@ -326,7 +332,7 @@ export const actions = {
 			localStorage.setItem('version', state.version);
 		}
 	},
-	nuxtClientInit ({ state, commit, dispatch }) {
+	async nuxtClientInit ({ state, commit, dispatch }) {
 		if (localStorage) {
 			const savedProgress = localStorage.getItem('progress');
 			const savedChosenGems = localStorage.getItem('chosenGems');
@@ -345,6 +351,14 @@ export const actions = {
 			commit('SET_CHOSEN_CLASS', savedChosenClass);
 			const payload = (savedProgress !== null) ? savedProgress.split(',').filter(Boolean).filter(prog => prog !== 'undefined') : [];
 			commit('SET_PROGRESS', payload);
+		}
+		try {
+			const gemsResult = await fetch('https://api.poe-leveling.com/gems').then(response => response.json());
+			const questsResult = await fetch('https://api.poe-leveling.com/quests').then(response => response.json());
+			commit('SET_GEMS', gemsResult);
+			commit('SET_QUESTS', questsResult);
+		} catch (e) {
+			this.$sentry.captureException(e);
 		}
 	}
 };
