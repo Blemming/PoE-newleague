@@ -19,7 +19,9 @@ export default {
 		],
 		link: [
 			{ rel: 'stylesheet', type: 'text/css', href: 'https://rsms.me/inter/inter.css' },
-			{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+			{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+			{ rel: 'dns-prefetch', href: 'https://api.poe-leveling.com' },
+			{ rel: 'preconnect', href: 'https://api.poe-leveling.com' }
 		]
 	},
 	/*
@@ -54,7 +56,7 @@ export default {
 	/*
 	 ** Nuxt.js modules
 	 */
-	modules: ['@nuxtjs/markdownit', '@nuxtjs/sentry'],
+	modules: ['@nuxtjs/markdownit', '@nuxtjs/sentry', '@nuxtjs/pwa'],
 	// [optional] markdownit options
 	// See https://github.com/markdown-it/markdown-it
 	markdownit: {

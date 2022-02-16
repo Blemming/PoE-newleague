@@ -18,6 +18,7 @@
     "dependencies": {
         "@nuxtjs/markdownit": "^2.0.0",
         "@nuxtjs/sentry": "^5.1.7",
+        "@nuxtjs/pwa": "^3.3.5",
         "core-js": "^3.15.1",
         "just-clone": "^5.0.1",
         "markdown-it-attrs": "^4.1.3",
