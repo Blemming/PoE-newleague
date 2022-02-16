@@ -17,7 +17,7 @@
 					Reset
 				</button>
 			</div>
-			<div class="w-full flex justify-end items-center lg:w-1/2">
+			<!-- <div class="w-full flex justify-end items-center lg:w-1/2">
 				<div>
 					<input
 						id="import"
@@ -31,7 +31,7 @@
 				<button class="text-green-500 text-shadow-black hover:text-green-600 font-serif ml-2" @click.prevent="decodeStringToGems()">
 					Import
 				</button>
-			</div>
+			</div> -->
 		</div>
 		<nav v-if="$store.state.chosenClass" class="tabs">
 			<ul class="flex">
