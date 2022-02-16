@@ -8,7 +8,7 @@
 			</li>
 		</ul>
 		<ul class="w-full">
-			<li class="px-6">
+			<!-- <li class="px-6">
 				<div class="flex justify-around">
 					<label class="text-gray-300" for="export">Export</label>
 					<button class="ml-auto text-green-500 text-shadow-black hover:text-green-600 font-serif text-sm" @click.prevent="listeners.copyExport">
@@ -23,17 +23,17 @@
 					:value="parent.$store.getters.encodedGemChoices"
 					name="export"
 				>
-			</li>
+			</li> -->
 			<li>
-				<button class=" opacity-75 text-white bg-gem-poe hover:opacity-100" href="#" @click.prevent="listeners.toggleModal">
+				<button class="opacity-75 text-white bg-gem-poe hover:opacity-100" href="#" @click.prevent="listeners.toggleModal">
 					Pick gems
 				</button>
 			</li>
-			<!-- <li>
-				<button class=" opacity-75 text-white bg-yellow-poe-dark hover:opacity-100" href="#" @click.prevent="listeners.toggleBuildsModal">
+			<li>
+				<button class="bg-poe-y text-yellow-poe-light font-serif text-shadow-black opacity-75 hover:opacity-100" href="#" @click.prevent="listeners.toggleBuildsModal">
 					Builds
 				</button>
-			</li> -->
+			</li>
 			<li class="px-6">
 				<label class="mx-auto custom-checkbox flex text-gray-300 text-center font-serif text-sm">
 					<div class="bg-gray-900 border border-black-85 shadow w-4 h-4 flex justify-center items-center mr-1">

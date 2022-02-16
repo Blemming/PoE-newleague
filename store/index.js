@@ -9,6 +9,7 @@ export const state = () => ({
 	quests,
 	version,
 	progress: [],
+	buildList: [],
 	questPositions: {
 		act_1: [
 			{ questOrder: 0, position: 0 },
@@ -81,6 +82,15 @@ export const state = () => ({
 	]
 });
 export const mutations = {
+	SET_BUILDLIST (state, buildList) {
+		state.buildList = buildList;
+	},
+	DELETE_BUILD (state, index) {
+		state.buildList.reverse().splice(index, 1).reverse();
+	},
+	ADD_BUILD (state, build) {
+		state.buildList.push(build);
+	},
 	SET_GEMS (state, gems) {
 		state.gems = gems;
 	},
@@ -235,6 +245,20 @@ export const getters = {
 	}
 };
 export const actions = {
+	saveBuild ({ commit, state, getters }, payload) {
+		commit('ADD_BUILD', { name: payload.name, build: getters.encodedGemChoices, class: state.chosenClass });
+		if (localStorage) {
+			const savedBuilds = JSON.stringify(state.buildList);
+			localStorage.setItem('builds', savedBuilds);
+		}
+	},
+	deleteBuild ({ commit, state }, payload) {
+		commit('DELETE_BUILD', payload);
+		if (localStorage) {
+			const savedBuilds = JSON.stringify(state.buildList);
+			localStorage.setItem('builds', savedBuilds);
+		}
+	},
 	addProgress ({ commit }, payload) {
 		commit('SET_PROGRESS', payload);
 		if (localStorage) {
@@ -338,9 +362,13 @@ export const actions = {
 			const savedChosenGems = localStorage.getItem('chosenGems');
 			const savedChosenVendorGems = localStorage.getItem('chosenVendorGems');
 			const savedChosenClass = localStorage.getItem('chosenClass');
+			const savedBuildList = localStorage.getItem('builds');
 			const version = localStorage.getItem('version');
 			if (!version) {
 				localStorage.clear();
+			}
+			if (savedBuildList) {
+				commit('SET_BUILDLIST', JSON.parse(savedBuildList));
 			}
 			if (savedChosenGems) {
 				commit('SET_CHOSEN_GEMS', JSON.parse(savedChosenGems));

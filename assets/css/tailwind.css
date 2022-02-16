@@ -64,6 +64,16 @@ html {
 	box-shadow: inset 0 0 0 2px #56514f;
 	border: 2px solid #15110c;
 }
+.bg-poe-light-y-green {
+	background: linear-gradient(
+		to top,
+		#272727,
+		#303030 40%,
+		#272727 100%
+	);
+	box-shadow: inset 0 0 0 2px rgb(34 197 94);
+	border: 2px solid #15110c;
+}
 .border-poe {
 	border: 1px solid #1b1b1b;
 }
