@@ -108,7 +108,8 @@ The idea is to keep the text as short as possible, for easier reading and a bett
 1. Go north help Clarissa dont forget to wait for her
 1. In town -> [The Slums].zone -> [The Crematorium].zone, [Waypoint] to menagerie for unique
 2. [Waypoint] [The Crematorium].zone [[ [trial].trial ]].optional kill [Piety].boss pick up [Tolman's Bracelet].quest log out
-3. Talk to Clarissa for [Sewer Keys].quest, run back to [The Slums].zone -> [The Sewers].zone
+3. Talk to Clarissa for [Sewer Keys].quest
+4. Run back to [The Slums].zone -> [The Sewers].zone
 4. Get [Waypoint] and [3xPlatinum].quest -> [The Marketplace].zone [[ -> [The Catacombs].zone do [trial].trial log out ]].optional
 6. [Waypoint] [The Marketplace].zone -> [The Battlefront].zone normally opposite of [The Catacombs].zone
 7. [The Battlefront].zone get [Waypoint] and [The Ribbon Spool].quest next to the waypoint -> [The Docks].zone (if level 23 or less -> [The Solaris Temple].zone )
