@@ -243,7 +243,7 @@ The idea is to keep the text as short as possible, for easier reading and a bett
 4. [Sewer Outlet].zone -> get [Waypoint] [[ and crafting ]].optional -> [The Quay].zone
 5. [The Quay].zone get the [Ankh of Eternity].quest -> [Resurection Site].zone talk to clarissa and kill [Tolman].boss
 6. [The Quay].zone  -> [The Grain Gate].zone
-7. [The Grain Gate].zone get [Waypoint] -> kill [Gemling Legionnaires] -> [The Imperial Fields].zone
+7. [The Grain Gate].zone get [Waypoint] -> kill [Gemling Legionnaires].boss -> [The Imperial Fields].zone
 8. [The Imperial Fields].zone follow path get [Waypoint] -> [The Solaris Temple].zone
 9. [The Solaris Temple].zone get [Waypoint] -> [The Solaris Temple level 2].zone
 10. [The Solaris Temple level 2].zone -> Go in portal, kill [Dawn, Harbinger of Solaris].boss [[ get Crafting ]].optional
