@@ -26,7 +26,6 @@ The idea is to keep the text as short as possible, for easier reading and a bett
 	- Essences are good for easy leveling crafting
 	- Sell to the vendor a Rustic Sash (magic or rare) + Blacksmith Whetstone + weapon = Magic same weapon type with (40 to 64%) Increased Physical Damage
 	- Sell to the vendor a Chain Belt (magix or rare) + Blacksmith Whetstone + Dagger/Sceptre/Staff/Wand = Magic  same weapon with (10 to 29%) Increased Spell Damage
-	- Sell to a vendor Magic Sceptre/Wand/Rune Dagger + Ruby Ring(for Fire Damage) or Topaz Ring(for Lightning Damage) or Sapphire Ring(for Cold Damage) + Orb of Alteration = Weapon with with added x to x Lightning/Fire/Cold Damage to Spells
 	- Sell to a vendor White Boots + Any rarity Quicksilver Flask + Orb of Augmentation = Magic Boots with 10% increased Movement Speed
 	- Sell to a vendor Magic or Rare Boots with +X% Movement Speed + Any rarity Quicksilver Flask + Orb of Augmentation = Magic Boots with (original value)+5% increased Movement Speed
 
